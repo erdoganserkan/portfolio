@@ -1,0 +1,4 @@
+* Communication class is created for client & server communication
+* Synchronozation is done with semaphores 
+* Data send/recv is done over mmap() shared file 
+ 
