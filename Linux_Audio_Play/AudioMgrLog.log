@@ -1,0 +1,22 @@
+DBG  #logger.cpp:26_15:17:02.351:### LOG FILE IS BEING OPENED ###
+INFO #main.cpp:14_15:17:02.351:stdin/cin is selected:argc(1)
+DBG  #AudioMgr.cpp:337_15:17:02.351:allocate outputBuffer SUCCESS (44100 BYTES) @ address (0x55f985826750)
+DBG  #AudioMgr.cpp:214_15:17:02.351:(/tmp/SingleSounds/) creation SUCCESS 
+DBG  #AudioMgr.cpp:230_15:17:02.351:allocation of tempBuffer (44100 BYTES) SUCCESS 
+ERR  #AudioMgr.cpp:242_15:17:02.351:open real file (/home/SingleSounds/ButtonError.wav) FAILED :R:(No such file or directory)
+ERR  #AudioMgr.cpp:302_15:17:02.351:NOT ENTERED TO COPY LOOP 
+ERR  #AudioMgr.cpp:242_15:17:02.351:open real file (/home/SingleSounds/ButtonOK.wav) FAILED :R:(No such file or directory)
+ERR  #AudioMgr.cpp:302_15:17:02.351:NOT ENTERED TO COPY LOOP 
+ERR  #AudioMgr.cpp:242_15:17:02.351:open real file (/home/SingleSounds/PopUpCome.wav) FAILED :R:(No such file or directory)
+ERR  #AudioMgr.cpp:302_15:17:02.351:NOT ENTERED TO COPY LOOP 
+ERR  #AudioMgr.cpp:242_15:17:02.351:open real file (/home/SingleSounds/ResetOnay.wav) FAILED :R:(No such file or directory)
+ERR  #AudioMgr.cpp:302_15:17:02.351:NOT ENTERED TO COPY LOOP 
+ERR  #AudioMgr.cpp:242_15:17:02.351:open real file (/home/SingleSounds/SystemClose.wav) FAILED :R:(No such file or directory)
+ERR  #AudioMgr.cpp:302_15:17:02.351:NOT ENTERED TO COPY LOOP 
+ERR  #AudioMgr.cpp:353_15:17:02.351:opening (/dev/dsp) FAILED :(No such file or directory):
+ERR  #AudioMgr.cpp:55_15:17:02.351:function FAILED 
+TRACE#AudioMgr.cpp:63_15:17:02.351:started
+TRACE#AudioMgr.cpp:166_15:17:02.351:ENTERED
+ERR  #AudioMgr.cpp:318_15:17:02.351:closing audio output device(/dev/dsp) FAILED :R:(Bad file descriptor)
+TRACE#AudioMgr.cpp:323_15:17:02.351:EXITING
+DBG  #logger.cpp:36_15:17:02.351:### LOG FILE IS BEING CLOSED ###
