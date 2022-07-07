@@ -23,7 +23,7 @@ llmem_t *reverse_ll(llmem_t *head) {
 	return current;
 }
 
-llmem_t * init_ll (int cnt) {
+llmem_t * init_ll (int cnt, llmem_t *values) {
 	llmem_t *ret = NULL;
 	llmem_t *prev = NULL;
 	srand(0);
@@ -34,7 +34,7 @@ llmem_t * init_ll (int cnt) {
 			return ret;
 		if(!ret)
 			ret = itemp;
-		itemp->node = rand();
+		itemp->node = values ? values[ix] : rand();
 		if(prev) {
 			prev->next = itemp;
 		}
