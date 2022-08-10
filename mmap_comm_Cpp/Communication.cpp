@@ -111,7 +111,8 @@ bool Communication::VerifyCommand(const u_int16_t	CommData,const u_int16_t dataW
 		// 2---> Waits for Child sent the COMM_DONE Data &&& this indicates that child performed the command
 		u_int16_t  TempCommData = 0;
 		u_int16_t  TempDataWORD = 0;
-		while(IsDataReady() == false);
+		while(IsDataReady() == false)
+			usleep(1000);
 		if(ReceiveData(TempCommData,TempDataWORD) == false)
 		{
 			CommLogger->Log(ERR,"VerifyCommand():: ReceiveData()  FAILED \n");
@@ -256,7 +257,8 @@ bool Communication::VerifiyData(const u_int16_t	CommData,const u_int16_t dataWOR
 		// 2---> Waits for Child sent the COMM_DONE Data &&& this indicates that child performed the command
 		u_int16_t  TempCommData = 0;
 		u_int16_t  TempDataWORD = 0;
-		while(IsCommandReady() == false);
+		while(IsCommandReady() == false)
+			usleep(1000);
 		if(ReceiveCommand(TempCommData,TempDataWORD) == false)
 		{
 			CommLogger->Log(ERR,"VerifiyData():: data receiving from Parent FAILED \n");
