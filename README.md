@@ -9,4 +9,5 @@
 * Log_Cpp : Cpp language logger class library 
 * circular_file_driver: Linux kernel circular file driver implementation 
 * mmap_comm_Cpp: mmap() function for Inter Process Comuunication 
+* tcp-ipc : epoll based async data communcation supported tcp server & client api functions 
 
