@@ -1,0 +1,193 @@
+Component: ARM Compiler 5.05 (build 41) Tool: armlink [4d0eb9]
+
+==============================================================================
+
+Section Cross References
+
+    startup_lpc177x_8x.o(RESET) refers to startup_lpc177x_8x.o(STACK) for __initial_sp
+    startup_lpc177x_8x.o(RESET) refers to startup_lpc177x_8x.o(.text) for Reset_Handler
+    startup_lpc177x_8x.o(RESET) refers to serial.o(.text) for UART0_IRQHandler
+    startup_lpc177x_8x.o(RESET) refers to usbhw.o(.text) for USB_IRQHandler
+    startup_lpc177x_8x.o(.text) refers to system_lpc177x_8x.o(.text) for SystemInit
+    startup_lpc177x_8x.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    system_lpc177x_8x.o(.text) refers to system_lpc177x_8x.o(.data) for SystemCoreClock
+    debug_frmwrk.o(.text) refers to lpc177x_8x_uart.o(.text) for UART_Send
+    debug_frmwrk.o(.text) refers to debug_frmwrk.o(.conststring) for .conststring
+    debug_frmwrk.o(.text) refers to lpc177x_8x_pinsel.o(.text) for PINSEL_ConfigPin
+    debug_frmwrk.o(.text) refers to debug_frmwrk.o(.data) for flag
+    lpc177x_8x_adc.o(.text) refers to lpc177x_8x_clkpwr.o(.text) for CLKPWR_ConfigPPWR
+    lpc177x_8x_clkpwr.o(.text) refers to system_lpc177x_8x.o(.text) for SystemCoreClockUpdate
+    lpc177x_8x_clkpwr.o(.text) refers to system_lpc177x_8x.o(.data) for SystemCoreClock
+    lpc177x_8x_gpdma.o(.text) refers to lpc177x_8x_clkpwr.o(.text) for CLKPWR_ConfigPPWR
+    lpc177x_8x_gpdma.o(.text) refers to lpc177x_8x_gpdma.o(.data) for pGPDMACh
+    lpc177x_8x_gpdma.o(.text) refers to lpc177x_8x_gpdma.o(.constdata) for GPDMA_LUTPerBurst
+    lpc177x_8x_gpio.o(.text) refers to lpc177x_8x_clkpwr.o(.text) for CLKPWR_ConfigPPWR
+    lpc177x_8x_uart.o(.text) refers to lpc177x_8x_clkpwr.o(.text) for CLKPWR_GetCLK
+    lpc177x_8x_uart.o(.text) refers to uldiv.o(.text) for __aeabi_uldivmod
+    lpc177x_8x_timer.o(.text) refers to lpc177x_8x_clkpwr.o(.text) for CLKPWR_GetCLK
+    lpc177x_8x_timer.o(.text) refers to uldiv.o(.text) for __aeabi_uldivmod
+    lpc177x_8x_ssp.o(.text) refers to lpc177x_8x_clkpwr.o(.text) for CLKPWR_GetCLK
+    cdcuser.o(.text) refers to serial.o(.text) for ser_LineState
+    cdcuser.o(.text) refers to usbhw.o(.text) for USB_WriteEP
+    cdcuser.o(.text) refers to cdcuser.o(.bss) for CDC_OutBuf
+    cdcuser.o(.text) refers to cdcuser.o(.data) for CDC_SerialState
+    cdcuser.o(.text) refers to usbcore.o(.data) for EP0Buf
+    serial.o(.text) refers to serial.o(.bss) for ser_out
+    serial.o(.text) refers to system_lpc177x_8x.o(.data) for PeripheralClock
+    serial.o(.text) refers to serial.o(.data) for ser_txRestart
+    usbcore.o(.text) refers to usbhw.o(.text) for USB_ReadEP
+    usbcore.o(.text) refers to usbcore.o(i.USB_ReqGetStatus) for USB_ReqGetStatus
+    usbcore.o(.text) refers to usbcore.o(i.USB_ReqSetClrFeature) for USB_ReqSetClrFeature
+    usbcore.o(.text) refers to usbcore.o(i.USB_ReqGetDescriptor) for USB_ReqGetDescriptor
+    usbcore.o(.text) refers to usbcore.o(i.USB_ReqSetConfiguration) for USB_ReqSetConfiguration
+    usbcore.o(.text) refers to usbuser.o(.text) for USB_Configure_Event
+    usbcore.o(.text) refers to usbcore.o(i.USB_ReqSetInterface) for USB_ReqSetInterface
+    usbcore.o(.text) refers to cdcuser.o(.text) for CDC_GetEncapsulatedResponse
+    usbcore.o(.text) refers to usbcore.o(.data) for USB_DeviceStatus
+    usbhw.o(.text) refers to usbcore.o(.data) for USB_DeviceStatus
+    usbhw.o(.text) refers to usbuser.o(.text) for USB_Reset_Event
+    usbhw.o(.text) refers to usbuser.o(.constdata) for USB_P_EP
+    usbuser.o(.text) refers to usbcore.o(.text) for USB_ResetCore
+    usbuser.o(.text) refers to cdcuser.o(.text) for CDC_GetSerialState
+    usbuser.o(.text) refers to usbcore.o(.data) for USB_Configuration
+    usbuser.o(.text) refers to usbuser.o(.data) for serialState
+    usbuser.o(.constdata) refers to usbcore.o(.text) for USB_EndPoint0
+    usbuser.o(.constdata) refers to usbuser.o(.text) for USB_EndPoint1
+    vcomdemo.o(.text) refers to cdcuser.o(.text) for CDC_Init
+    vcomdemo.o(.text) refers to serial.o(.text) for ser_AvailChar
+    vcomdemo.o(.text) refers to usbhw.o(.text) for USB_WriteEP
+    vcomdemo.o(.text) refers to cdcuser.o(.data) for CDC_DepInEmpty
+    vcomdemo.o(.text) refers to vcomdemo.o(.bss) for serBuf
+    vcomdemo.o(.text) refers to vcomdemo.o(.data) for serialState
+    vcomdemo.o(.text) refers to usbcore.o(.data) for USB_Configuration
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    uldiv.o(.text) refers to llushr.o(.text) for __aeabi_llsr
+    uldiv.o(.text) refers to llshl.o(.text) for __aeabi_llsl
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_lpc177x_8x.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_lpc177x_8x.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to vcomdemo.o(.text) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to vcomdemo.o(.text) for main
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+    usbcore.o(i.USB_ReqGetStatus) refers to usbcore.o(.data) for SetupPacket
+    usbcore.o(i.USB_ReqSetClrFeature) refers to usbhw.o(.text) for USB_WakeUpCfg
+    usbcore.o(i.USB_ReqSetClrFeature) refers to usbcore.o(.data) for SetupPacket
+    usbcore.o(i.USB_ReqGetDescriptor) refers to usbcore.o(.data) for SetupPacket
+    usbcore.o(i.USB_ReqGetDescriptor) refers to usbdesc.o(.constdata) for USB_DeviceDescriptor
+    usbcore.o(i.USB_ReqSetConfiguration) refers to usbhw.o(.text) for USB_DisableEP
+    usbcore.o(i.USB_ReqSetConfiguration) refers to usbcore.o(.data) for SetupPacket
+    usbcore.o(i.USB_ReqSetConfiguration) refers to usbdesc.o(.constdata) for USB_ConfigDescriptor
+    usbcore.o(i.USB_ReqSetInterface) refers to usbhw.o(.text) for USB_ConfigEP
+    usbcore.o(i.USB_ReqSetInterface) refers to usbcore.o(.data) for SetupPacket
+    usbcore.o(i.USB_ReqSetInterface) refers to usbdesc.o(.constdata) for USB_ConfigDescriptor
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing startup_lpc177x_8x.o(HEAP), (4096 bytes).
+    Removing system_lpc177x_8x.o(.emb_text), (8 bytes).
+    Removing debug_frmwrk.o(.emb_text), (8 bytes).
+    Removing debug_frmwrk.o(.text), (1884 bytes).
+    Removing debug_frmwrk.o(.conststring), (89 bytes).
+    Removing debug_frmwrk.o(.data), (61 bytes).
+    Removing lpc177x_8x_adc.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_adc.o(.text), (360 bytes).
+    Removing lpc177x_8x_clkpwr.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_clkpwr.o(.text), (332 bytes).
+    Removing lpc177x_8x_clkpwr.o(.data), (4 bytes).
+    Removing lpc177x_8x_exti.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_exti.o(.text), (172 bytes).
+    Removing lpc177x_8x_gpdma.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_gpdma.o(.text), (896 bytes).
+    Removing lpc177x_8x_gpdma.o(.constdata), (64 bytes).
+    Removing lpc177x_8x_gpdma.o(.data), (160 bytes).
+    Removing lpc177x_8x_gpio.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_gpio.o(.text), (1110 bytes).
+    Removing lpc177x_8x_pinsel.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_pinsel.o(.text), (1104 bytes).
+    Removing lpc177x_8x_uart.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_uart.o(.text), (3460 bytes).
+    Removing lpc177x_8x_timer.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_timer.o(.text), (932 bytes).
+    Removing lpc177x_8x_ssp.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_ssp.o(.text), (1016 bytes).
+    Removing serial.o(.emb_text), (8 bytes).
+    Removing usbhw.o(.emb_text), (8 bytes).
+    Removing vcomdemo.o(.emb_text), (8 bytes).
+
+30 unused section(s) (total 15852 bytes) removed from the image.
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000000
+
+  Load Region LR_IROM1 (Base: 0x10000000, Size: 0x00001e4c, Max: 0x00008000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x10000000, Size: 0x00001df4, Max: 0x00008000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x10000000   0x000000e4   Data   RO            3    RESET               startup_lpc177x_8x.o
+    0x100000e4   0x00000000   Code   RO          489  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x100000e4   0x00000004   Code   RO          494    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x100000e8   0x00000004   Code   RO          497    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x100000ec   0x00000000   Code   RO          499    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x100000ec   0x00000000   Code   RO          501    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x100000ec   0x00000008   Code   RO          502    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x100000f4   0x00000000   Code   RO          504    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x100000f4   0x00000000   Code   RO          506    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x100000f4   0x00000004   Code   RO          495    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x100000f8   0x0000002c   Code   RO            4    .text               startup_lpc177x_8x.o
+    0x10000124   0x000003b4   Code   RO           11    .text               system_lpc177x_8x.o
+    0x100004d8   0x000002c0   Code   RO          260    .text               cdcuser.o
+    0x10000798   0x00000508   Code   RO          302    .text               serial.o
+    0x10000ca0   0x00000418   Code   RO          335    .text               usbcore.o
+    0x100010b8   0x00000578   Code   RO          417    .text               usbhw.o
+    0x10001630   0x00000074   Code   RO          445    .text               usbuser.o
+    0x100016a4   0x000000c4   Code   RO          465    .text               vcomdemo.o
+    0x10001768   0x00000024   Code   RO          512    .text               mc_w.l(init.o)
+    0x1000178c   0x000000b8   Code   RO          359    i.USB_ReqGetDescriptor  usbcore.o
+    0x10001844   0x000000c0   Code   RO          347    i.USB_ReqGetStatus  usbcore.o
+    0x10001904   0x000000ec   Code   RO          353    i.USB_ReqSetClrFeature  usbcore.o
+    0x100019f0   0x000001c0   Code   RO          365    i.USB_ReqSetConfiguration  usbcore.o
+    0x10001bb0   0x00000144   Code   RO          371    i.USB_ReqSetInterface  usbcore.o
+    0x10001cf4   0x000000be   Data   RO          404    .constdata          usbdesc.o
+    0x10001db2   0x00000002   PAD
+    0x10001db4   0x00000040   Data   RO          446    .constdata          usbuser.o
+    0x10001df4   0x00000000   Data   RO          514    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x10008000, Size: 0x00001400, Max: 0x00008000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x10008000   0x00001400   Zero   RW            1    STACK               startup_lpc177x_8x.o
+
+
+    Execution Region RW_IRAM2 (Base: 0x20000000, Size: 0x0000029c, Max: 0x00008000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x00000010   Data   RW           12    .data               system_lpc177x_8x.o
+    0x20000010   0x0000000c   Data   RW          262    .data               cdcuser.o
+    0x2000001c   0x00000006   Data   RW          304    .data               serial.o
+    0x20000022   0x00000002   PAD
+    0x20000024   0x00000030   Data   RW          336    .data               usbcore.o
+    0x20000054   0x00000002   Data   RW          447    .data               usbuser.o
+    0x20000056   0x00000002   Data   RW          467    .data               vcomdemo.o
+    0x20000058   0x000000d4   Zero   RW          261    .bss                cdcuser.o
+    0x2000012c   0x00000110   Zero   RW          303    .bss                serial.o
+    0x2000023c   0x00000060   Zero   RW          466    .bss                vcomdemo.o
+

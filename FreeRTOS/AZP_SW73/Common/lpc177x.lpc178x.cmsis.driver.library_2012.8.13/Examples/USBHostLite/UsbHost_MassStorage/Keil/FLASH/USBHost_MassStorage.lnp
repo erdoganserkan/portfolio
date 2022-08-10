@@ -1,0 +1,5 @@
+--cpu Cortex-M3 ".\flash\system_lpc177x_8x.o" ".\flash\usbhost_ms.o" ".\flash\usbhost_main.o" ".\flash\startup_lpc177x_8x.o" ".\flash\usbhost_fat.o" ".\flash\usbhost_uart.o" ".\flash\debug_frmwrk.o" ".\flash\lpc177x_8x_pinsel.o" ".\flash\lpc177x_8x_uart.o" ".\flash\lpc177x_8x_clkpwr.o" ".\flash\lpc177x_8x_usbhost.o" 
+--library_type=microlib --strict --scatter ".\FLASH\USBHost_MassStorage.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\FLASH\USBHost_MassStorage.map" -o .\FLASH\USBHost_MassStorage.axf

@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+".\flash\startup_lpc177x_8x.o"
+".\flash\system_lpc177x_8x.o"
+".\flash\lpc177x_8x_pwm.o"
+".\flash\lpc177x_8x_pinsel.o"
+".\flash\lpc177x_8x_clkpwr.o"
+".\flash\pwm_singleedge.o"
+--library_type=microlib --strict --scatter ".\Flash\Pwm_SingleEdge.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Pwm_SingleEdge.map" -o .\Flash\Pwm_SingleEdge.axf

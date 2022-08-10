@@ -1,0 +1,10 @@
+.\flash\dac_dma.o: ..\Dac_Dma.c
+.\flash\dac_dma.o: ..\..\..\..\Drivers\include\lpc177x_8x_dac.h
+.\flash\dac_dma.o: ..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h
+.\flash\dac_dma.o: ..\..\..\..\Core\CMSIS\Include\core_cm3.h
+.\flash\dac_dma.o: D:\KeilARM5.12\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\dac_dma.o: ..\..\..\..\Core\CMSIS\Include\core_cmInstr.h
+.\flash\dac_dma.o: ..\..\..\..\Core\CMSIS\Include\core_cmFunc.h
+.\flash\dac_dma.o: ..\..\..\..\Drivers\include\lpc_types.h
+.\flash\dac_dma.o: ..\..\..\..\Drivers\include\lpc177x_8x_pinsel.h
+.\flash\dac_dma.o: ..\..\..\..\Drivers\include\lpc177x_8x_gpdma.h

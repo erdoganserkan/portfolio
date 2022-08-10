@@ -1,0 +1,15 @@
+.\flash\adc_interrupt.o: ..\Adc_Interrupt.c
+.\flash\adc_interrupt.o: ..\..\..\..\Drivers\include\lpc177x_8x_adc.h
+.\flash\adc_interrupt.o: ..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h
+.\flash\adc_interrupt.o: ..\..\..\..\Core\CMSIS\Include\core_cm3.h
+.\flash\adc_interrupt.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\adc_interrupt.o: ..\..\..\..\Core\CMSIS\Include\core_cmInstr.h
+.\flash\adc_interrupt.o: ..\..\..\..\Core\CMSIS\Include\core_cmFunc.h
+.\flash\adc_interrupt.o: ..\..\..\..\Drivers\include\lpc_types.h
+.\flash\adc_interrupt.o: ..\..\..\..\Drivers\include\lpc177x_8x_pinsel.h
+.\flash\adc_interrupt.o: ..\..\..\..\Drivers\include\debug_frmwrk.h
+.\flash\adc_interrupt.o: ..\..\..\..\Drivers\include\lpc177x_8x_uart.h
+.\flash\adc_interrupt.o: ..\..\ADC_Interrupt\AppCommon.h
+.\flash\adc_interrupt.o: ..\..\ADC_Interrupt\MyMacro.h
+.\flash\adc_interrupt.o: ..\..\..\..\BoardSupport\bsp.h
+.\flash\adc_interrupt.o: ..\..\..\..\BoardSupport\phylan_lan8720.h

@@ -1,0 +1,125 @@
+Dependencies for Project 'USBHost_MassStorage', Target 'FLASH': (DO NOT MODIFY !)
+F (..\..\..\..\Core\Device\NXP\LPC177x_8x\Source\Templates\system_LPC177x_8x.c)(0x50175B74)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\ -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -o ".\FLASH\system_lpc177x_8x.o" --omf_browse ".\FLASH\system_lpc177x_8x.crf" --depend ".\FLASH\system_lpc177x_8x.d")
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50175B74)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50175B74)
+F (..\usbhost_ms.c)(0x50175B74)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\ -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -o ".\FLASH\usbhost_ms.o" --omf_browse ".\FLASH\usbhost_ms.crf" --depend ".\FLASH\usbhost_ms.d")
+I (..\usbhost_ms.h)(0x50175B74)
+I (..\usbhost_inc.h)(0x50175B74)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50175B74)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50175B74)
+I (..\usbhost_uart.h)(0x50175B74)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50175B74)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x50F9C3BE)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F9C3C0)
+I (..\..\..\..\Drivers\include\lpc177x_8x_usbhost.h)(0x50175B74)
+I (..\usbhost_fat.h)(0x50175B74)
+F (..\usbhost_main.c)(0x537D0B23)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\ -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -o ".\FLASH\usbhost_main.o" --omf_browse ".\FLASH\usbhost_main.crf" --depend ".\FLASH\usbhost_main.d")
+I (..\..\..\..\Drivers\include\debug_frmwrk.h)(0x53598613)
+I (..\..\..\..\Drivers\include\lpc177x_8x_uart.h)(0x50175B74)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50175B74)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50175B74)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50175B74)
+I (..\usbhost_main.h)(0x50175B74)
+I (..\usbhost_inc.h)(0x50175B74)
+I (..\usbhost_uart.h)(0x50175B74)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x50F9C3BE)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F9C3C0)
+I (..\..\..\..\Drivers\include\lpc177x_8x_usbhost.h)(0x50175B74)
+I (..\usbhost_ms.h)(0x50175B74)
+I (..\usbhost_fat.h)(0x50175B74)
+F (..\..\..\..\Core\Device\NXP\LPC177x_8x\Source\Templates\ARM\startup_LPC177x_8x.s)(0x535D3E37)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x --list ".\FLASH\startup_LPC177x_8x.lst" --xref -o ".\FLASH\startup_LPC177x_8x.o" --depend ".\FLASH\startup_LPC177x_8x.d")
+F (..\usbhost_fat.c)(0x50175B74)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\ -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -o ".\FLASH\usbhost_fat.o" --omf_browse ".\FLASH\usbhost_fat.crf" --depend ".\FLASH\usbhost_fat.d")
+I (..\usbhost_fat.h)(0x50175B74)
+I (..\usbhost_inc.h)(0x50175B74)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50175B74)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50175B74)
+I (..\usbhost_uart.h)(0x50175B74)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50175B74)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x50F9C3BE)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F9C3C0)
+I (..\..\..\..\Drivers\include\lpc177x_8x_usbhost.h)(0x50175B74)
+I (..\usbhost_ms.h)(0x50175B74)
+F (..\usbhost_uart.c)(0x50175B74)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\ -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -o ".\FLASH\usbhost_uart.o" --omf_browse ".\FLASH\usbhost_uart.crf" --depend ".\FLASH\usbhost_uart.d")
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F9C3C0)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x50F9C3BE)
+I (..\usbhost_uart.h)(0x50175B74)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50175B74)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (..\usbhost_inc.h)(0x50175B74)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50175B74)
+I (..\..\..\..\Drivers\include\lpc177x_8x_usbhost.h)(0x50175B74)
+I (..\usbhost_ms.h)(0x50175B74)
+I (..\usbhost_fat.h)(0x50175B74)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50175B74)
+I (..\..\..\..\Drivers\include\debug_frmwrk.h)(0x53598613)
+I (..\..\..\..\Drivers\include\lpc177x_8x_uart.h)(0x50175B74)
+F (..\..\..\..\Drivers\source\debug_frmwrk.c)(0x5359860B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\ -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -o ".\FLASH\debug_frmwrk.o" --omf_browse ".\FLASH\debug_frmwrk.crf" --depend ".\FLASH\debug_frmwrk.d")
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x535987B1)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50175B74)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (..\..\..\..\Drivers\include\debug_frmwrk.h)(0x53598613)
+I (..\..\..\..\Drivers\include\lpc177x_8x_uart.h)(0x50175B74)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50175B74)
+I (..\..\..\..\Drivers\include\lpc177x_8x_pinsel.h)(0x50175B74)
+F (..\..\..\..\Drivers\source\lpc177x_8x_pinsel.c)(0x50175B74)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\ -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -o ".\FLASH\lpc177x_8x_pinsel.o" --omf_browse ".\FLASH\lpc177x_8x_pinsel.crf" --depend ".\FLASH\lpc177x_8x_pinsel.d")
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x535987B1)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50175B74)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (..\..\..\..\Drivers\include\lpc177x_8x_pinsel.h)(0x50175B74)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50175B74)
+F (..\..\..\..\Drivers\source\lpc177x_8x_uart.c)(0x50175B74)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\ -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -o ".\FLASH\lpc177x_8x_uart.o" --omf_browse ".\FLASH\lpc177x_8x_uart.crf" --depend ".\FLASH\lpc177x_8x_uart.d")
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x535987B1)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50175B74)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (..\..\..\..\Drivers\include\lpc177x_8x_uart.h)(0x50175B74)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50175B74)
+I (..\..\..\..\Drivers\include\lpc177x_8x_clkpwr.h)(0x50175B74)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50175B74)
+F (..\..\..\..\Drivers\source\lpc177x_8x_clkpwr.c)(0x50175B74)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\ -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -o ".\FLASH\lpc177x_8x_clkpwr.o" --omf_browse ".\FLASH\lpc177x_8x_clkpwr.crf" --depend ".\FLASH\lpc177x_8x_clkpwr.d")
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x535987B1)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50175B74)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (..\..\..\..\Drivers\include\lpc177x_8x_clkpwr.h)(0x50175B74)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50175B74)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50175B74)
+F (..\..\..\..\Drivers\source\lpc177x_8x_usbhost.c)(0x50364297)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\ -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -o ".\FLASH\lpc177x_8x_usbhost.o" --omf_browse ".\FLASH\lpc177x_8x_usbhost.crf" --depend ".\FLASH\lpc177x_8x_usbhost.d")
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x535987B1)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50175B74)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (..\..\..\..\Drivers\include\lpc177x_8x_usbhost.h)(0x50175B74)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50175B74)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50175B74)
+I (..\..\..\..\Drivers\include\lpc177x_8x_pinsel.h)(0x50175B74)
+I (..\..\..\..\BoardSupport\bsp.h)(0x5375350D)
+I (..\..\..\..\BoardSupport\phylan_lan8720.h)(0x50175B74)
+F (..\abstract.txt)(0x50175B74)()

@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.12.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: srk erd, ns eng, LIC=6XJII-TL31B-SEHH0-BEHRV-XKRD9-4KBG8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.12.0.0
+Middleware:      RL-ARM Real-Time Library Version V4.13
+Toolchain Path:  D:\KeilARM5.12\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DARMP1.DLL V1.25.0.0
+Target DLL:      UL2CM3.DLL V1.153.0.0
+Dialog DLL:      TARMP1.DLL V1.24.0.0
+ 
+<h2>Project:</h2>
+F:\UMD\SW_DESIGN\Firmware\Common\lpc177x.lpc178x.cmsis.driver.library_2012.8.13\Examples\DAC\Dac_Dma\Keil\Dac_Dma.uvproj
+Project File Date:  10/11/2015
+
+<h2>Output:</h2>
+Build target 'FLASH'
+compiling system_LPC177x_8x.c...
+compiling debug_frmwrk.c...
+..\..\Dac_Dma\AppCommon.h(124): warning:  #1215-D: #warning directive: "POWERMCU DEV BOARD is USED as HW"
+        #warning "POWERMCU DEV BOARD is USED as HW"
+..\..\..\..\Drivers\source\debug_frmwrk.c(95): warning:  #188-D: enumerated type mixed with another type
+          return FALSE;         
+..\..\..\..\Drivers\source\debug_frmwrk.c(97): warning:  #188-D: enumerated type mixed with another type
+          return TRUE;  
+..\..\..\..\Drivers\source\debug_frmwrk.c(98): warning:  #188-D: enumerated type mixed with another type
+      return FALSE;
+..\..\..\..\Drivers\source\debug_frmwrk.c(529): warning:  #188-D: enumerated type mixed with another type
+        UART_TxCmd(DEBUG_UART_PORT, ENABLE);
+..\..\..\..\Drivers\source\debug_frmwrk.c(598): warning:  #111-D: statement is unreachable
+                        break;
+..\..\..\..\Drivers\source\debug_frmwrk.c: 6 warnings, 0 errors
+compiling lpc177x_8x_dac.c...
+compiling lpc177x_8x_gpdma.c...
+compiling lpc177x_8x_clkpwr.c...
+compiling lpc177x_8x_pinsel.c...
+compiling lpc177x_8x_uart.c...
+compiling Dac_Dma.c...
+linking...
+Program Size: Code=3990 RO-data=406 RW-data=184 ZI-data=5160  
+FromELF: creating hex file...
+".\Flash\dac_dma.axf" - 0 Error(s), 6 Warning(s).
+</pre>
+</body>
+</html>

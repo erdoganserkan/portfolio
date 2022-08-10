@@ -1,0 +1,22 @@
+#ifndef COMMUNICATION_H
+#define COMMUNICATION_H
+
+#include "AppCommon.h"
+
+#if (COMMUNICATION_USART_PORT_NUM == 0)
+	#define COMMUNICATION_UART_PORT	UART_0
+#elif (COMMUNICATION_USART_PORT_NUM == 1)
+	#define COMMUNICATION_UART_PORT	UART_1
+#elif (COMMUNICATION_USART_PORT_NUM == 2)
+	#define COMMUNICATION_UART_PORT	UART_2
+#elif (COMMUNICATION_USART_PORT_NUM == 3)
+	#define COMMUNICATION_UART_PORT	UART_3
+#elif (COMMUNICATION_USART_PORT_NUM == 4)
+	#define COMMUNICATION_UART_PORT	UART_4
+#else
+ #error "Invalid UART port selection!"
+#endif
+
+extern void CommInit(void);
+
+#endif

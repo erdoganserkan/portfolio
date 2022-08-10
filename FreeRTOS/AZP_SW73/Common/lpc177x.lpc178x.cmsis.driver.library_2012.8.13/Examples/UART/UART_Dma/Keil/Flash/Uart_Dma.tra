@@ -1,0 +1,27 @@
+*** Creating Trace Output File '.\Flash\Uart_Dma.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\startup_lpc177x_8x.o"'
+### List of Objects: adding '".\flash\system_lpc177x_8x.o"'
+### List of Objects: adding '".\flash\debug_frmwrk.o"'
+### List of Objects: adding '".\flash\lpc177x_8x_clkpwr.o"'
+### List of Objects: adding '".\flash\lpc177x_8x_gpdma.o"'
+### List of Objects: adding '".\flash\lpc177x_8x_pinsel.o"'
+### List of Objects: adding '".\flash\lpc177x_8x_uart.o"'
+### List of Objects: adding '".\flash\uart_dma.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\flash\startup_lpc177x_8x.o" ".\flash\system_lpc177x_8x.o" ".\flash\debug_frmwrk.o" ".\flash\lpc177x_8x_clkpwr.o" ".\flash\lpc177x_8x_gpdma.o" ".\flash\lpc177x_8x_pinsel.o" ".\flash\lpc177x_8x_uart.o" ".\flash\uart_dma.o" 
+--library_type=microlib --strict --scatter ".\Flash\Uart_Dma.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\Uart_Dma.map" -o .\Flash\Uart_Dma.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Flash\Uart_Dma.axf'
+### ADS-LD Command File: '.\Flash\Uart_Dma.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Flash\Uart_Dma.lnp', Handle=0x000004A4
+### Writing '.lnp' file
+### ADS-LD Command file '.\Flash\Uart_Dma.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

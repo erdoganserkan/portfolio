@@ -1,0 +1,30 @@
+*** Creating Trace Output File '.\FLASH\USBHost_MassStorage.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\system_lpc177x_8x.o"'
+### List of Objects: adding '".\flash\usbhost_ms.o"'
+### List of Objects: adding '".\flash\usbhost_main.o"'
+### List of Objects: adding '".\flash\startup_lpc177x_8x.o"'
+### List of Objects: adding '".\flash\usbhost_fat.o"'
+### List of Objects: adding '".\flash\usbhost_uart.o"'
+### List of Objects: adding '".\flash\debug_frmwrk.o"'
+### List of Objects: adding '".\flash\lpc177x_8x_pinsel.o"'
+### List of Objects: adding '".\flash\lpc177x_8x_uart.o"'
+### List of Objects: adding '".\flash\lpc177x_8x_clkpwr.o"'
+### List of Objects: adding '".\flash\lpc177x_8x_usbhost.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\flash\system_lpc177x_8x.o" ".\flash\usbhost_ms.o" ".\flash\usbhost_main.o" ".\flash\startup_lpc177x_8x.o" ".\flash\usbhost_fat.o" ".\flash\usbhost_uart.o" ".\flash\debug_frmwrk.o" ".\flash\lpc177x_8x_pinsel.o" ".\flash\lpc177x_8x_uart.o" ".\flash\lpc177x_8x_clkpwr.o" ".\flash\lpc177x_8x_usbhost.o" 
+--library_type=microlib --strict --scatter ".\FLASH\USBHost_MassStorage.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\FLASH\USBHost_MassStorage.map" -o .\FLASH\USBHost_MassStorage.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\FLASH\USBHost_MassStorage.axf'
+### ADS-LD Command File: '.\FLASH\USBHost_MassStorage.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\FLASH\USBHost_MassStorage.lnp', Handle=0x00000314
+### Writing '.lnp' file
+### ADS-LD Command file '.\FLASH\USBHost_MassStorage.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

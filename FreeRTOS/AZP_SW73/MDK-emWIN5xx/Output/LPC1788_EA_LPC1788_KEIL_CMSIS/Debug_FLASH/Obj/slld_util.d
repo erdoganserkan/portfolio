@@ -1,0 +1,9 @@
+.\output\lpc1788_ea_lpc1788_keil_cmsis\debug_flash\obj\slld_util.o: Application\SpiFlash\S25FL512S\TestCase\slld_util.c
+.\output\lpc1788_ea_lpc1788_keil_cmsis\debug_flash\obj\slld_util.o: Application\SpiFlash\S25FL512S\TestCase\slld_util.h
+.\output\lpc1788_ea_lpc1788_keil_cmsis\debug_flash\obj\slld_util.o: C:\Keil5.23\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\lpc1788_ea_lpc1788_keil_cmsis\debug_flash\obj\slld_util.o: C:\Keil5.23\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\lpc1788_ea_lpc1788_keil_cmsis\debug_flash\obj\slld_util.o: C:\Keil5.23\ARM\ARMCC\Bin\..\include\stdarg.h
+.\output\lpc1788_ea_lpc1788_keil_cmsis\debug_flash\obj\slld_util.o: C:\Keil5.23\ARM\ARMCC\Bin\..\include\ctype.h
+.\output\lpc1788_ea_lpc1788_keil_cmsis\debug_flash\obj\slld_util.o: C:\Keil5.23\ARM\ARMCC\Bin\..\include\string.h
+.\output\lpc1788_ea_lpc1788_keil_cmsis\debug_flash\obj\slld_util.o: .\Application\SpiFlash\S25FL512S\src\slld.h
+.\output\lpc1788_ea_lpc1788_keil_cmsis\debug_flash\obj\slld_util.o: .\Application\SpiFlash\S25FL512S\src\slld_targetspecific.h

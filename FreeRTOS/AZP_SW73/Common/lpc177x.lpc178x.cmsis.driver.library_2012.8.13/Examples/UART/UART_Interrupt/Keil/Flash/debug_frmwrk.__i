@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include 
+-I D:\Keil\ARM\RV31\INC 
+-I D:\Keil\ARM\CMSIS\Include 
+-I D:\Keil\ARM\Inc\NXP\LPC177x_8x 
+-o ".\Flash\debug_frmwrk.o" --omf_browse ".\Flash\debug_frmwrk.crf" --depend ".\Flash\debug_frmwrk.d" "..\..\..\..\Drivers\source\debug_frmwrk.c"

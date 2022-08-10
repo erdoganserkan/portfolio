@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+".\flash\startup_lpc177x_8x.o"
+".\flash\system_lpc177x_8x.o"
+".\flash\lpc177x_8x_systick.o"
+".\flash\lpc177x_8x_gpio.o"
+".\flash\lpc177x_8x_clkpwr.o"
+".\flash\systick_10msbase.o"
+--library_type=microlib --strict --scatter ".\Flash\Systick_10msBase.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Systick_10msBase.map" -o .\Flash\Systick_10msBase.axf

@@ -1,0 +1,90 @@
+TODO LIST
+* Setting-Store icin menuden tam cikis aninin beklenmesi. Saklanirken 
+incremental gidilmesi yani sector icinde en son bos olan yere yazilarak 
+ilerlenmesi. boylece sector silmeden once 256*1024/15=17477 kere yazma 
+yapilabilmesi. Flash omrunu uzatacaktir. 
+* Cevirilerin dile göre kucultulup büyüülmesi. 
+* DAC'tan WAVE ve hazır-ses calınması sırasında çakisma olmamasi icin gecis 
+noktalari konsunda dusunulecek. 
+	-->> DAC sample seeslerin hepsi loop içinde beklenerek çalınacak. Arama 
+	ekrani cikislarinda mutlaka DAC susturulduktan sonra tus sesi calinacak.  
+* DAC' tan hazır sesleri calarken ilk bast ameydana gelen buyuk gurultu problemi
+* Ses seviyesi ayarinin WAVE ve hazir seslere tam adapte edilmesi.Seslerin 
+	Flash->SDRAM tasinmasi sirasinda Ses-seviyesine gore katsayi ile carpilarak 
+	saklanmasi. Ses ayari değistiginde yeniiden bu yontemle yukleme yapilmasi.
+* GND-ID degeri (16bit) cihaz toprak ayarÄ±nÄ± bitirdiÄŸinde flasha saklanacak ve açılışta detectore gönderilecek.
+* Volume ayar seviyesine gore search ekranlarındaki minimum ses seviyesi değişecek. 
+* Flash Driver' Ä±nda DMA Ã¼zerinden okuma testi yapÄ±lacak. EÄŸer daha hÄ±zlÄ± ise DMA kullanÄ±lacak. 
+* INTRO oynarken arka planda dma ile resuorce group initialization yapılması.
+* Eksik cevirileri (GB ekrani) google-translate' den ekle. sonra haber ver.   
+2- OK.Su andaki durumda bir keye basilinca timer calisiyor ve ayni keye counter suresi bitmeden basilirsa ignore 
+	ediliyor ama baska keye basilirsa o gonderiliyor. Bunu degistirmek gerekebilir.
+4- Kodun ve demonun gÃ¼venligi iÃ§in yap1lacaklar1 belirle. Demonun belirli bir sayÄ±da Ã§alÄ±ÅŸmasÄ± 
+	dÃ¼ÅŸÃ¼nÃ¼lebilir. Demonun belirli bir tarihe kadar calismasi icin ayar 
+	sayfasini ekle. RTC ile zaman saymasini buraya dahil et. En son zamani 
+	belirli bir surede bir flash'a yaz, eger pil cikarilirsa kendini sil ve bir 
+	daha calisma. 
+8.1- HW' de power kÄ±smÄ± ile ilgili olan hatayÄ± dÃ¼zelt 
+14- USB flash-disc' ten yazÄ±lÄ±mÄ±n update edilmesini ekle. SD-CARD' tan da solabilir. 
+15- En son GUI deÄŸiÅŸikliklerini yap.
+16- INTRO Ã§alÄ±nÄ±yorken FB' ye memcpy ile data transferi yapÄ±lmasÄ± yerine M2M DMA transferlerini dene. SSP' den data okurken neredeyse 
+	normalden iki kat hÄ±zlÄ± Ã§Ä±ktÄ±. burda da iÅŸe yarayabilir. INTRO okuma ve Ã§almasÄ±nda DMA' den maximum Ã¶lÃ§Ã¼de faydalanÄ±lacak. INTRO resimleri 
+	ayrÄ± ayrÄ± yerine blok olarak kaydedilirse daha hÄ±zlÄ± okunur mu? Baska SD-CARD ile hÄ±z testi yap. EÄŸer flash' tan hÄ±zlÄ± ise SD-CARD da kullanabiliriz 
+	Ã¼reinde belki. 
+17- TAsan ceviriler icin dile ve yere gore font kucultme yapilmasi
+18- Acilistan itibaren INTRO, loading barlar, yukleme animasyonlari, telefon 
+cevirme animasyon dahil hepsinin ayaga kaldirilmasi
+19- 
+
+RM:
+2- Telefon çevirma animasyon yapılması
+	
+OK.BALANS:
+1- OK.Sonuc Popup' i ekranda ONAY'a basilana kadar kalacak.
+2- OK.Eger sonuc olumlu ise STD_SEARCH, olumsuz ise BALANS basina atlanacak.
+3- OK.Sonuc popup icinde armor altinda yan1p sonen Hand ikonu gÃ¶sterielcek.
+
+OK.SB:
+1- OK:Yeni 5 kademeli pil ikonu horizontal battery' de kullan1lacak.
+2- OK.warning battery popup belirdikten sonra art1k battery ikonu hem redued hem de full modda yan1p sonecek.
+3- OK.warning ve empty battery pop-uplar1 bitirilecek.
+4- 
+
+OTO:
+1- OK. Bar sayisi azalt1lacak
+2- OK. Beyaz bos bar yerine daha koyu (gri) ton kullan1lacak.
+3- OK. barlar sag ustte tam en uste c1kmadan bitirilecek.
+4- Gri-barlar background resmine embedded olursa sadece SARI barlar çizilecegi 
+	icin yazilim hizlanir.
+5- OK. SB boyutu de_tii için dier k1s1mlar1n da buna göre ayarlanmas1 gerekebilir. 
+
+OK.MINERALLI:
+1- OK.STD araman1n aynisi oalcak.
+2- OK.Dedektore gonderilen komut olarak farketdecek.
+
+
+OK.SISTEM AYARLARI:
+1- OK.MAvi halka ile ikonlar seçilecek.
+2- OK.Seçili olmayan ikon %50 transparan olacak.
+3- OK.Her secim ONAY ile baslayacak ve pop-up olacak.
+4- OK.Fabrika ayarlar1na donus sadece ikon + yazi ve "OK" ve "IPTAL" tuslar1ndan olusacak.
+5- OK.Hassasiyet ve diger ayarlarda en kucuk bar %10, ve her art1m %5 ad1mlarla olacak.
+6- OK.Sayfa 331' deki move IN&OUT efektleri popup' lar icin kullanilabilir. 
+
+OK.DEPTH:
+1- OK.status bar olmayacak ama REDUCED olacak.
+2- OK.Sonuc verildiginde "tahmini" vurgusu yap1lacak.
+3- 
+
+OK.METAL ANALIZI:
+1- OK.Bar renkleri ture gore degisecek.
+2- OK.Barlar dik cizilebilir.
+3- OK.Yeni tasarima gecilecek.
+
+
+OK.STD_SEARCH:
+1- OK.Yeni tasar1ma gecilecek.
+2- OK.Barlar dik cizilebilir.
+3- OK.Hedef tiplerine gore farkli renklerde bar cizilecek. 
+	Metal:Kirmizi, Mineral:Kahverengi(Turuncu), Bosluk:Buz Mavvisi
+4- 

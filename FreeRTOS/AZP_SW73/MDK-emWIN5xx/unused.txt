@@ -1,0 +1,1551 @@
+;#<FEEDBACK># ARM Linker, 5060422: Last Updated: Wed Jan 16 00:31:59 2019
+;VERSION 0.2
+;FILE CHECKBOX.o
+CHECKBOX_Callback <= USED 0
+CHECKBOX_CreateEx <= USED 0
+CHECKBOX_CreateUser <= USED 0
+CHECKBOX_GetUserData <= USED 0
+CHECKBOX_SetUserData <= USED 0
+CHECKBOX__GetButtonSize <= USED 0
+;FILE CHECKBOX_SetFont.o
+CHECKBOX_SetFont <= USED 0
+;FILE CHECKBOX_SetState.o
+CHECKBOX_SetState <= USED 0
+;FILE CHECKBOX_SetText.o
+CHECKBOX_SetText <= USED 0
+;FILE CHECKBOX_SetTextAlign.o
+CHECKBOX_SetTextAlign <= USED 0
+;FILE CHECKBOX_SetTextColor.o
+CHECKBOX_SetTextColor <= USED 0
+;FILE CHECKBOX_Skin.o
+CHECKBOX_SetDefaultSkin <= USED 0
+CHECKBOX_SetSkin <= USED 0
+;FILE CHECKBOX_SkinClassic.o
+CHECKBOX_SetDefaultSkinClassic <= USED 0
+CHECKBOX_SetSkinClassic <= USED 0
+;FILE CHECKBOX_SkinFlex.o
+CHECKBOX_DrawSkinFlex <= USED 0
+CHECKBOX_GetSkinFlexButtonSize <= USED 0
+CHECKBOX_GetSkinFlexProps <= USED 0
+CHECKBOX_SetSkinFlexButtonSize <= USED 0
+CHECKBOX_SetSkinFlexProps <= USED 0
+;FILE DIALOG.o
+DIALOG_GetBkColor <= USED 0
+DIALOG_SetBkColor <= USED 0
+GUI_CreateDialogBox <= USED 0
+GUI_EndDialog <= USED 0
+GUI_ExecCreatedDialog <= USED 0
+GUI_ExecDialogBox <= USED 0
+GUI_GetDialogStatusPtr <= USED 0
+GUI_SetDialogStatusPtr <= USED 0
+;FILE GUICC_0.o
+LCD_SetLUT <= USED 0
+LCD_SetLUTEx <= USED 0
+;FILE GUICC_8888_Index2Color.o
+;FILE GUICC_888_Index2Color.o
+;FILE GUICC_M555_Index2Color.o
+;FILE GUICC_M565.o
+GUICC_M565_SetCustColorConv <= USED 0
+;FILE GUICC_M565_Index2Color.o
+;FILE GUIDEV.o
+GUI_MEMDEV_Create <= USED 0
+GUI_MEMDEV_MarkDirty <= USED 0
+;FILE GUIDEV_Banding.o
+;FILE GUIDEV_Clear.o
+;FILE GUIDEV_CreateFixed.o
+;FILE GUIDEV_GetDataPtr.o
+;FILE GUIDEV_GetPos.o
+;FILE GUIDEV_GetXSize.o
+;FILE GUIDEV_GetYSize.o
+;FILE GUIDEV_MoveAndFade.o
+GUI_MEMDEV_FadeDevices <= USED 0
+GUI_MEMDEV_SetAnimationCallback <= USED 0
+GUI_MEMDEV__FadeDevice <= USED 0
+GUI_MEMDEV__FadeDeviceEx <= USED 0
+;FILE GUIDEV_MoveAndFadeWin.o
+GUI_MEMDEV_FadeInWindow <= USED 0
+GUI_MEMDEV_FadeOutWindow <= USED 0
+GUI_MEMDEV_MoveInWindow <= USED 0
+GUI_MEMDEV_MoveOutWindow <= USED 0
+GUI_MEMDEV_ShiftInWindow <= USED 0
+GUI_MEMDEV_ShiftOutWindow <= USED 0
+GUI_MEMDEV_SwapWindow <= USED 0
+GUI_MEMDEV__CalcParaFadeIn <= USED 0
+GUI_MEMDEV__ChangeBK <= USED 0
+GUI_MEMDEV__RemoveStaticDevice <= USED 0
+GUI_MEMDEV__UndoBK <= USED 0
+;FILE GUIDEV_PunchOutDevice.o
+;FILE GUIDEV_ReduceYSize.o
+;FILE GUIDEV_Rotate.o
+GUI_MEMDEV_Rotate <= USED 0
+GUI_MEMDEV_RotateHQ <= USED 0
+GUI_MEMDEV_RotateHQHR <= USED 0
+GUI_MEMDEV_RotateHR <= USED 0
+GUI_MEMDEV__Rotate <= USED 0
+GUI_MEMDEV__RotateHR <= USED 0
+;FILE GUIDEV_SetColorConv.o
+GUI_MEMDEV_SetColorConv <= USED 0
+;FILE GUIDEV_SetOrg.o
+;FILE GUIDEV_StaticDevices.o
+GUIDEV_StaticDevices_C <= USED 0
+GUI_MEMDEV_CreateStatic <= USED 0
+GUI_MEMDEV_GetStaticDevice <= USED 0
+GUI_MEMDEV_GetWindowDevice <= USED 0
+;FILE GUIDEV_Usage.o
+GUI_USAGE_Select <= USED 0
+;FILE GUIDEV_UsageBM.o
+;FILE GUIDEV_Write.o
+;FILE GUIDEV_WriteToActiveAlpha.o
+;FILE GUIDEV_WriteToActiveOpaque.o
+;FILE GUI_2DLib.o
+GL_MoveTo <= USED 0
+GUI_DrawRect <= USED 0
+GUI_MoveRel <= USED 0
+GUI_MoveTo <= USED 0
+;FILE GUI_ALLOC_AllocZero.o
+;FILE GUI_AddHex.o
+GUI_AddHex <= USED 0
+;FILE GUI_Alloc.o
+GUI_ALLOC_FreePtr <= USED 0
+GUI_ALLOC_FreePtrArray <= USED 0
+GUI_ALLOC_GetNumFreeBlocks <= USED 0
+GUI_ALLOC_GetNumUsedBlocks <= USED 0
+GUI_ALLOC_GetNumUsedBytes <= USED 0
+GUI_ALLOC_SetMaxPercentage <= USED 0
+;FILE GUI_Arc.o
+GL_DrawArc <= USED 0
+GUI_DrawArc <= USED 0
+;FILE GUI_BMP.o
+GUI_BMP_DisableAlpha <= USED 0
+GUI_BMP_DrawEx <= USED 0
+GUI_BMP_GetXSize <= USED 0
+GUI_BMP_GetXSizeEx <= USED 0
+GUI_BMP_GetYSize <= USED 0
+GUI_BMP_GetYSizeEx <= USED 0
+GUI_BMP__ReadData <= USED 0
+GUI_BMP__ReadPalette <= USED 0
+;FILE GUI_CalcColorDist.o
+;FILE GUI_Char.o
+GL_DispChar <= USED 0
+GUI_DispNextLine <= USED 0
+;FILE GUI_CharLine.o
+GUI__GetOverlap <= USED 0
+;FILE GUI_CharM.o
+;FILE GUI_CharP.o
+GUIPROP__FindChar <= USED 0
+;FILE GUI_Circ.o
+GL_DrawCircle <= USED 0
+GL_DrawEllipse <= USED 0
+GL_FillEllipse <= USED 0
+GUI_DrawCircle <= USED 0
+GUI_DrawEllipse <= USED 0
+GUI_FillCircle <= USED 0
+GUI_FillEllipse <= USED 0
+;FILE GUI_Core.o
+GUI_ClearRect <= USED 0
+GUI_Exit <= USED 0
+GUI_SetFuncGetpPalConvTable <= USED 0
+GUI__Config <= USED 0
+;FILE GUI_Curs1.o
+GUI_CURSOR_GetState <= USED 0
+GUI_CURSOR_GetStateEx <= USED 0
+GUI_CURSOR_Hide <= USED 0
+GUI_CURSOR_HideEx <= USED 0
+GUI_CURSOR_Select <= USED 0
+GUI_CURSOR_SelectEx <= USED 0
+GUI_CURSOR_SetBitmap <= USED 0
+GUI_CURSOR_SetBitmapEx <= USED 0
+GUI_CURSOR_SetPosition <= USED 0
+GUI_CURSOR_SetPositionEx <= USED 0
+GUI_CURSOR_Show <= USED 0
+GUI_CURSOR_ShowEx <= USED 0
+GUI_CURSOR__GetSpriteEx <= USED 0
+GUI_CURSOR__SetSpriteEx <= USED 0
+;FILE GUI_Device.o
+;FILE GUI_DispString.o
+;FILE GUI_DispStringAt.o
+;FILE GUI_DispStringHCenter.o
+GUI_DispStringHCenterAt <= USED 0
+;FILE GUI_DispStringInRect.o
+GUI_DispStringInRect <= USED 0
+GUI_DispStringInRectMax <= USED 0
+GUI__DispStringInRect <= USED 0
+;FILE GUI_DispStringInRectWrap.o
+GUI_WrapGetNumLines <= USED 0
+;FILE GUI_DrawBitmap.o
+GL_DrawBitmap <= USED 0
+GUI_DrawBitmap <= USED 0
+;FILE GUI_DrawFocusRect.o
+GUI_DrawFocusRect <= USED 0
+;FILE GUI_DrawGradient.o
+GUI_DrawGradientH <= USED 0
+GUI_DrawGradientV <= USED 0
+;FILE GUI_DrawGradientRounded.o
+;FILE GUI_DrawHLine.o
+;FILE GUI_DrawLine.o
+GL_DrawLine <= USED 0
+GL_DrawLine1 <= USED 0
+GL_DrawLineTo <= USED 0
+GL_DrawLineToEx <= USED 0
+GUI_DrawLineRel <= USED 0
+GUI_DrawLineTo <= USED 0
+GUI_cos <= USED 0
+GUI_sin <= USED 0
+;FILE GUI_DrawPie.o
+GUI_DrawPie <= USED 0
+;FILE GUI_DrawPoint.o
+GUI_DrawPoint <= USED 0
+;FILE GUI_DrawRoundedFrame.o
+GUI_DrawRoundedFrame <= USED 0
+;FILE GUI_DrawRoundedRect.o
+;FILE GUI_DrawVLine.o
+;FILE GUI_ErrorOut.o
+GUI_ErrorOut <= USED 0
+GUI_ErrorOut1 <= USED 0
+GUI_ErrorOut2 <= USED 0
+GUI_ErrorOut3 <= USED 0
+GUI_ErrorOut4 <= USED 0
+GUI_SetOnErrorFunc <= USED 0
+;FILE GUI_Exec.o
+GUI_Exec <= USED 0
+;FILE GUI_FillPolygon.o
+GUI_FillPolygon <= USED 0
+;FILE GUI_FillRect.o
+;FILE GUI_FillRectEx.o
+GUI_FillRectEx <= USED 0
+;FILE GUI_FillRoundedRect.o
+GUI_FillRoundedFrame <= USED 0
+;FILE GUI_GetBitmapPixelIndex.o
+GUI_GetBitmapPixelIndex <= USED 0
+GUI_GetBitmapPixelIndexEx <= USED 0
+;FILE GUI_GetClientRect.o
+GUI_GetClientRect <= USED 0
+;FILE GUI_GetColor.o
+GUI_GetBkColorIndex <= USED 0
+GUI_GetColorIndex <= USED 0
+;FILE GUI_GetFontSizeY.o
+GUI_GetFontSizeY <= USED 0
+;FILE GUI_GetOrg.o
+GUI__GetOrg <= USED 0
+;FILE GUI_GetStringDistX.o
+GUI_GetStringDistX <= USED 0
+;FILE GUI_GetYSizeOfFont.o
+GUI_GetYDistOfFont <= USED 0
+GUI_GetYSizeOfFont <= USED 0
+;FILE GUI_Goto.o
+GUI_GotoX <= USED 0
+GUI_GotoY <= USED 0
+;FILE GUI_MULTIBUF.o
+GUI_MULTIBUF_BeginEx <= USED 0
+GUI_MULTIBUF_ConfigEx <= USED 0
+GUI_MULTIBUF_ConfirmEx <= USED 0
+GUI_MULTIBUF_EndEx <= USED 0
+GUI_MULTIBUF_GetNumBuffers <= USED 0
+GUI_MULTIBUF_GetNumBuffersEx <= USED 0
+GUI_MULTIBUF_UseSingleBuffer <= USED 0
+;FILE GUI_MergeRect.o
+;FILE GUI_MoveRect.o
+;FILE GUI_OnKey.o
+GUI_GetKey <= USED 0
+GUI_GetKeyState <= USED 0
+GUI_SendKeyMsg <= USED 0
+;FILE GUI_PID.o
+GUI_PID_GetCurrentState <= USED 0
+GUI_PID_GetState <= USED 0
+GUI_PID_IsEmpty <= USED 0
+GUI_PID_IsPressed <= USED 0
+GUI_PID_StoreState <= USED 0
+;FILE GUI_PNG.o
+GUI_PNG_GetXSize <= USED 0
+GUI_PNG_GetXSizeEx <= USED 0
+GUI_PNG_GetYSize <= USED 0
+GUI_PNG_GetYSizeEx <= USED 0
+;FILE GUI_Pen.o
+GUI_GetPenShape <= USED 0
+GUI_SetPenShape <= USED 0
+;FILE GUI_RectsIntersect.o
+;FILE GUI_SIF.o
+GUI_SIF_DeleteFont <= USED 0
+GUI_SIF__GetNumCharAreas <= USED 0
+;FILE GUI_SPRITE.o
+GUI_SPRITE_Create <= USED 0
+GUI_SPRITE_CreateEx <= USED 0
+GUI_SPRITE_CreateHidden <= USED 0
+GUI_SPRITE_CreateHiddenEx <= USED 0
+GUI_SPRITE_Delete <= USED 0
+GUI_SPRITE_GetState <= USED 0
+GUI_SPRITE_Hide <= USED 0
+GUI_SPRITE_SetBitmap <= USED 0
+GUI_SPRITE_SetBitmapAndPosition <= USED 0
+GUI_SPRITE_SetPosition <= USED 0
+GUI_SPRITE_Show <= USED 0
+GUI_SPRITE__CreateEx <= USED 0
+GUI_SPRITE__SetCallback <= USED 0
+;FILE GUI_SaveContext.o
+;FILE GUI_SelectLCD.o
+;FILE GUI_SelectLayer.o
+GUI_AssignCursorLayer <= USED 0
+GUI_GetCursorLayer <= USED 0
+GUI_GetLayerPosEx <= USED 0
+GUI_SetLayerAlphaEx <= USED 0
+GUI_SetLayerPosEx <= USED 0
+GUI_SetLayerSizeEx <= USED 0
+GUI_SetLayerVisEx <= USED 0
+;FILE GUI_SetAlpha.o
+;FILE GUI_SetClipRect.o
+;FILE GUI_SetColor.o
+;FILE GUI_SetDefault.o
+GUI_SetDefault <= USED 0
+;FILE GUI_SetDrawMode.o
+;FILE GUI_SetFont.o
+;FILE GUI_SetLineStyle.o
+;FILE GUI_SetOrg.o
+;FILE GUI_SetTextAlign.o
+;FILE GUI_SetTextMode.o
+;FILE GUI_Task.o
+GUITASK_GetpContext <= USED 0
+GUITASK_SetMaxTask <= USED 0
+;FILE GUI_Time.o
+GUI_Delay <= USED 0
+;FILE GUI_Timer.o
+GUI_TIMER_GetPeriod <= USED 0
+GUI_TIMER_SetDelay <= USED 0
+GUI_TIMER_SetTime <= USED 0
+GUI_TIMER__GetNextTimer <= USED 0
+GUI_TIMER__GetPeriod <= USED 0
+GUI_TIMER__IsActive <= USED 0
+;FILE GUI_UC.o
+GUI_UC__CalcSizeOfChar <= USED 0
+;FILE GUI_UC_ConvertUC2UTF8.o
+;FILE GUI_UC_EnableBIDI.o
+;FILE GUI_UC_EncodeNone.o
+GUI_UC_SetEncodeNone <= USED 0
+;FILE GUI_UC_EncodeUTF8.o
+;FILE GUI_WaitEvent.o
+GUI_SetSignalEventFunc <= USED 0
+GUI_SetWaitEventFunc <= USED 0
+GUI_SetWaitEventTimedFunc <= USED 0
+GUI_WaitEvent <= USED 0
+;FILE GUI__AddSpaceHex.o
+GUI__AddSpaceHex <= USED 0
+;FILE GUI__Alpha.o
+GUI_SetFuncAlphaBlending <= USED 0
+GUI_SetFuncMixColors <= USED 0
+GUI_SetFuncMixColorsBulk <= USED 0
+GUI__SetAlphaBufferSize <= USED 0
+;FILE GUI__Arabic.o
+;FILE GUI__BiDi.o
+;FILE GUI__CompactPixelIndices.o
+;FILE GUI__DivideRound32.o
+GUI__DivideRound32 <= USED 0
+;FILE GUI__ExpandPixelIndices.o
+;FILE GUI__GetCursorPos.o
+GUI__GetCursorCharacter <= USED 0
+GUI__GetCursorPosChar <= USED 0
+GUI__GetCursorPosX <= USED 0
+;FILE GUI__GetFontSizeY.o
+GUI__GetFontSizeY <= USED 0
+;FILE GUI__GetNumChars.o
+GUI__GetNumChars <= USED 0
+;FILE GUI__HandleEOLine.o
+GUI__HandleEOLine <= USED 0
+;FILE GUI__IntersectRect.o
+;FILE GUI__IntersectRects.o
+;FILE GUI__ManageCache.o
+;FILE GUI__Read.o
+;FILE GUI__ReduceRect.o
+GUI__ReduceRect <= USED 0
+;FILE GUI__SetText.o
+GUI__SetText <= USED 0
+;FILE GUI__SinHQ.o
+GUI__CosHQ <= USED 0
+GUI__SinHQ <= USED 0
+;FILE GUI__Wrap.o
+GUI__WrapGetNumCharsToNextLine <= USED 0
+;FILE GUI__memcpy.o
+;FILE GUI__memset.o
+;FILE GUI__memset16.o
+;FILE GUI__sqrt32.o
+;FILE GUI__strcmp.o
+GUI__strcmp <= USED 0
+GUI__strcmp_hp <= USED 0
+;FILE GUI__strlen.o
+GUI__strlen <= USED 0
+;FILE LCD.o
+;FILE LCD_AA.o
+LCD_AA_MixColors <= USED 0
+LCD_SetPixelAA <= USED 0
+LCD_SetPixelAA_NoTrans <= USED 0
+LCD_SetPixelAA_Xor <= USED 0
+;FILE LCD_Color.o
+LCD_GetpPalConvTable <= USED 0
+LCD_GetpPalConvTableUncached <= USED 0
+LCD_SetMaxNumColors <= USED 0
+;FILE LCD_GetColorIndex.o
+;FILE LCD_GetEx.o
+LCD_GetBitsPerPixel <= USED 0
+LCD_GetBitsPerPixelMax <= USED 0
+LCD_GetDevFunc <= USED 0
+LCD_GetMirrorX <= USED 0
+LCD_GetMirrorY <= USED 0
+LCD_GetPaletteEx <= USED 0
+LCD_GetSwapXY <= USED 0
+LCD_GetVXSize <= USED 0
+LCD_GetVYSize <= USED 0
+LCD_GetVYSizeMax <= USED 0
+LCD_GetXMag <= USED 0
+LCD_GetXMagEx <= USED 0
+LCD_GetXSizeEx <= USED 0
+LCD_GetXSizeMax <= USED 0
+LCD_GetYMag <= USED 0
+LCD_GetYMagEx <= USED 0
+LCD_GetYSizeEx <= USED 0
+LCD_GetYSizeMax <= USED 0
+LCD_GetpfIndex2ColorEx <= USED 0
+LCD__GetBPP <= USED 0
+;FILE LCD_GetNumDisplays.o
+;FILE LCD_GetP.o
+GUI_GetPixelIndex <= USED 0
+LCD_GetPixelIndex <= USED 0
+;FILE LCD_GetPixelColor.o
+LCD_GetPixelColor <= USED 0
+;FILE LCD_ReadRect.o
+GUI_ReadRect <= USED 0
+LCD_ReadRect <= USED 0
+LCD_ReadRectNoClip <= USED 0
+;FILE LCD_SelectLCD.o
+;FILE LCD_Set.o
+LCD_GetPos <= USED 0
+LCD_GetPosEx <= USED 0
+LCD_Refresh <= USED 0
+LCD_RefreshEx <= USED 0
+LCD_SetAlpha <= USED 0
+LCD_SetAlphaEx <= USED 0
+LCD_SetAlphaMode <= USED 0
+LCD_SetAlphaModeEx <= USED 0
+LCD_SetChroma <= USED 0
+LCD_SetChromaEx <= USED 0
+LCD_SetChromaMode <= USED 0
+LCD_SetChromaModeEx <= USED 0
+LCD_SetLUTEntry <= USED 0
+LCD_SetPos <= USED 0
+LCD_SetSize <= USED 0
+LCD_SetVRAMAddr <= USED 0
+LCD_SetVSize <= USED 0
+LCD_SetVis <= USED 0
+LCD_SetVisEx <= USED 0
+;FILE LCD_SetClipRectEx.o
+;FILE LCD_UpdateColorIndices.o
+;FILE WIDGET.o
+WIDGET_AndState <= USED 0
+WIDGET_GetDefaultEffect <= USED 0
+WIDGET_GetState <= USED 0
+WIDGET_HandleActive <= USED 0
+WIDGET_OrState <= USED 0
+WIDGET_SetDefaultEffect <= USED 0
+WIDGET_SetState <= USED 0
+WIDGET__DrawFocusRect <= USED 0
+WIDGET__DrawHLine <= USED 0
+WIDGET__DrawTriangle <= USED 0
+WIDGET__DrawVLine <= USED 0
+WIDGET__EFFECT_DrawDown <= USED 0
+WIDGET__EFFECT_DrawDownRect <= USED 0
+WIDGET__EFFECT_DrawUpRect <= USED 0
+WIDGET__FillRectEx <= USED 0
+WIDGET__GetBkColor <= USED 0
+WIDGET__GetClientRect <= USED 0
+WIDGET__GetInsideRect <= USED 0
+WIDGET__GetWindowSizeX <= USED 0
+WIDGET__GetXSize <= USED 0
+WIDGET__GetYSize <= USED 0
+WIDGET__Init <= USED 0
+WIDGET__RotateRect90 <= USED 0
+WIDGET__SetScrollState <= USED 0
+;FILE WIDGET_Effect_3D.o
+WIDGET_EFFECT_3D_DrawUp <= USED 0
+WIDGET_EFFECT_3D_GetColor <= USED 0
+WIDGET_EFFECT_3D_GetNumColors <= USED 0
+WIDGET_EFFECT_3D_SetColor <= USED 0
+;FILE WM.o
+WM_CreateWindow <= USED 0
+WM_SetDefault <= USED 0
+WM__Client2Screen <= USED 0
+WM__DeleteSecure <= USED 0
+WM__DetachWindow <= USED 0
+WM__GetTopLevelLayer <= USED 0
+WM__Invalidate1Abs <= USED 0
+WM__Paint <= USED 0
+WM__RectIsNZ <= USED 0
+WM__RemoveFromLinList <= USED 0
+WM__RemoveWindowFromList <= USED 0
+WM__SelectTopLevelLayer <= USED 0
+;FILE WM_BringToBottom.o
+;FILE WM_BringToTop.o
+WM_BringToTop <= USED 0
+;FILE WM_CriticalHandle.o
+WM__RemoveCriticalHandle <= USED 0
+;FILE WM_ForEachDesc.o
+WM_ForEachDesc <= USED 0
+;FILE WM_GetBkColor.o
+WM_GetBkColor <= USED 0
+;FILE WM_GetClientRect.o
+WM_GetClientRect <= USED 0
+WM_GetClientRectEx <= USED 0
+;FILE WM_GetClientWindow.o
+WM_GetClientWindow <= USED 0
+;FILE WM_GetDesktopWindow.o
+;FILE WM_GetDesktopWindowEx.o
+WM_GetDesktopWindowEx <= USED 0
+;FILE WM_GetDialogItem.o
+WM_GetDialogItem <= USED 0
+;FILE WM_GetFirstChild.o
+;FILE WM_GetFocussedWindow.o
+;FILE WM_GetId.o
+WM_GetId <= USED 0
+;FILE WM_GetNextSibling.o
+WM_GetNextSibling <= USED 0
+;FILE WM_GetOrg.o
+WM_GetOrgX <= USED 0
+WM_GetOrgY <= USED 0
+WM_GetWindowOrgX <= USED 0
+WM_GetWindowOrgY <= USED 0
+;FILE WM_GetParent.o
+;FILE WM_GetWindowRect.o
+WM_GetWindowRect <= USED 0
+WM_GetWindowRectEx <= USED 0
+;FILE WM_GetWindowSize.o
+WM__GetWindowSizeX <= USED 0
+WM__GetWindowSizeY <= USED 0
+;FILE WM_HasCaptured.o
+WM_HasCaptured <= USED 0
+;FILE WM_Hide.o
+WM_HideWindow <= USED 0
+;FILE WM_IsFocussable.o
+WM_IsFocussable <= USED 0
+;FILE WM_IsWindow.o
+;FILE WM_MULTIBUF.o
+;FILE WM_Move.o
+WM_MoveTo <= USED 0
+WM__MoveTo <= USED 0
+;FILE WM_NotifyParent.o
+;FILE WM_OnKey.o
+;FILE WM_PID__GetPrevState.o
+WM_PID__GetPrevState <= USED 0
+WM_PID__SetPrevState <= USED 0
+;FILE WM_ResizeWindow.o
+;FILE WM_Screen2Win.o
+WM_Screen2hWin <= USED 0
+WM_Screen2hWinEx <= USED 0
+WM__IsInWindow <= USED 0
+;FILE WM_SendMessageNoPara.o
+;FILE WM_SendToParent.o
+;FILE WM_SetCallback.o
+;FILE WM_SetCapture.o
+WM_ReleaseCapture <= USED 0
+WM_SetCapture <= USED 0
+;FILE WM_SetCreateFlags.o
+;FILE WM_SetFocus.o
+;FILE WM_SetFocusOnNextChild.o
+WM_SetFocusOnNextChild <= USED 0
+;FILE WM_SetScrollState.o
+WM_SetScrollState <= USED 0
+;FILE WM_SetSize.o
+;FILE WM_SetTrans.o
+WM_ClrHasTrans <= USED 0
+WM_GetHasTrans <= USED 0
+WM_SetHasTrans <= USED 0
+;FILE WM_SetUserClipRect.o
+;FILE WM_Show.o
+WM_InvalidateWindowAndDescs <= USED 0
+WM_ShowWindow <= USED 0
+;FILE WM_Timer.o
+;FILE WM_Touch.o
+WM_HandlePID <= USED 0
+WM__IsInModalArea <= USED 0
+WM__SendPIDMessage <= USED 0
+WM__SendTouchMessage <= USED 0
+WM__SetLastTouched <= USED 0
+WM__SetMotionCallback <= USED 0
+WM__SetToolTipCallback <= USED 0
+;FILE WM_UserData.o
+WM__GetUserDataEx <= USED 0
+WM__SetUserDataEx <= USED 0
+;FILE WM_ValidateWindow.o
+WM_ValidateWindow <= USED 0
+;FILE WM__ForEachDesc.o
+WM__ForEachDesc <= USED 0
+;FILE WM__GetFirstSibling.o
+;FILE WM__GetFocussedChild.o
+WM__GetFocussedChild <= USED 0
+;FILE WM__GetPrevSibling.o
+;FILE WM__IsAncestor.o
+WM__IsAncestor <= USED 0
+WM__IsAncestorOrSelf <= USED 0
+;FILE WM__IsChild.o
+WM__IsChild <= USED 0
+;FILE WM__IsEnabled.o
+WM__IsEnabled <= USED 0
+;FILE WM__Screen2Client.o
+WM__Screen2Client <= USED 0
+;FILE WM__SendMessage.o
+;FILE WM__SendMessageIfEnabled.o
+WM__SendMessageIfEnabled <= USED 0
+;FILE WM__SendMessageNoPara.o
+;FILE WM__UpdateChildPositions.o
+;FILE acodec.o
+__asm___8_ACodec_c____REV16 <= USED 0
+__asm___8_ACodec_c____REVSH <= USED 0
+;FILE adler32.o
+adler32_combine <= USED 0
+;FILE analog.o
+__asm___8_Analog_c_a97baa57____REV16 <= USED 0
+__asm___8_Analog_c_a97baa57____REVSH <= USED 0
+clock_gen_demo <= USED 0
+;FILE aplay.o
+__asm___7_APlay_c_4b1ba525____REV16 <= USED 0
+__asm___7_APlay_c_4b1ba525____REVSH <= USED 0
+audio_get_state <= USED 0
+isDacAudioActive <= USED 0
+stop_dac_audio <= USED 0
+;FILE appcommon.o
+__asm___11_AppCommon_c_a2b683d8____REV16 <= USED 0
+__asm___11_AppCommon_c_a2b683d8____REVSH <= USED 0
+get_block_crc32 <= USED 0
+;FILE appsettings.o
+APP_GetSettingsAdr <= USED 0
+__asm___13_AppSettings_c_5a46ada0____REV16 <= USED 0
+__asm___13_AppSettings_c_5a46ada0____REVSH <= USED 0
+;FILE asciilib.o
+GetASCIICode <= USED 0
+__GetASCIICode <= USED 0
+;FILE atautofreq.o
+AT_Auto_Freq <= USED 0
+__asm___12_ATAutoFreq_c_f076b219____REV16 <= USED 0
+__asm___12_ATAutoFreq_c_f076b219____REVSH <= USED 0
+;FILE atbrightvol.o
+AT_BrightVol <= USED 0
+__asm___13_ATBrightVol_c_c6eac675____REV16 <= USED 0
+__asm___13_ATBrightVol_c_c6eac675____REVSH <= USED 0
+;FILE atdistance.o
+AT_Distance <= USED 0
+__asm___12_ATDistance_c_e193f8e8____REV16 <= USED 0
+__asm___12_ATDistance_c_e193f8e8____REVSH <= USED 0
+;FILE atlang.o
+AT_Lang <= USED 0
+__asm___8_ATLang_c_AT_Lang____REV16 <= USED 0
+__asm___8_ATLang_c_AT_Lang____REVSH <= USED 0
+;FILE atloading.o
+AT_Loading <= USED 0
+__asm___11_ATLoading_c_34fb2bae____REV16 <= USED 0
+__asm___11_ATLoading_c_34fb2bae____REVSH <= USED 0
+;FILE atmanuelfreq.o
+AT_ManuelFreq <= USED 0
+__asm___14_ATManuelFreq_c_324073fd____REV16 <= USED 0
+__asm___14_ATManuelFreq_c_324073fd____REVSH <= USED 0
+;FILE atmenu.o
+AT_Menu <= USED 0
+AT_set_PWM <= USED 0
+__asm___8_ATMenu_c_AT_Menu____REV16 <= USED 0
+__asm___8_ATMenu_c_AT_Menu____REVSH <= USED 0
+;FILE atradar.o
+ATRadar <= USED 0
+__asm___9_ATRadar_c_ATRadar____REV16 <= USED 0
+__asm___9_ATRadar_c_ATRadar____REVSH <= USED 0
+;FILE azpallmetal.o
+__asm___13_AZPAllMetal_c_4f6bb7ac____REV16 <= USED 0
+__asm___13_AZPAllMetal_c_4f6bb7ac____REVSH <= USED 0
+;FILE azpdisc.o
+__asm___9_AZPDisc_c_AZP_Disc____REV16 <= USED 0
+__asm___9_AZPDisc_c_AZP_Disc____REVSH <= USED 0
+;FILE azpfast.o
+__asm___9_AZPFast_c_AZP_Fast____REV16 <= USED 0
+__asm___9_AZPFast_c_AZP_Fast____REVSH <= USED 0
+;FILE azploading.o
+__asm___12_AZPLoading_c_29921f08____REV16 <= USED 0
+__asm___12_AZPLoading_c_29921f08____REVSH <= USED 0
+;FILE azpmenu.o
+__asm___9_AZPMenu_c_AZP_Menu____REV16 <= USED 0
+__asm___9_AZPMenu_c_AZP_Menu____REVSH <= USED 0
+;FILE battery.o
+__asm___9_Battery_c_2fd708e4____REV16 <= USED 0
+__asm___9_Battery_c_2fd708e4____REVSH <= USED 0
+;FILE bsp.o
+BSP_ClrLED <= USED 0
+BSP_DelayMS <= USED 0
+BSP_PWM_start <= USED 0
+BSP_PWM_stop <= USED 0
+BSP_SetLED <= USED 0
+BSP_ToggleLED <= USED 0
+Delay <= USED 0
+PullPkey <= USED 0
+__asm___5_BSP_c_5ebe5c7e____REV16 <= USED 0
+__asm___5_BSP_c_5ebe5c7e____REVSH <= USED 0
+get_kp <= USED 0
+;FILE calibrate.o
+TouchPanel_Calibrate <= USED 0
+__GUI_Text <= USED 0
+__PutChar <= USED 0
+__asm___11_Calibrate_c_ceb1cf77____REV16 <= USED 0
+__asm___11_Calibrate_c_ceb1cf77____REVSH <= USED 0
+calibrate <= USED 0
+getDisplayPoint <= USED 0
+perform_calibration <= USED 0
+setCalibrationMatrix <= USED 0
+;FILE ccsbcs.o
+;FILE communication.o
+__asm___15_Communication_c_CommInit____REV16 <= USED 0
+__asm___15_Communication_c_CommInit____REVSH <= USED 0
+;FILE corefirfilter.o
+FillFilterInp_I32 <= USED 0
+InitFilterCFs_I32 <= USED 0
+NewFirStep_OPT_I32 <= USED 0
+__asm___15_CoreFirFilter_c_fd68cc19____REV16 <= USED 0
+__asm___15_CoreFirFilter_c_fd68cc19____REVSH <= USED 0
+;FILE crc32.o
+crc32_combine <= USED 0
+get_crc_table <= USED 0
+;FILE dac.o
+DAC_test <= USED 0
+WAVE_Madulator_Set_Type <= USED 0
+WAVE_quick_start <= USED 0
+__asm___5_Dac_c_b6301351____REV16 <= USED 0
+__asm___5_Dac_c_b6301351____REVSH <= USED 0
+reset_DAC_freq <= USED 0
+;FILE debug_frmwrk.o
+__asm___14_debug_frmwrk_c_e73e2caf____REV16 <= USED 0
+__asm___14_debug_frmwrk_c_e73e2caf____REVSH <= USED 0
+;FILE diffcalculator.o
+DiffCalc_getdiff <= USED 0
+__asm___16_DiffCalculator_c_c778649a____REV16 <= USED 0
+__asm___16_DiffCalculator_c_c778649a____REVSH <= USED 0
+;FILE emc_nand.o
+EMC_NAND_AddressIncrement <= USED 0
+EMC_NAND_EraseBlock <= USED 0
+EMC_NAND_GetStatus <= USED 0
+EMC_NAND_Init <= USED 0
+EMC_NAND_ReadID <= USED 0
+EMC_NAND_ReadSmallPage <= USED 0
+EMC_NAND_ReadSpareArea <= USED 0
+EMC_NAND_ReadStatus <= USED 0
+EMC_NAND_Reset <= USED 0
+EMC_NAND_Test <= USED 0
+EMC_NAND_WriteSmallPage <= USED 0
+EMC_NAND_WriteSpareArea <= USED 0
+NandFlash_WaitForReady <= USED 0
+__asm___10_emc_nand_c_8874e0fb____REV16 <= USED 0
+__asm___10_emc_nand_c_8874e0fb____REVSH <= USED 0
+;FILE emc_nor.o
+EMC_NOR_EraseChip <= USED 0
+EMC_NOR_EraseSector <= USED 0
+EMC_NOR_GetStatus <= USED 0
+EMC_NOR_Init <= USED 0
+EMC_NOR_ReadBuffer <= USED 0
+EMC_NOR_ReadID <= USED 0
+EMC_NOR_ReadWord <= USED 0
+EMC_NOR_Reset <= USED 0
+EMC_NOR_ReturnToReadMode <= USED 0
+EMC_NOR_Test <= USED 0
+EMC_NOR_WriteBuffer <= USED 0
+EMC_NOR_WriteWord <= USED 0
+__asm___9_emc_nor_c_24fcd09c____REV16 <= USED 0
+__asm___9_emc_nor_c_24fcd09c____REVSH <= USED 0
+;FILE errorlog.o
+LogErr <= USED 0
+__asm___10_ErrorLog_c_push_err____REV16 <= USED 0
+__asm___10_ErrorLog_c_push_err____REVSH <= USED 0
+pop_err <= USED 0
+;FILE event_groups.o
+vEventGroupDelete <= USED 0
+vEventGroupSetBitsCallback <= USED 0
+xEventGroupClearBits <= USED 0
+xEventGroupClearBitsFromISR <= USED 0
+xEventGroupSetBits <= USED 0
+xEventGroupWaitBits <= USED 0
+;FILE fatfs_main.o
+__asm___12_fatfs_main_c_Timer____REV16 <= USED 0
+__asm___12_fatfs_main_c_Timer____REVSH <= USED 0
+buff_cmd_handle <= USED 0
+disk_cmd_handle <= USED 0
+file_cmd_handle <= USED 0
+main_fatfs <= USED 0
+other_cmd_handle <= USED 0
+print_commands <= USED 0
+rtc_gettime <= USED 0
+rtc_settime <= USED 0
+;FILE ff.o
+clust2sect <= USED 0
+f_chdir <= USED 0
+f_chdrive <= USED 0
+f_chmod <= USED 0
+f_getfree <= USED 0
+f_lseek <= USED 0
+f_mkdir <= USED 0
+f_opendir <= USED 0
+f_readdir <= USED 0
+f_rename <= USED 0
+f_stat <= USED 0
+f_truncate <= USED 0
+f_unlink <= USED 0
+f_utime <= USED 0
+f_write <= USED 0
+gen_numname <= USED 0
+;FILE flashdriver.o
+__asm___13_FlashDriver_c_67725b95____REV16 <= USED 0
+__asm___13_FlashDriver_c_67725b95____REVSH <= USED 0
+df_read <= USED 0
+df_read_close <= USED 0
+df_read_get_pos <= USED 0
+df_read_open <= USED 0
+df_read_seek <= USED 0
+df_write <= USED 0
+df_write_close <= USED 0
+df_write_get_pos <= USED 0
+df_write_open <= USED 0
+df_write_seek <= USED 0
+spi_flash_LoadRes <= USED 0
+spi_flash_ResloadInit <= USED 0
+;FILE fs_mci.o
+__asm___8_fs_mci_c_6d55806e____REV16 <= USED 0
+__asm___8_fs_mci_c_6d55806e____REVSH <= USED 0
+mci_wait_for_ready <= USED 0
+;FILE glcd.o
+GLCD_Clear <= USED 0
+GLCD_Copy_Cursor <= USED 0
+GLCD_Cursor_Config <= USED 0
+GLCD_Cursor_Disable <= USED 0
+GLCD_Cursor_Enable <= USED 0
+GLCD_DrawLine <= USED 0
+GLCD_Move_Cursor <= USED 0
+GLCD_SetPixel_16bpp <= USED 0
+GUI_Text <= USED 0
+PutChar <= USED 0
+__asm___6_GLCD_c_3ea34610____REV16 <= USED 0
+__asm___6_GLCD_c_3ea34610____REVSH <= USED 0
+;FILE gui_x.o
+GUI_X_Delay <= USED 0
+GUI_X_ErrorOut <= USED 0
+GUI_X_Log <= USED 0
+GUI_X_Warn <= USED 0
+__asm___7_GUI_X_c_f0e17fb0____REV16 <= USED 0
+__asm___7_GUI_X_c_f0e17fb0____REVSH <= USED 0
+;FILE guiconf.o
+;FILE guiconsole.o
+Send_GUI_Console <= USED 0
+__asm___12_GuiConsole_c_81db5fb5____REV16 <= USED 0
+__asm___12_GuiConsole_c_81db5fb5____REVSH <= USED 0
+;FILE guidemo_start.o
+__asm___15_GUIDEMO_Start_c_be8af179____REV16 <= USED 0
+__asm___15_GUIDEMO_Start_c_be8af179____REVSH <= USED 0
+;FILE heap_2.o
+vPortInitialiseBlocks <= USED 0
+xPortGetFreeHeapSize <= USED 0
+;FILE inffast.o
+;FILE inflate.o
+inflateCopy <= USED 0
+inflateGetHeader <= USED 0
+inflatePrime <= USED 0
+inflateSetDictionary <= USED 0
+inflateSync <= USED 0
+inflateSyncPoint <= USED 0
+;FILE inftrees.o
+;FILE intro2.o
+Intro2 <= USED 0
+Intro2_LoadPics2RAM <= USED 0
+Intro2_StorePics2Nand <= USED 0
+Intro2_decode2FB <= USED 0
+__asm___8_Intro2_c_infop____REV16 <= USED 0
+__asm___8_Intro2_c_infop____REVSH <= USED 0
+raw_intro <= USED 0
+;FILE lcdconf_multiplebuffer.o
+__asm___24_LCDConf_multiplebuffer_c_045202fe____REV16 <= USED 0
+__asm___24_LCDConf_multiplebuffer_c_045202fe____REVSH <= USED 0
+;FILE led.o
+LedInit <= USED 0
+__asm___5_led_c_LedInit____REV16 <= USED 0
+__asm___5_led_c_LedInit____REVSH <= USED 0
+set_led <= USED 0
+;FILE list.o
+;FILE lpc177x_8x_adc.o
+ADC_DeInit <= USED 0
+ADC_EdgeStartConfig <= USED 0
+ADC_GetData <= USED 0
+ADC_GlobalGetData <= USED 0
+ADC_GlobalGetStatus <= USED 0
+ADC_PowerdownCmd <= USED 0
+ADC_StartCmd <= USED 0
+__asm___16_lpc177x_8x_adc_c_ADC_Init____REV16 <= USED 0
+__asm___16_lpc177x_8x_adc_c_ADC_Init____REVSH <= USED 0
+;FILE lpc177x_8x_clkpwr.o
+CLKPWR_DeepPowerDown <= USED 0
+CLKPWR_DeepSleep <= USED 0
+CLKPWR_PowerDown <= USED 0
+CLKPWR_SetCLKDiv <= USED 0
+__asm___19_lpc177x_8x_clkpwr_c_e699a9d5____REV16 <= USED 0
+__asm___19_lpc177x_8x_clkpwr_c_e699a9d5____REVSH <= USED 0
+;FILE lpc177x_8x_dac.o
+DAC_IsIntRequested <= USED 0
+DAC_UpdateValue <= USED 0
+__asm___16_lpc177x_8x_dac_c_DAC_Init____REV16 <= USED 0
+__asm___16_lpc177x_8x_dac_c_DAC_Init____REVSH <= USED 0
+;FILE lpc177x_8x_emc.o
+DynMem_Init <= USED 0
+EMC_ConfigEndianMode <= USED 0
+EMC_DynCtrlClockControl <= USED 0
+EMC_DynCtrlClockEnable <= USED 0
+EMC_DynCtrlMMC <= USED 0
+EMC_DynCtrlPowerDownMode <= USED 0
+EMC_DynCtrlSDRAMInit <= USED 0
+EMC_DynCtrlSelfRefresh <= USED 0
+EMC_DynMemCAS <= USED 0
+EMC_DynMemConfigAM <= USED 0
+EMC_DynMemConfigB <= USED 0
+EMC_DynMemConfigMD <= USED 0
+EMC_DynMemConfigP <= USED 0
+EMC_DynMemRAS <= USED 0
+EMC_Init <= USED 0
+EMC_NS2CLK <= USED 0
+EMC_PwrOn <= USED 0
+EMC_SDRAM_REFRESH <= USED 0
+EMC_SetDynMemoryParameter <= USED 0
+EMC_SetStaMemoryParameter <= USED 0
+EMC_StaMemConfigB <= USED 0
+EMC_StaMemConfigEW <= USED 0
+EMC_StaMemConfigMW <= USED 0
+EMC_StaMemConfigPB <= USED 0
+EMC_StaMemConfigPC <= USED 0
+EMC_StaMemConfigPM <= USED 0
+EMC_StaMemConfigpP <= USED 0
+EMC_StaticExtendedWait <= USED 0
+StaticMem_Init <= USED 0
+__asm___16_lpc177x_8x_emc_c_5ad6f9e7____REV16 <= USED 0
+__asm___16_lpc177x_8x_emc_c_5ad6f9e7____REVSH <= USED 0
+;FILE lpc177x_8x_exti.o
+EXTI_ClearEXTIFlag <= USED 0
+EXTI_Config <= USED 0
+EXTI_DeInit <= USED 0
+EXTI_Init <= USED 0
+EXTI_SetMode <= USED 0
+EXTI_SetPolarity <= USED 0
+__asm___17_lpc177x_8x_exti_c_f643e0d9____REV16 <= USED 0
+__asm___17_lpc177x_8x_exti_c_f643e0d9____REVSH <= USED 0
+;FILE lpc177x_8x_gpdma.o
+__asm___18_lpc177x_8x_gpdma_c_15acc267____REV16 <= USED 0
+__asm___18_lpc177x_8x_gpdma_c_15acc267____REVSH <= USED 0
+;FILE lpc177x_8x_gpio.o
+FIO_ByteClearValue <= USED 0
+FIO_ByteReadValue <= USED 0
+FIO_ByteSetDir <= USED 0
+FIO_ByteSetMask <= USED 0
+FIO_ByteSetValue <= USED 0
+FIO_ClearInt <= USED 0
+FIO_ClearValue <= USED 0
+FIO_GetIntStatus <= USED 0
+FIO_HalfWordClearValue <= USED 0
+FIO_HalfWordReadValue <= USED 0
+FIO_HalfWordSetDir <= USED 0
+FIO_HalfWordSetMask <= USED 0
+FIO_HalfWordSetValue <= USED 0
+FIO_IntCmd <= USED 0
+FIO_ReadValue <= USED 0
+FIO_SetDir <= USED 0
+FIO_SetMask <= USED 0
+FIO_SetValue <= USED 0
+GPIO_ClearInt <= USED 0
+GPIO_Deinit <= USED 0
+GPIO_GetIntStatus <= USED 0
+GPIO_IntCmd <= USED 0
+__asm___17_lpc177x_8x_gpio_c_db00cdf9____REV16 <= USED 0
+__asm___17_lpc177x_8x_gpio_c_db00cdf9____REVSH <= USED 0
+;FILE lpc177x_8x_i2c.o
+I2C_Cmd <= USED 0
+I2C_DeInit <= USED 0
+I2C_Init <= USED 0
+I2C_IntCmd <= USED 0
+I2C_MasterHandler <= USED 0
+I2C_MasterHanleStates <= USED 0
+I2C_MasterTransferComplete <= USED 0
+I2C_MasterTransferData <= USED 0
+I2C_MonitorGetDatabuffer <= USED 0
+I2C_MonitorHandler <= USED 0
+I2C_MonitorModeCmd <= USED 0
+I2C_MonitorModeConfig <= USED 0
+I2C_SetOwnSlaveAddr <= USED 0
+I2C_SlaveHandler <= USED 0
+I2C_SlaveHanleStates <= USED 0
+I2C_SlaveTransferComplete <= USED 0
+I2C_SlaveTransferData <= USED 0
+__asm___16_lpc177x_8x_i2c_c_I2C_Init____REV16 <= USED 0
+__asm___16_lpc177x_8x_i2c_c_I2C_Init____REVSH <= USED 0
+;FILE lpc177x_8x_i2s.o
+I2S_Config <= USED 0
+I2S_DMACmd <= USED 0
+I2S_DMAConfig <= USED 0
+I2S_DeInit <= USED 0
+I2S_FreqConfig <= USED 0
+I2S_GetIRQDepth <= USED 0
+I2S_GetIRQStatus <= USED 0
+I2S_GetLevel <= USED 0
+I2S_IRQCmd <= USED 0
+I2S_IRQConfig <= USED 0
+I2S_Init <= USED 0
+I2S_ModeConfig <= USED 0
+I2S_Mute <= USED 0
+I2S_Pause <= USED 0
+I2S_Receive <= USED 0
+I2S_Send <= USED 0
+I2S_SetBitRate <= USED 0
+I2S_Start <= USED 0
+I2S_Stop <= USED 0
+__asm___16_lpc177x_8x_i2s_c_I2S_Init____REV16 <= USED 0
+__asm___16_lpc177x_8x_i2s_c_I2S_Init____REVSH <= USED 0
+;FILE lpc177x_8x_mci.o
+MCI_PowerOff <= USED 0
+MCI_ReadFifo <= USED 0
+MCI_WriteFifo <= USED 0
+__asm___16_lpc177x_8x_mci_c_21ab3756____REV16 <= USED 0
+__asm___16_lpc177x_8x_mci_c_21ab3756____REVSH <= USED 0
+;FILE lpc177x_8x_pinsel.o
+PINSEL_SetFilter <= USED 0
+PINSEL_SetHysMode <= USED 0
+PINSEL_SetI2CFilter <= USED 0
+PINSEL_SetI2CMode <= USED 0
+PINSEL_SetInvertInput <= USED 0
+PINSEL_SetOpenDrainMode <= USED 0
+PINSEL_SetPinMode <= USED 0
+PINSEL_SetSlewMode <= USED 0
+__asm___19_lpc177x_8x_pinsel_c_dce1ad07____REV16 <= USED 0
+__asm___19_lpc177x_8x_pinsel_c_dce1ad07____REVSH <= USED 0
+;FILE lpc177x_8x_pwm.o
+PWM_ClearIntPending <= USED 0
+PWM_ConfigCapture <= USED 0
+PWM_ConfigStructInit <= USED 0
+PWM_DeInit <= USED 0
+PWM_GetCaptureValue <= USED 0
+PWM_GetIntStatus <= USED 0
+__asm___16_lpc177x_8x_pwm_c_11007e74____REV16 <= USED 0
+__asm___16_lpc177x_8x_pwm_c_11007e74____REVSH <= USED 0
+;FILE lpc177x_8x_rtc.o
+RTC_AlarmIntConfig <= USED 0
+RTC_CalibConfig <= USED 0
+RTC_CalibCounterCmd <= USED 0
+RTC_ClearIntPending <= USED 0
+RTC_CntIncrIntConfig <= USED 0
+RTC_DeInit <= USED 0
+RTC_ER_ClearStatus <= USED 0
+RTC_ER_Cmd <= USED 0
+RTC_ER_GPCleared <= USED 0
+RTC_ER_GetEventCount <= USED 0
+RTC_ER_GetFirstTimeStamp <= USED 0
+RTC_ER_GetLastTimeStamp <= USED 0
+RTC_ER_GetStatus <= USED 0
+RTC_ER_Init <= USED 0
+RTC_ER_InitConfigStruct <= USED 0
+RTC_ER_WakupReqPending <= USED 0
+RTC_GetAlarmTime <= USED 0
+RTC_GetFullAlarmTime <= USED 0
+RTC_GetIntPending <= USED 0
+RTC_GetTime <= USED 0
+RTC_ReadGPREG <= USED 0
+RTC_ResetClockTickCounter <= USED 0
+RTC_SetAlarmTime <= USED 0
+RTC_SetFullAlarmTime <= USED 0
+RTC_SetTime <= USED 0
+RTC_WriteGPREG <= USED 0
+__asm___16_lpc177x_8x_rtc_c_RTC_Init____REV16 <= USED 0
+__asm___16_lpc177x_8x_rtc_c_RTC_Init____REVSH <= USED 0
+;FILE lpc177x_8x_ssp.o
+SSP_ClearIntPending <= USED 0
+SSP_Cmd <= USED 0
+SSP_ConfigStructInit <= USED 0
+SSP_DMACmd <= USED 0
+SSP_DeInit <= USED 0
+SSP_GetDataSize <= USED 0
+SSP_GetIntStatus <= USED 0
+SSP_GetRawIntStatus <= USED 0
+SSP_GetRawIntStatusReg <= USED 0
+SSP_GetStatus <= USED 0
+SSP_Init <= USED 0
+SSP_IntConfig <= USED 0
+SSP_LoopBackCmd <= USED 0
+SSP_ReadWrite <= USED 0
+SSP_ReceiveData <= USED 0
+SSP_SendData <= USED 0
+SSP_SlaveOutputCmd <= USED 0
+__asm___16_lpc177x_8x_ssp_c_SSP_Init____REV16 <= USED 0
+__asm___16_lpc177x_8x_ssp_c_SSP_Init____REVSH <= USED 0
+;FILE lpc177x_8x_systick.o
+SYSTICK_ClearCounterFlag <= USED 0
+SYSTICK_Cmd <= USED 0
+SYSTICK_ExternalInit <= USED 0
+SYSTICK_GetCurrentValue <= USED 0
+SYSTICK_IntCmd <= USED 0
+SYSTICK_InternalInit <= USED 0
+__asm___20_lpc177x_8x_systick_c_11aed849____REV16 <= USED 0
+__asm___20_lpc177x_8x_systick_c_11aed849____REVSH <= USED 0
+;FILE lpc177x_8x_timer.o
+TIM_ClearIntCapturePending <= USED 0
+TIM_ConfigCapture <= USED 0
+TIM_ConfigStructInit <= USED 0
+TIM_DeInit <= USED 0
+TIM_GetCaptureValue <= USED 0
+TIM_GetIntCaptureStatus <= USED 0
+TIM_Waitms <= USED 0
+TIM_Waitus <= USED 0
+__asm___18_lpc177x_8x_timer_c_6c20b5c9____REV16 <= USED 0
+__asm___18_lpc177x_8x_timer_c_6c20b5c9____REVSH <= USED 0
+;FILE lpc177x_8x_uart.o
+UART_ABClearIntPending <= USED 0
+UART_ABCmd <= USED 0
+UART_DeInit <= USED 0
+UART_ForceBreak <= USED 0
+UART_FullModemConfigMode <= USED 0
+UART_FullModemForcePinState <= USED 0
+UART_FullModemGetStatus <= USED 0
+UART_IrDACmd <= USED 0
+UART_IrDAInvtInputCmd <= USED 0
+UART_IrDAPulseDivConfig <= USED 0
+UART_RS485Config <= USED 0
+UART_RS485ReceiverCmd <= USED 0
+UART_RS485Send <= USED 0
+UART_RS485SendData <= USED 0
+UART_RS485SendSlvAddr <= USED 0
+__asm___17_lpc177x_8x_uart_c_e5efacd7____REV16 <= USED 0
+__asm___17_lpc177x_8x_uart_c_e5efacd7____REVSH <= USED 0
+;FILE lpc177x_8x_usbhost.o
+Host_CtrlInit <= USED 0
+Host_CtrlRecv <= USED 0
+Host_CtrlSend <= USED 0
+Host_DelayMS <= USED 0
+Host_DelayUS <= USED 0
+Host_EDInit <= USED 0
+Host_EnumDev <= USED 0
+Host_FillSetup <= USED 0
+Host_GetDeviceType <= USED 0
+Host_HCCAInit <= USED 0
+Host_Init <= USED 0
+Host_ParseConfiguration <= USED 0
+Host_ProcessTD <= USED 0
+Host_TDInit <= USED 0
+Host_WDHWait <= USED 0
+ReadBE16U <= USED 0
+ReadBE32U <= USED 0
+ReadLE16U <= USED 0
+ReadLE32U <= USED 0
+WriteBE16U <= USED 0
+WriteBE32U <= USED 0
+WriteLE16U <= USED 0
+WriteLE32U <= USED 0
+__asm___20_lpc177x_8x_usbhost_c_fb36e6c1____REV16 <= USED 0
+__asm___20_lpc177x_8x_usbhost_c_fb36e6c1____REVSH <= USED 0
+;FILE monitor.o
+__asm___9_monitor_c_7f97a695____REV16 <= USED 0
+__asm___9_monitor_c_7f97a695____REVSH <= USED 0
+get_line <= USED 0
+put_dump <= USED 0
+xatoi <= USED 0
+xmemset <= USED 0
+xprintf <= USED 0
+xputc <= USED 0
+xputs <= USED 0
+xsprintf <= USED 0
+xstrchr <= USED 0
+xstrcpy <= USED 0
+xstrlen <= USED 0
+;FILE mycheckbox.o
+CB_delete <= USED 0
+CB_init <= USED 0
+;FILE png.o
+png_access_version_number <= USED 0
+png_check_sig <= USED 0
+png_data_freer <= USED 0
+png_destroy_info_struct <= USED 0
+png_get_copyright <= USED 0
+png_get_header_ver <= USED 0
+png_get_header_version <= USED 0
+png_get_io_ptr <= USED 0
+png_get_libpng_ver <= USED 0
+png_info_init <= USED 0
+png_info_init_3 <= USED 0
+png_mmx_support <= USED 0
+png_reset_zstream <= USED 0
+;FILE pngerror.o
+png_get_error_ptr <= USED 0
+png_set_strip_error_numbers <= USED 0
+;FILE pngget.o
+png_get_PLTE <= USED 0
+png_get_asm_flagmask <= USED 0
+png_get_asm_flags <= USED 0
+png_get_bit_depth <= USED 0
+png_get_cHRM <= USED 0
+png_get_cHRM_fixed <= USED 0
+png_get_color_type <= USED 0
+png_get_compression_buffer_size <= USED 0
+png_get_compression_type <= USED 0
+png_get_filter_type <= USED 0
+png_get_gAMA_fixed <= USED 0
+png_get_hIST <= USED 0
+png_get_iCCP <= USED 0
+png_get_image_height <= USED 0
+png_get_image_width <= USED 0
+png_get_interlace_type <= USED 0
+png_get_mmx_bitdepth_threshold <= USED 0
+png_get_mmx_flagmask <= USED 0
+png_get_mmx_rowbytes_threshold <= USED 0
+png_get_oFFs <= USED 0
+png_get_pCAL <= USED 0
+png_get_pHYs <= USED 0
+png_get_pixel_aspect_ratio <= USED 0
+png_get_pixels_per_meter <= USED 0
+png_get_rgb_to_gray_status <= USED 0
+png_get_rows <= USED 0
+png_get_sBIT <= USED 0
+png_get_sCAL <= USED 0
+png_get_sPLT <= USED 0
+png_get_sRGB <= USED 0
+png_get_signature <= USED 0
+png_get_tIME <= USED 0
+png_get_tRNS <= USED 0
+png_get_text <= USED 0
+png_get_unknown_chunks <= USED 0
+png_get_user_chunk_ptr <= USED 0
+png_get_user_height_max <= USED 0
+png_get_user_width_max <= USED 0
+png_get_x_offset_microns <= USED 0
+png_get_x_offset_pixels <= USED 0
+png_get_x_pixels_per_meter <= USED 0
+png_get_y_offset_microns <= USED 0
+png_get_y_offset_pixels <= USED 0
+png_get_y_pixels_per_meter <= USED 0
+;FILE pngmem.o
+png_create_struct <= USED 0
+png_destroy_struct <= USED 0
+png_free_default <= USED 0
+png_get_mem_ptr <= USED 0
+png_malloc_default <= USED 0
+;FILE pngread.o
+png_create_read_struct <= USED 0
+png_read_init <= USED 0
+png_read_init_2 <= USED 0
+png_read_init_3 <= USED 0
+png_read_png <= USED 0
+png_read_rows <= USED 0
+png_set_read_status_fn <= USED 0
+png_start_read_image <= USED 0
+;FILE pngrio.o
+;FILE pngrtran.o
+png_build_grayscale_palette <= USED 0
+png_do_chop <= USED 0
+png_set_crc_action <= USED 0
+png_set_dither <= USED 0
+png_set_expand_gray_1_2_4_to_8 <= USED 0
+png_set_gray_1_2_4_to_8 <= USED 0
+png_set_palette_to_rgb <= USED 0
+png_set_read_user_transform_fn <= USED 0
+png_set_rgb_to_gray <= USED 0
+png_set_rgb_to_gray_fixed <= USED 0
+png_set_strip_alpha <= USED 0
+png_set_tRNS_to_alpha <= USED 0
+;FILE pngrutil.o
+png_check_chunk_name <= USED 0
+png_crc_error <= USED 0
+png_get_int_32 <= USED 0
+png_get_uint_16 <= USED 0
+png_get_uint_32 <= USED 0
+;FILE pngset.o
+png_permit_empty_plte <= USED 0
+png_permit_mng_features <= USED 0
+png_set_asm_flags <= USED 0
+png_set_compression_buffer_size <= USED 0
+png_set_invalid <= USED 0
+png_set_keep_unknown_chunks <= USED 0
+png_set_mmx_thresholds <= USED 0
+png_set_read_user_chunk_fn <= USED 0
+png_set_rows <= USED 0
+png_set_sRGB <= USED 0
+png_set_text <= USED 0
+png_set_unknown_chunk_location <= USED 0
+png_set_user_limits <= USED 0
+;FILE pngtrans.o
+png_get_user_transform_ptr <= USED 0
+png_set_add_alpha <= USED 0
+png_set_bgr <= USED 0
+png_set_filler <= USED 0
+png_set_invert_alpha <= USED 0
+png_set_invert_mono <= USED 0
+png_set_packing <= USED 0
+png_set_packswap <= USED 0
+png_set_shift <= USED 0
+png_set_swap <= USED 0
+png_set_swap_alpha <= USED 0
+png_set_user_transform_info <= USED 0
+;FILE popup.o
+ShowMessages <= USED 0
+ShowPopup <= USED 0
+__asm___7_Popup_c_295f6ba6____REV16 <= USED 0
+__asm___7_Popup_c_295f6ba6____REVSH <= USED 0
+;FILE port.o
+vPortEndScheduler <= USED 0
+vPortGetIPSR <= USED 0
+vPortSetupTimerInterrupt <= USED 0
+;FILE queue.o
+uxQueueMessagesWaitingFromISR <= USED 0
+uxQueueSpacesAvailable <= USED 0
+vQueueDelete <= USED 0
+xQueueGenericReset <= USED 0
+xQueueIsQueueEmptyFromISR <= USED 0
+xQueueIsQueueFullFromISR <= USED 0
+xQueuePeekFromISR <= USED 0
+xQueueReceiveFromISR <= USED 0
+;FILE runtimeloader.o
+DeInitGroupRes <= USED 0
+__asm___15_RuntimeLoader_c_9b58bab8____REV16 <= USED 0
+__asm___15_RuntimeLoader_c_9b58bab8____REVSH <= USED 0
+;FILE sdram_k4s561632c_32m_16bit.o
+__asm___28_SDRAM_K4S561632C_32M_16BIT_c_986ac3c0____REV16 <= USED 0
+__asm___28_SDRAM_K4S561632C_32M_16BIT_c_986ac3c0____REVSH <= USED 0
+;FILE serial.o
+__asm___8_Serial_c_newCH____REV16 <= USED 0
+__asm___8_Serial_c_newCH____REVSH <= USED 0
+;FILE slld.o
+slld_ABRDCmd <= USED 0
+slld_ABWRCmd <= USED 0
+slld_ABWROp <= USED 0
+slld_BE1Cmd <= USED 0
+slld_BE1Op <= USED 0
+slld_BECmd <= USED 0
+slld_BEOp <= USED 0
+slld_BRRDCmd <= USED 0
+slld_BRWRCmd <= USED 0
+slld_BlockProtectOp <= USED 0
+slld_BufferedProgramOp <= USED 0
+slld_BufferedProgram_4BOp <= USED 0
+slld_ClearStatusRegisterCmd <= USED 0
+slld_DDR_DualIOHPReadCmd <= USED 0
+slld_DDR_DualIOHPRead_4BCmd <= USED 0
+slld_DDR_Fast_4BReadCmd <= USED 0
+slld_DDR_Fast_ReadCmd <= USED 0
+slld_DDR_QuadIOHPReadCmd <= USED 0
+slld_DDR_QuadIOHPRead_4BCmd <= USED 0
+slld_DLPRDCmd <= USED 0
+slld_DPCmd <= USED 0
+slld_DYB_PGCmd <= USED 0
+slld_DYB_PGOp <= USED 0
+slld_DYB_RDCmd <= USED 0
+slld_DualIOHPReadCmd <= USED 0
+slld_DualIOHPRead_4BCmd <= USED 0
+slld_DualIOReadCmd <= USED 0
+slld_DualIORead_4BCmd <= USED 0
+slld_ECCRDCmd <= USED 0
+slld_ERS_RESCmd <= USED 0
+slld_ERS_SSPCmd <= USED 0
+slld_Fast_ReadCmd <= USED 0
+slld_Fast_Read_4BCmd <= USED 0
+slld_OTPPCmd <= USED 0
+slld_OTPPOp <= USED 0
+slld_OTPRCmd <= USED 0
+slld_P4ECmd <= USED 0
+slld_P4EOp <= USED 0
+slld_P4E_4BCmd <= USED 0
+slld_P4E_4BOp <= USED 0
+slld_PASSPCmd <= USED 0
+slld_PASSRDCmd <= USED 0
+slld_PASSUCmd <= USED 0
+slld_PGRSCmd <= USED 0
+slld_PGSPCmd <= USED 0
+slld_PLBRDCmd <= USED 0
+slld_PLBWRCmd <= USED 0
+slld_PNVDLRCmd <= USED 0
+slld_PPB_ERSCmd <= USED 0
+slld_PPB_PGCmd <= USED 0
+slld_PPB_PGOp <= USED 0
+slld_PPB_RDCmd <= USED 0
+slld_PPCmd <= USED 0
+slld_PPOp <= USED 0
+slld_PP_4BCmd <= USED 0
+slld_PP_4BOp <= USED 0
+slld_Poll <= USED 0
+slld_QPP2Cmd <= USED 0
+slld_QPPCmd <= USED 0
+slld_QPPOp <= USED 0
+slld_QPP_4BCmd <= USED 0
+slld_QPP_4BOp <= USED 0
+slld_QuadIOHPReadCmd <= USED 0
+slld_QuadIOHPRead_4BCmd <= USED 0
+slld_QuadIOReadCmd <= USED 0
+slld_QuadIORead_4BCmd <= USED 0
+slld_QuadWriteOp <= USED 0
+slld_RASPCmd <= USED 0
+slld_RCRCmd <= USED 0
+slld_RCRSCmd <= USED 0
+slld_RCSPCmd <= USED 0
+slld_RCVRCmd <= USED 0
+slld_RDIDCmd <= USED 0
+slld_RDSR2Cmd <= USED 0
+slld_RDSRCmd <= USED 0
+slld_RESCmd <= USED 0
+slld_RPWDCmd <= USED 0
+slld_ReadCmd <= USED 0
+slld_ReadModeResetCmd <= USED 0
+slld_ReadOp <= USED 0
+slld_Read_4BCmd <= USED 0
+slld_Read_IDCmd <= USED 0
+slld_Read_IdentificationCmd <= USED 0
+slld_SECmd <= USED 0
+slld_SEOp <= USED 0
+slld_SE_4BCmd <= USED 0
+slld_SE_4BOp <= USED 0
+slld_SPCmd <= USED 0
+slld_SRSTCmd <= USED 0
+slld_StatusGet <= USED 0
+slld_VersionCmd <= USED 0
+slld_WASPCmd <= USED 0
+slld_WASPOp <= USED 0
+slld_WPWDCmd <= USED 0
+slld_WPWDOp <= USED 0
+slld_WRDICmd <= USED 0
+slld_WRENCmd <= USED 0
+slld_WRRCmd <= USED 0
+slld_WRROp <= USED 0
+slld_WRSRCmd <= USED 0
+slld_WRSROp <= USED 0
+slld_WVDLRCmd <= USED 0
+slld_WriteOp <= USED 0
+;FILE slld_hal_example.o
+FLASH_READ <= USED 0
+FLASH_WRITE <= USED 0
+__asm___18_slld_hal_example_c_694c7d0f____REV16 <= USED 0
+__asm___18_slld_hal_example_c_694c7d0f____REVSH <= USED 0
+;FILE slld_util.o
+get_nameByVal <= USED 0
+slld_EraseFlash <= USED 0
+slld_GetGeoInfo <= USED 0
+slld_IfSecErased <= USED 0
+slld_ProbeDevice <= USED 0
+slld_ProgramFlash <= USED 0
+slld_QuadModeCtrl <= USED 0
+slld_ReadFlash <= USED 0
+slld_SetLatencyCode <= USED 0
+;FILE spiflash.o
+S25FL_Erase <= USED 0
+S25FL_ReadData <= USED 0
+S25FL_ReadID <= USED 0
+S25FL_ReadSector <= USED 0
+S25FL_Reset <= USED 0
+S25FL_WriteData <= USED 0
+SPI_Flash_Test <= USED 0
+SSP_HW_Init <= USED 0
+SSTF016B_Erase <= USED 0
+SSTF016B_ReadData <= USED 0
+SSTF016B_ReadID <= USED 0
+SSTF016B_ReadSector <= USED 0
+SSTF016B_Reset <= USED 0
+SSTF016B_WriteData <= USED 0
+__asm___10_SpiFlash_c_bd825883____REV16 <= USED 0
+__asm___10_SpiFlash_c_bd825883____REVSH <= USED 0
+;FILE startup_lpc177x_8x.o
+;FILE statusbar.o
+OpenBatteryPopup <= USED 0
+__asm___11_StatusBar_c_9823e8f7____REV16 <= USED 0
+__asm___11_StatusBar_c_9823e8f7____REVSH <= USED 0
+;FILE system_lpc177x_8x.o
+__asm___19_system_LPC177x_8x_c_5d646a67____REV16 <= USED 0
+__asm___19_system_LPC177x_8x_c_5d646a67____REVSH <= USED 0
+;FILE tasks.o
+uxTaskGetNumberOfTasks <= USED 0
+uxTaskPriorityGet <= USED 0
+vTaskDelayUntil <= USED 0
+vTaskEndScheduler <= USED 0
+vTaskPrioritySet <= USED 0
+vTaskResume <= USED 0
+vTaskSuspend <= USED 0
+xTaskGetTickCountFromISR <= USED 0
+xTaskResumeFromISR <= USED 0
+;FILE timers.o
+;FILE touchpanel.o
+DrawCross <= USED 0
+Read_Ads7846 <= USED 0
+Read_X <= USED 0
+Read_Y <= USED 0
+TP_DrawPoint <= USED 0
+TP_GetAdXY <= USED 0
+TP_Init <= USED 0
+__asm___12_TouchPanel_c_eb1f75dc____REV16 <= USED 0
+__asm___12_TouchPanel_c_eb1f75dc____REVSH <= USED 0
+;FILE tstask.o
+TSTaskInit <= USED 0
+__asm___8_TSTask_c_new_ts____REV16 <= USED 0
+__asm___8_TSTask_c_new_ts____REVSH <= USED 0
+ts_calibration_demo <= USED 0
+;FILE uartint.o
+__asm___9_UartInt_c_de844c24____REV16 <= USED 0
+__asm___9_UartInt_c_de844c24____REVSH <= USED 0
+;FILE usbhost_fat.o
+DIR_Open <= USED 0
+DIR_ReadEntry <= USED 0
+FAT_ChkEntType <= USED 0
+FAT_ClusRead <= USED 0
+FAT_ClusWrite <= USED 0
+FAT_CreateEntry <= USED 0
+FAT_FindEntry <= USED 0
+FAT_FindEntryInSector <= USED 0
+FAT_FindFreeEntry <= USED 0
+FAT_GetBasicName <= USED 0
+FAT_GetEndClus <= USED 0
+FAT_GetFATType <= USED 0
+FAT_GetFilePath <= USED 0
+FAT_GetFirstSectorOfCluster <= USED 0
+FAT_GetFreeClus <= USED 0
+FAT_GetLfn <= USED 0
+FAT_GetNextClus <= USED 0
+FAT_GetSFN <= USED 0
+FAT_GetSfnExt <= USED 0
+FAT_GetSfnName <= USED 0
+FAT_GetStringLen <= USED 0
+FAT_Init <= USED 0
+FAT_LFN_ChkSum <= USED 0
+FAT_PutLFN <= USED 0
+FAT_PutSFN <= USED 0
+FAT_ReadFAT <= USED 0
+FAT_StrCaseCmp <= USED 0
+FAT_StrCopy <= USED 0
+FAT_UpdateEntry <= USED 0
+FAT_UpdateFAT <= USED 0
+FAT_UpdateFileSize <= USED 0
+FILE_Close <= USED 0
+FILE_Open <= USED 0
+FILE_Read <= USED 0
+FILE_Write <= USED 0
+__asm___13_usbhost_fat_c_FAT_Init____REV16 <= USED 0
+__asm___13_usbhost_fat_c_FAT_Init____REVSH <= USED 0
+;FILE usbhost_main.o
+Main_Copy <= USED 0
+Main_ReadDir <= USED 0
+USBHost_main <= USED 0
+__asm___14_usbhost_main_c_menu____REV16 <= USED 0
+__asm___14_usbhost_main_c_menu____REVSH <= USED 0
+print_menu <= USED 0
+;FILE usbhost_ms.o
+Fill_MSCommand <= USED 0
+MS_BulkRecv <= USED 0
+MS_BulkSend <= USED 0
+MS_GetMaxLUN <= USED 0
+MS_GetSenseInfo <= USED 0
+MS_Init <= USED 0
+MS_Inquire <= USED 0
+MS_ReadCapacity <= USED 0
+MS_TestUnitReady <= USED 0
+__asm___12_usbhost_ms_c_MS_Init____REV16 <= USED 0
+__asm___12_usbhost_ms_c_MS_Init____REVSH <= USED 0
+;FILE usbhost_uart.o
+UART_PrintChar <= USED 0
+UART_PrintStr <= USED 0
+UART_Printf <= USED 0
+__asm___14_usbhost_uart_c_f31df2dc____REV16 <= USED 0
+__asm___14_usbhost_uart_c_f31df2dc____REVSH <= USED 0
+;FILE wav.o
+DisplayWavInfo <= USED 0
+WAV_IsValid <= USED 0
+;FILE zutil.o
+zError <= USED 0
+zlibCompileFlags <= USED 0
+zlibVersion <= USED 0

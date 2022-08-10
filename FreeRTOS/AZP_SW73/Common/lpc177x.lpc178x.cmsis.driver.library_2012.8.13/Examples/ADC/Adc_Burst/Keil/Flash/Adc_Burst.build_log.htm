@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.12.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: srk erd, ns eng, LIC=6XJII-TL31B-SEHH0-BEHRV-XKRD9-4KBG8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.12.0.0
+Middleware:      RL-ARM Real-Time Library Version V4.13
+Toolchain Path:  D:\KeilARM5.12\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DARMP1.DLL V1.25.0.0
+Target DLL:      UL2CM3.DLL V1.153.0.0
+Dialog DLL:      TARMP1.DLL V1.24.0.0
+ 
+<h2>Project:</h2>
+F:\UMD\SW_DESIGN\Firmware\Common\lpc177x.lpc178x.cmsis.driver.library_2012.8.13\Examples\ADC\Adc_Burst\Keil\Adc_Burst.uvproj
+Project File Date:  07/31/2012
+
+<h2>Output:</h2>
+Build target 'FLASH'
+compiling Adc_Burst.c...
+..\..\Adc_Burst\AppCommon.h(139): warning:  #1215-D: #warning directive: "UMD DETECTOR BOARD is USED as HW"
+        #warning "UMD DETECTOR BOARD is USED as HW"
+..\Adc_Burst.c(90): warning:  #188-D: enumerated type mixed with another type
+  static BOOL_8 toggle=TRUE;
+..\Adc_Burst.c(117): warning:  #188-D: enumerated type mixed with another type
+        toggle = ((toggle == TRUE) ? FALSE:TRUE);
+..\Adc_Burst.c(122): warning:  #188-D: enumerated type mixed with another type
+                ADC_ChannelCmd(LPC_ADC,_ADC_CHANNEL_n,ENABLE);
+..\Adc_Burst.c(129): warning:  #188-D: enumerated type mixed with another type
+                ADC_ChannelCmd(LPC_ADC,_ADC_CHANNEL_n,DISABLE);
+..\Adc_Burst.c(235): warning:  #188-D: enumerated type mixed with another type
+        ADC_ChannelCmd(LPC_ADC,BRD_ADC_PREPARED_CHANNEL,ENABLE);
+..\Adc_Burst.c(238): warning:  #188-D: enumerated type mixed with another type
+      ADC_ChannelCmd(LPC_ADC,_ADC_CHANNEL_n,ENABLE);
+..\Adc_Burst.c(320): warning:  #188-D: enumerated type mixed with another type
+        ADC_BurstCmd(LPC_ADC,ENABLE);
+..\Adc_Burst.c: 8 warnings, 0 errors
+linking...
+Program Size: Code=10320 RO-data=352 RW-data=588 ZI-data=5124  
+FromELF: creating hex file...
+".\Flash\Adc_Burst.axf" - 0 Error(s), 8 Warning(s).
+</pre>
+</body>
+</html>
+E) ? FALSE:TRUE);
+..\Adc_Burst.c(122): warning:  #188-D: enumerated type mixed with another type
+                ADC_ChannelCmd(LPC_ADC,_ADC_CHANNEL_n,ENABLE);
+..\Adc_Burst.c(129): warning:  #188-D: enumerated type mixed with another type
+                ADC_ChannelCmd(LPC_ADC,_ADC_CHANNEL_n,DISABLE);
+..\Adc_Burst.c(235): warning:  #188-D: enumerated type mixed with another type
+        ADC_ChannelCmd(LPC_ADC,BRD_ADC_PREPARED_CHANNEL,ENABLE);
+..\Adc_Burst.c(238): warning:  #188-D: enumerated type mixed with another type
+      ADC_ChannelCmd(LPC_ADC,_ADC_CHANNEL_n,ENABLE);
+..\Adc_Burst.c(320): warning:  #188-D: enumerated type mixed with another type
+        ADC_BurstCmd(LPC_ADC,ENABLE);
+..\Adc_Burst.c: 8 warnings, 0 errors
+linking...
+.\Flash\Adc_Burst.axf: Error: L6218E: Undefined symbol __low_level_init (referred from startup_lpc177x_8x.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 1 error messages.
+".\Flash\Adc_Burst.axf" - 1 Error(s), 14 Warning(s).
+Target not created.

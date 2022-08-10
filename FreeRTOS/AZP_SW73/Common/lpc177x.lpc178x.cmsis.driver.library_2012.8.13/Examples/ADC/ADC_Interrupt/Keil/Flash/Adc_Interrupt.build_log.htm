@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.22.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: SRK ERD, NS_ENG, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.22
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.22
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      UL2CM3.DLL V1.159.0.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+C:\SERKAN\UMD\SW\Firmware\Common\lpc177x.lpc178x.cmsis.driver.library_2012.8.13\Examples\ADC\ADC_Interrupt\Keil\Adc_Interrupt.uvproj
+Project File Date:  05/16/2014
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'FLASH'
+compiling Adc_Interrupt.c...
+..\..\ADC_Interrupt\AppCommon.h(286): warning:  #1215-D: #warning directive: "UMD DETECTOR BOARD is USED as HW"
+  	#warning "UMD DETECTOR BOARD is USED as HW"
+..\Adc_Interrupt.c(129): warning:  #188-D: enumerated type mixed with another type
+  	ADC_IntConfig(
+PC_ADC, 
+RD_ADC_PREPARED_INTR, 
+NABLE);
+..\Adc_Interrupt.c(130): warning:  #188-D: enumerated type mixed with another type
+  	ADC_ChannelCmd(
+PC_ADC, 
+RD_ADC_PREPARED_CHANNEL, 
+NABLE);
+..\Adc_Interrupt.c(158): warning:  #940-D: missing return statement at end of non-void function "__low_level_init" 
+  }
+..\Adc_Interrupt.c: 4 warnings, 0 errors
+compiling debug_frmwrk.c...
+..\..\ADC_Interrupt\AppCommon.h(286): warning:  #1215-D: #warning directive: "UMD DETECTOR BOARD is USED as HW"
+  	#warning "UMD DETECTOR BOARD is USED as HW"
+..\..\..\..\Drivers\source\debug_frmwrk.c(95): warning:  #188-D: enumerated type mixed with another type
+          return 
+ALSE;		
+..\..\..\..\Drivers\source\debug_frmwrk.c(97): warning:  #188-D: enumerated type mixed with another type
+          return 
+RUE;	
+..\..\..\..\Drivers\source\debug_frmwrk.c(98): warning:  #188-D: enumerated type mixed with another type
+      return 
+ALSE;
+..\..\..\..\Drivers\source\debug_frmwrk.c(529): warning:  #188-D: enumerated type mixed with another type
+  	UART_TxCmd(
+EBUG_UART_PORT, 
+NABLE);
+..\..\..\..\Drivers\source\debug_frmwrk.c(598): warning:  #111-D: statement is unreachable
+  			break;
+..\..\..\..\Drivers\source\debug_frmwrk.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=8912 RO-data=352 RW-data=608 ZI-data=5120  
+FromELF: creating hex file...
+".\Flash\Adc_Interrupt.axf" - 0 Error(s), 10 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
