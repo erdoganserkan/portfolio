@@ -24,7 +24,7 @@
 #define CLIENT_CONNECT_WAIT_MS  1000
 
 static volatile int comm_socket = -1;
-log_type logi = LOG_INSTANCE_FAILED;
+mj_log_type logi = LOG_INSTANCE_FAILED;
 
 // epoll related resourcess //
 static int epfd = -1;

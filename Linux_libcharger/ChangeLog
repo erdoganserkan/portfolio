@@ -1,0 +1,6 @@
+version 2.0.1
+  * Updated ADC I2C address
+  * Renamed library functions
+
+initial version 2.0.0
+  * this lib is for PCA and ADC of battery Charger block.

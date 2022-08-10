@@ -1,0 +1,5 @@
+# This document stores the internal ChangeLog in the libHDMI Project
+
+version 1.00.000:
+			-Added new libHDMI files from STM32F103 Keil software
+			

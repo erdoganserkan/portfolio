@@ -1,0 +1,40 @@
+					LIBHDMI
+	libHDMI is used for controlling ABT1015 video rescaler chip and SiI9135 hdmi input chip over i2C. 
+
+Compile:
+	
+
+					LIBMODEO
+					
+	Libmodeo includes the common functions, defines, macros 
+for both server and client part of the projects. Configuration
+files, chunk structures are all served by libmodeo. Client and 
+server applications utilizes from libmodeo.
+
+HOW TO INSTALL FOR CLIENT APPLICATION  ( FOR OMAP )
+
+	If you have already pulled the project from git repository. The further 
+steps are neccessary to compile modeo application.
+
+$ autoreconf -i
+
+$ ./configure --build=i386-linux --host=arm-none-linux-gnueabi
+
+$ make clean all
+
+HOW TO INSTALL FOR SERVER APPLICATION ( FOR PC )
+
+	If you have already pulled the project from git repository. The further 
+steps are neccessary to compile modeo application.
+
+$ autoreconf -i
+
+$ ./configure 
+
+$ make clean all
+
+
+You cannot work with server application or client application without
+compiling libmodeo.
+
+

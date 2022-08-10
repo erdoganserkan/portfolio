@@ -1,0 +1,6 @@
+					LIBHDMI
+	libHDMI is used for controlling ABT1015 video rescaler chip and SiI9135 hdmi input chip over i2C. 
+
+Compile:
+	
+

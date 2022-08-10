@@ -1,0 +1,27 @@
+CC=arm-none-linux-gnueabi-gcc
+
+COMMON_RES=../../common
+CLIENT=../../modeo-client
+LIBMODEO=../../libc2modeo
+LIBI2C=../../libc2i2c
+MyFLAGS = -DRESOLVE_HOSTNAMES -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DMB86M01_TS_OUT1 -DMB86M01_TS_OUT2 -D_GNU_SOURCE -O2 \
+	-Wstrict-prototypes -Wall
+MyINCLUDES = -I../inc -I$(LIBMODEO)/inc -I$(CLIENT)/inc -I$(LIBI2C)/inc -I$(COMMON_RES)
+MyLIBS = -L$(LIBMODEO) -L$(LIBI2C) -L.. -lc2adv -lc2modeo -lc2i2c -lpthread -lrt -ldl -lresolv
+
+TARGET=libc2adv_test
+
+all: ${TARGET}
+
+${TARGET}: main.o
+	${CC} main.o -static -o ${TARGET} ${MyINCLUDES} ${MyFLAGS} ${MyLIBS} 
+
+main.o: main.c
+	${CC} -c main.c ${MyINCLUDES} ${MyFLAGS}
+
+clean:
+	rm -rf *o ${TARGET} *~
+install:
+	scp ${TARGET} root@192.168.2.98:/root/temp
+
+

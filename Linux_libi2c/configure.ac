@@ -1,0 +1,12 @@
+AC_PREREQ(2.59)
+AC_INIT(libc2i2c, 2.0.1)
+
+AM_INIT_AUTOMAKE()
+
+AC_PROG_CXX
+AC_PROG_LIBTOOL
+
+CFLAGS='-g -Wall -fPIC -Wno-multichar'
+
+AC_CONFIG_FILES(Makefile)
+AC_OUTPUT

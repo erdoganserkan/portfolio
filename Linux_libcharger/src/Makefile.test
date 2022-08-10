@@ -1,0 +1,29 @@
+CC=arm-none-linux-gnueabi-gcc
+
+COMMON=../../common
+CLIENT=../../modeo-client
+LIBMODEO=../../libc2modeo
+LIBSDI=../../libc2sdi
+LIBI2C=../../libc2i2c
+LIBCONFIG=../../thirdparty/libconfig
+MyFLAGS = -DRESOLVE_HOSTNAMES -Wstrict-prototypes -Wall
+MyINCLUDES = -I$(COMMON) -I../inc -I$(LIBMODEO)/inc -I$(CLIENT)/inc -I$(LIBSDI)/inc -I$(LIBI2C)/inc -I$(LIBCONFIG)/inc -I$(LIBADV)/inc
+MyLIBS = -L$(LIBMODEO) -L$(LIBADV) -L$(LIBSDI) -L$(LIBI2C) -L$(LIBCONFIG)/lib -L$(LIBCONFIG)/lib/.libs -L./lib -L.. \
+	 ../libc2charger.a -lconfig -lc2i2c -lc2modeo -lpthread -lrt -ldl -lresolv
+
+TARGET=libc2charger_test
+
+all: ${TARGET}
+
+${TARGET}: main.o
+	${CC} main.o -static -o ${TARGET} ${MyINCLUDES} ${MyFLAGS} ${MyLIBS} 
+
+main.o: main.c
+	${CC} -c main.c ${MyINCLUDES} ${MyFLAGS}
+
+clean:
+	rm -rf *o ${TARGET} *~
+install:
+	scp ${TARGET} root@192.168.2.98:/root/temp
+
+
