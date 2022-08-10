@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+".\flash\startup_lpc177x_8x.o"
+".\flash\system_lpc177x_8x.o"
+".\flash\lpc177x_8x_gpio.o"
+".\flash\lpc177x_8x_pinsel.o"
+".\flash\lpc177x_8x_clkpwr.o"
+".\flash\gpio_interrupt.o"
+--library_type=microlib --strict --scatter ".\Flash\Gpio_Interrupt.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Gpio_Interrupt.map" -o .\Flash\Gpio_Interrupt.axf

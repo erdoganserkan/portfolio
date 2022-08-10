@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\flash\startup_lpc177x_8x.o"
+".\flash\system_lpc177x_8x.o"
+".\flash\lpc177x_8x_pinsel.o"
+".\flash\debug_frmwrk.o"
+".\flash\lpc177x_8x_uart.o"
+".\flash\lpc177x_8x_clkpwr.o"
+".\flash\lpc177x_8x_crc.o"
+".\flash\lpc177x_8x_emc.o"
+".\flash\lpc177x_8x_timer.o"
+".\flash\nandflash_k9f1g08u0a.o"
+".\flash\emc_nandflashdemo.o"
+--library_type=microlib --strict --scatter ".\Flash\Emc_NandFlashDemo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Emc_NandFlashDemo.map" -o .\Flash\Emc_NandFlashDemo.axf

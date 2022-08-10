@@ -1,0 +1,9 @@
+.\flash\pwm_singleedge.o: ..\Pwm_SingleEdge.c
+.\flash\pwm_singleedge.o: ..\..\..\..\Drivers\include\lpc177x_8x_pwm.h
+.\flash\pwm_singleedge.o: ..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h
+.\flash\pwm_singleedge.o: ..\..\..\..\Core\CMSIS\Include\core_cm3.h
+.\flash\pwm_singleedge.o: D:\KeilARM5.12\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\pwm_singleedge.o: ..\..\..\..\Core\CMSIS\Include\core_cmInstr.h
+.\flash\pwm_singleedge.o: ..\..\..\..\Core\CMSIS\Include\core_cmFunc.h
+.\flash\pwm_singleedge.o: ..\..\..\..\Drivers\include\lpc_types.h
+.\flash\pwm_singleedge.o: ..\..\..\..\Drivers\include\lpc177x_8x_pinsel.h

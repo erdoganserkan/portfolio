@@ -1,0 +1,72 @@
+Dependencies for Project 'Dma_Flash2Ram', Target 'FLASH': (DO NOT MODIFY !)
+F (..\..\..\..\Core\Device\NXP\LPC177x_8x\Source\Templates\ARM\startup_LPC177x_8x.s)(0x54C502F8)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "F:\UMD\SW_DESIGN\HY-LPC1788-SDK Example V1.0 Beta version (2012.9.15)\Common\lpc177x.lpc178x.cmsis.driver.library_2012.8.13\Examples\DMA\DMA_Flash2Ram\Keil\RTE"-I D:\Keil_v5arm\ARM\PACK\Keil\LPC1700_DFP\2.0.0\Device\Include-I D:\Keil_v5arm\ARM\CMSIS\Include--pd "LPC177x_8x SETA 1"--list .\flash\startup_lpc177x_8x.lst --xref -o .\flash\startup_lpc177x_8x.o --depend .\flash\startup_lpc177x_8x.d)
+F (..\..\..\..\Core\Device\NXP\LPC177x_8x\Source\Templates\system_LPC177x_8x.c)(0x53F09788)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include-I "F:\UMD\SW_DESIGN\HY-LPC1788-SDK Example V1.0 Beta version (2012.9.15)\Common\lpc177x.lpc178x.cmsis.driver.library_2012.8.13\Examples\DMA\DMA_Flash2Ram\Keil\RTE"-I D:\Keil_v5arm\ARM\PACK\Keil\LPC1700_DFP\2.0.0\Device\Include-I D:\Keil_v5arm\ARM\CMSIS\Include-DLPC177x_8x-o .\flash\system_lpc177x_8x.o --omf_browse .\flash\system_lpc177x_8x.crf --depend .\flash\system_lpc177x_8x.d)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\debug_frmwrk.c)(0x54C357F1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include-I "F:\UMD\SW_DESIGN\HY-LPC1788-SDK Example V1.0 Beta version (2012.9.15)\Common\lpc177x.lpc178x.cmsis.driver.library_2012.8.13\Examples\DMA\DMA_Flash2Ram\Keil\RTE"-I D:\Keil_v5arm\ARM\PACK\Keil\LPC1700_DFP\2.0.0\Device\Include-I D:\Keil_v5arm\ARM\CMSIS\Include-DLPC177x_8x-o .\flash\debug_frmwrk.o --omf_browse .\flash\debug_frmwrk.crf --depend .\flash\debug_frmwrk.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\debug_frmwrk.h)(0x53F0508D)
+I (..\..\..\..\Drivers\include\lpc177x_8x_uart.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Drivers\include\lpc177x_8x_pinsel.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\lpc177x_8x_clkpwr.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include-I "F:\UMD\SW_DESIGN\HY-LPC1788-SDK Example V1.0 Beta version (2012.9.15)\Common\lpc177x.lpc178x.cmsis.driver.library_2012.8.13\Examples\DMA\DMA_Flash2Ram\Keil\RTE"-I D:\Keil_v5arm\ARM\PACK\Keil\LPC1700_DFP\2.0.0\Device\Include-I D:\Keil_v5arm\ARM\CMSIS\Include-DLPC177x_8x-o .\flash\lpc177x_8x_clkpwr.o --omf_browse .\flash\lpc177x_8x_clkpwr.crf --depend .\flash\lpc177x_8x_clkpwr.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\lpc177x_8x_clkpwr.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\lpc177x_8x_gpdma.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include-I "F:\UMD\SW_DESIGN\HY-LPC1788-SDK Example V1.0 Beta version (2012.9.15)\Common\lpc177x.lpc178x.cmsis.driver.library_2012.8.13\Examples\DMA\DMA_Flash2Ram\Keil\RTE"-I D:\Keil_v5arm\ARM\PACK\Keil\LPC1700_DFP\2.0.0\Device\Include-I D:\Keil_v5arm\ARM\CMSIS\Include-DLPC177x_8x-o .\flash\lpc177x_8x_gpdma.o --omf_browse .\flash\lpc177x_8x_gpdma.crf --depend .\flash\lpc177x_8x_gpdma.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\lpc177x_8x_gpdma.h)(0x53F0A054)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Drivers\include\lpc177x_8x_clkpwr.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\lpc177x_8x_uart.c)(0x53F0C725)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include-I "F:\UMD\SW_DESIGN\HY-LPC1788-SDK Example V1.0 Beta version (2012.9.15)\Common\lpc177x.lpc178x.cmsis.driver.library_2012.8.13\Examples\DMA\DMA_Flash2Ram\Keil\RTE"-I D:\Keil_v5arm\ARM\PACK\Keil\LPC1700_DFP\2.0.0\Device\Include-I D:\Keil_v5arm\ARM\CMSIS\Include-DLPC177x_8x-o .\flash\lpc177x_8x_uart.o --omf_browse .\flash\lpc177x_8x_uart.crf --depend .\flash\lpc177x_8x_uart.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\lpc177x_8x_uart.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Drivers\include\lpc177x_8x_clkpwr.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\lpc177x_8x_pinsel.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include-I "F:\UMD\SW_DESIGN\HY-LPC1788-SDK Example V1.0 Beta version (2012.9.15)\Common\lpc177x.lpc178x.cmsis.driver.library_2012.8.13\Examples\DMA\DMA_Flash2Ram\Keil\RTE"-I D:\Keil_v5arm\ARM\PACK\Keil\LPC1700_DFP\2.0.0\Device\Include-I D:\Keil_v5arm\ARM\CMSIS\Include-DLPC177x_8x-o .\flash\lpc177x_8x_pinsel.o --omf_browse .\flash\lpc177x_8x_pinsel.crf --depend .\flash\lpc177x_8x_pinsel.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\lpc177x_8x_pinsel.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+F (..\Dma_Flash2Ram.c)(0x54CD3414)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include-I "F:\UMD\SW_DESIGN\HY-LPC1788-SDK Example V1.0 Beta version (2012.9.15)\Common\lpc177x.lpc178x.cmsis.driver.library_2012.8.13\Examples\DMA\DMA_Flash2Ram\Keil\RTE"-I D:\Keil_v5arm\ARM\PACK\Keil\LPC1700_DFP\2.0.0\Device\Include-I D:\Keil_v5arm\ARM\CMSIS\Include-DLPC177x_8x-o .\flash\dma_flash2ram.o --omf_browse .\flash\dma_flash2ram.crf --depend .\flash\dma_flash2ram.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_gpdma.h)(0x53F0A054)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (..\..\..\..\Drivers\include\debug_frmwrk.h)(0x53F0508D)
+I (..\..\..\..\Drivers\include\lpc177x_8x_uart.h)(0x50174D64)
+F (..\abstract.txt)(0x50174D64)()

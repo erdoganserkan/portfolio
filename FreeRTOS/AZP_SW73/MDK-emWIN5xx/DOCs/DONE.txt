@@ -1,0 +1,10 @@
+t### 9.6.2014 Pazartesi Yapilanlar ###
+:: BALANS YAPILANLAR :: 
+* Sonuc popup' larinin ekranda ONAY tusuna basili kalana kadar kalmasi, kendi kendine silinmemesi
+* Sonuc popup' inda sag altta daha once kullanilan "EL & Button" simgesinin yanip sonerek kullanilmasi
+* Balans sonucu olumlu ise STANDART ARAMA' ya olumsuz ise BALANS ekraninin en basindaki baslama durumuna 
+	gecilmesi
+* Eski bobin ikonu, Popup Cerceveleri yenileri ile degistirildi. 
+
+:: STANDART ARAMA ::
+* 

@@ -1,0 +1,311 @@
+Dependencies for Project 'NXP_emWin516', Target 'Debug_FLASH': (DO NOT MODIFY !)
+F (.\Application\GUIDEMO.c)(0x531389CF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo.d")
+I (Application\GUIDEMO.h)(0x53138E4E)
+I (.\GUI\GUI.h)(0x51DADB02)
+I (.\GUI\GUI_ConfDefaults.h)(0x51DADB02)
+I (.\Config\GUIConf.h)(0x5311EEF2)
+I (.\GUI\GUI_Type.h)(0x51DADB02)
+I (.\GUI\LCD.h)(0x51DADB02)
+I (.\GUI\Global.h)(0x51DADB02)
+I (.\GUI\GUI_Version.h)(0x51DADB02)
+I (.\GUI\FRAMEWIN.h)(0x51DADB08)
+I (.\GUI\WM.h)(0x51DADB0A)
+I (.\GUI\WM_GUI.h)(0x51DADB0A)
+I (.\GUI\WIDGET.h)(0x51DADB08)
+I (.\GUI\WM_Intern.h)(0x51DADB0A)
+I (.\GUI\GUI_Private.h)(0x51DADB02)
+I (.\GUI\LCD_Protected.h)(0x51DADB02)
+I (.\GUI\GUI_Debug.h)(0x51DADB02)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50F9B5B0)
+I (.\GUI\SCROLLBAR.h)(0x51DADB08)
+I (.\GUI\DIALOG_Intern.h)(0x51DADB08)
+I (.\GUI\PROGBAR.h)(0x51DADB08)
+I (.\GUI\TEXT.h)(0x51DADB08)
+I (.\GUI\BUTTON.h)(0x51DADB08)
+I (.\GUI\SLIDER.h)(0x51DADB08)
+I (.\GUI\HEADER.h)(0x51DADB08)
+I (.\GUI\GRAPH.h)(0x51DADB08)
+I (.\GUI\ICONVIEW.h)(0x51DADB08)
+I (.\GUI\LISTVIEW.h)(0x51DADB08)
+F (.\Application\GUIDEMO_Start.c)(0x53138E5D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo_start.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo_start.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo_start.d")
+I (Application\GUIDEMO.h)(0x53138E4E)
+I (.\GUI\GUI.h)(0x51DADB02)
+I (.\GUI\GUI_ConfDefaults.h)(0x51DADB02)
+I (.\Config\GUIConf.h)(0x5311EEF2)
+I (.\GUI\GUI_Type.h)(0x51DADB02)
+I (.\GUI\LCD.h)(0x51DADB02)
+I (.\GUI\Global.h)(0x51DADB02)
+I (.\GUI\GUI_Version.h)(0x51DADB02)
+I (.\GUI\FRAMEWIN.h)(0x51DADB08)
+I (.\GUI\WM.h)(0x51DADB0A)
+I (.\GUI\WM_GUI.h)(0x51DADB0A)
+I (.\GUI\WIDGET.h)(0x51DADB08)
+I (.\GUI\WM_Intern.h)(0x51DADB0A)
+I (.\GUI\GUI_Private.h)(0x51DADB02)
+I (.\GUI\LCD_Protected.h)(0x51DADB02)
+I (.\GUI\GUI_Debug.h)(0x51DADB02)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50F9B5B0)
+I (.\GUI\SCROLLBAR.h)(0x51DADB08)
+I (.\GUI\DIALOG_Intern.h)(0x51DADB08)
+I (.\GUI\PROGBAR.h)(0x51DADB08)
+I (.\GUI\TEXT.h)(0x51DADB08)
+I (.\GUI\BUTTON.h)(0x51DADB08)
+I (.\GUI\SLIDER.h)(0x51DADB08)
+I (.\GUI\HEADER.h)(0x51DADB08)
+I (.\GUI\GRAPH.h)(0x51DADB08)
+I (.\GUI\ICONVIEW.h)(0x51DADB08)
+I (.\GUI\LISTVIEW.h)(0x51DADB08)
+I (.\Drivers\include\lpc177x_8x_systick.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cm3.h)(0x4F393A8A)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+I (.\Core\CM3\CoreSupport\core_cmInstr.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmFunc.h)(0x4F393A8A)
+I (.\Drivers\include\lpc_types.h)(0x4F393A8A)
+F (.\Application\GUIDEMO_Resource.c)(0x5311DA30)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo_resource.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo_resource.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo_resource.d")
+I (.\GUI\GUI.h)(0x51DADB02)
+I (.\GUI\GUI_ConfDefaults.h)(0x51DADB02)
+I (.\Config\GUIConf.h)(0x5311EEF2)
+I (.\GUI\GUI_Type.h)(0x51DADB02)
+I (.\GUI\LCD.h)(0x51DADB02)
+I (.\GUI\Global.h)(0x51DADB02)
+I (.\GUI\GUI_Version.h)(0x51DADB02)
+I (Application\GUIDEMO.h)(0x53138E4E)
+I (.\GUI\FRAMEWIN.h)(0x51DADB08)
+I (.\GUI\WM.h)(0x51DADB0A)
+I (.\GUI\WM_GUI.h)(0x51DADB0A)
+I (.\GUI\WIDGET.h)(0x51DADB08)
+I (.\GUI\WM_Intern.h)(0x51DADB0A)
+I (.\GUI\GUI_Private.h)(0x51DADB02)
+I (.\GUI\LCD_Protected.h)(0x51DADB02)
+I (.\GUI\GUI_Debug.h)(0x51DADB02)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50F9B5B0)
+I (.\GUI\SCROLLBAR.h)(0x51DADB08)
+I (.\GUI\DIALOG_Intern.h)(0x51DADB08)
+I (.\GUI\PROGBAR.h)(0x51DADB08)
+I (.\GUI\TEXT.h)(0x51DADB08)
+I (.\GUI\BUTTON.h)(0x51DADB08)
+I (.\GUI\SLIDER.h)(0x51DADB08)
+I (.\GUI\HEADER.h)(0x51DADB08)
+I (.\GUI\GRAPH.h)(0x51DADB08)
+I (.\GUI\ICONVIEW.h)(0x51DADB08)
+I (.\GUI\LISTVIEW.h)(0x51DADB08)
+F (.\Application\GUIDEMO_Cursor.c)(0x531203F1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo_cursor.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo_cursor.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo_cursor.d")
+I (Application\GUIDEMO.h)(0x53138E4E)
+I (.\GUI\GUI.h)(0x51DADB02)
+I (.\GUI\GUI_ConfDefaults.h)(0x51DADB02)
+I (.\Config\GUIConf.h)(0x5311EEF2)
+I (.\GUI\GUI_Type.h)(0x51DADB02)
+I (.\GUI\LCD.h)(0x51DADB02)
+I (.\GUI\Global.h)(0x51DADB02)
+I (.\GUI\GUI_Version.h)(0x51DADB02)
+I (.\GUI\FRAMEWIN.h)(0x51DADB08)
+I (.\GUI\WM.h)(0x51DADB0A)
+I (.\GUI\WM_GUI.h)(0x51DADB0A)
+I (.\GUI\WIDGET.h)(0x51DADB08)
+I (.\GUI\WM_Intern.h)(0x51DADB0A)
+I (.\GUI\GUI_Private.h)(0x51DADB02)
+I (.\GUI\LCD_Protected.h)(0x51DADB02)
+I (.\GUI\GUI_Debug.h)(0x51DADB02)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50F9B5B0)
+I (.\GUI\SCROLLBAR.h)(0x51DADB08)
+I (.\GUI\DIALOG_Intern.h)(0x51DADB08)
+I (.\GUI\PROGBAR.h)(0x51DADB08)
+I (.\GUI\TEXT.h)(0x51DADB08)
+I (.\GUI\BUTTON.h)(0x51DADB08)
+I (.\GUI\SLIDER.h)(0x51DADB08)
+I (.\GUI\HEADER.h)(0x51DADB08)
+I (.\GUI\GRAPH.h)(0x51DADB08)
+I (.\GUI\ICONVIEW.h)(0x51DADB08)
+I (.\GUI\LISTVIEW.h)(0x51DADB08)
+F (.\Application\GUIDEMO_Automotive.c)(0x5311E9FE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo_automotive.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo_automotive.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guidemo_automotive.d")
+I (Application\GUIDEMO.h)(0x53138E4E)
+I (.\GUI\GUI.h)(0x51DADB02)
+I (.\GUI\GUI_ConfDefaults.h)(0x51DADB02)
+I (.\Config\GUIConf.h)(0x5311EEF2)
+I (.\GUI\GUI_Type.h)(0x51DADB02)
+I (.\GUI\LCD.h)(0x51DADB02)
+I (.\GUI\Global.h)(0x51DADB02)
+I (.\GUI\GUI_Version.h)(0x51DADB02)
+I (.\GUI\FRAMEWIN.h)(0x51DADB08)
+I (.\GUI\WM.h)(0x51DADB0A)
+I (.\GUI\WM_GUI.h)(0x51DADB0A)
+I (.\GUI\WIDGET.h)(0x51DADB08)
+I (.\GUI\WM_Intern.h)(0x51DADB0A)
+I (.\GUI\GUI_Private.h)(0x51DADB02)
+I (.\GUI\LCD_Protected.h)(0x51DADB02)
+I (.\GUI\GUI_Debug.h)(0x51DADB02)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50F9B5B0)
+I (.\GUI\SCROLLBAR.h)(0x51DADB08)
+I (.\GUI\DIALOG_Intern.h)(0x51DADB08)
+I (.\GUI\PROGBAR.h)(0x51DADB08)
+I (.\GUI\TEXT.h)(0x51DADB08)
+I (.\GUI\BUTTON.h)(0x51DADB08)
+I (.\GUI\SLIDER.h)(0x51DADB08)
+I (.\GUI\HEADER.h)(0x51DADB08)
+I (.\GUI\GRAPH.h)(0x51DADB08)
+I (.\GUI\ICONVIEW.h)(0x51DADB08)
+I (.\GUI\LISTVIEW.h)(0x51DADB08)
+F (.\Config\Global.h)(0x4EE9A7EA)()
+F (.\Config\GUIConf.h)(0x5311EEF2)()
+F (.\Config\SysConf.h)(0x5311B997)()
+F (.\GUI\GUI.h)(0x51DADB02)()
+F (.\GUI\emWin_522_Keil460_M3_LE.lib)(0x5203B1D0)()
+F (.\Inc\BSP.h)(0x53138855)()
+F (.\Inc\JLINKMEM.h)(0x4EE9A7EE)()
+F (.\Inc\SEGGER.h)(0x4EE9A7EE)()
+F (.\Inc\TaskPrio.h)(0x4EE9A7EE)()
+F (.\Setup\BSP.c)(0x53138855)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\bsp.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\bsp.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\bsp.d")
+I (.\Inc\BSP.h)(0x53138855)
+I (.\Inc\SEGGER.h)(0x4EE9A7EE)
+I (.\Config\Global.h)(0x4EE9A7EA)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cm3.h)(0x4F393A8A)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+I (.\Core\CM3\CoreSupport\core_cmInstr.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmFunc.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x4F393A8A)
+I (.\SDRAM\SDRAM_K4S561632C_32M_16BIT.h)(0x5311D34C)
+F (.\Setup\GUIConf.c)(0x53139BBF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guiconf.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guiconf.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\guiconf.d")
+I (.\GUI\GUI.h)(0x51DADB02)
+I (.\GUI\GUI_ConfDefaults.h)(0x51DADB02)
+I (.\Config\GUIConf.h)(0x5311EEF2)
+I (.\GUI\GUI_Type.h)(0x51DADB02)
+I (.\GUI\LCD.h)(0x51DADB02)
+I (.\GUI\Global.h)(0x51DADB02)
+I (.\GUI\GUI_Version.h)(0x51DADB02)
+I (.\GLCD\GLCD.h)(0x53139BC5)
+I (.\Drivers\include\lpc_types.h)(0x4F393A8A)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+I (.\SDRAM\SDRAM_K4S561632C_32M_16BIT.h)(0x5311D34C)
+F (.\Setup\LCDConf.c)(0x53139CB2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lcdconf.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lcdconf.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lcdconf.d")
+I (.\Inc\SEGGER.h)(0x4EE9A7EE)
+I (.\Config\Global.h)(0x4EE9A7EA)
+I (.\Inc\BSP.h)(0x53138855)
+I (.\GUI\GUI.h)(0x51DADB02)
+I (.\GUI\GUI_ConfDefaults.h)(0x51DADB02)
+I (.\Config\GUIConf.h)(0x5311EEF2)
+I (.\GUI\GUI_Type.h)(0x51DADB02)
+I (.\GUI\LCD.h)(0x51DADB02)
+I (.\GUI\Global.h)(0x51DADB02)
+I (.\GUI\GUI_Version.h)(0x51DADB02)
+I (.\GUI\GUIDRV_Lin.h)(0x51DADB02)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cm3.h)(0x4F393A8A)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+I (.\Core\CM3\CoreSupport\core_cmInstr.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmFunc.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x4F393A8A)
+I (.\GLCD\GLCD.h)(0x53139BC5)
+I (.\Drivers\include\lpc_types.h)(0x4F393A8A)
+I (.\SDRAM\SDRAM_K4S561632C_32M_16BIT.h)(0x5311D34C)
+F (.\Setup\LCDConf.h)(0x4F54B3CC)()
+F (.\Setup\GUI_X.c)(0x531388DA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\gui_x.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\gui_x.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\gui_x.d")
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cm3.h)(0x4F393A8A)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+I (.\Core\CM3\CoreSupport\core_cmInstr.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmFunc.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x4F393A8A)
+I (.\GUI\GUI.h)(0x51DADB02)
+I (.\GUI\GUI_ConfDefaults.h)(0x51DADB02)
+I (.\Config\GUIConf.h)(0x5311EEF2)
+I (.\GUI\GUI_Type.h)(0x51DADB02)
+I (.\GUI\LCD.h)(0x51DADB02)
+I (.\GUI\Global.h)(0x51DADB02)
+I (.\GUI\GUI_Version.h)(0x51DADB02)
+I (.\Drivers\include\lpc177x_8x_systick.h)(0x4F393A8A)
+I (.\Drivers\include\lpc_types.h)(0x4F393A8A)
+I (.\Inc\BSP.h)(0x53138855)
+I (.\Inc\SEGGER.h)(0x4EE9A7EE)
+I (.\Config\Global.h)(0x4EE9A7EA)
+F (.\ReadMe.txt)(0x4EE9A7EA)()
+F (.\Core\CM3\CoreSupport\core_cm3.c)(0x4F393A8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\core_cm3.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\core_cm3.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\core_cm3.d")
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+F (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.c)(0x4F4F3542)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\system_lpc177x_8x.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\system_lpc177x_8x.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\system_lpc177x_8x.d")
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+I (Core\CM3\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cm3.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmInstr.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmFunc.h)(0x4F393A8A)
+I (Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x4F393A8A)
+F (.\Drivers\source\lpc177x_8x_clkpwr.c)(0x4F393A8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lpc177x_8x_clkpwr.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lpc177x_8x_clkpwr.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lpc177x_8x_clkpwr.d")
+I (.\Drivers\include\lpc177x_8x_clkpwr.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cm3.h)(0x4F393A8A)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+I (.\Core\CM3\CoreSupport\core_cmInstr.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmFunc.h)(0x4F393A8A)
+I (.\Drivers\include\lpc_types.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x4F393A8A)
+F (.\Drivers\source\lpc177x_8x_gpio.c)(0x4F393A8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lpc177x_8x_gpio.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lpc177x_8x_gpio.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lpc177x_8x_gpio.d")
+I (.\Drivers\include\lpc177x_8x_gpio.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cm3.h)(0x4F393A8A)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+I (.\Core\CM3\CoreSupport\core_cmInstr.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmFunc.h)(0x4F393A8A)
+I (.\Drivers\include\lpc_types.h)(0x4F393A8A)
+F (.\Drivers\source\lpc177x_8x_systick.c)(0x4F393A8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lpc177x_8x_systick.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lpc177x_8x_systick.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lpc177x_8x_systick.d")
+I (.\Drivers\include\lpc177x_8x_systick.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cm3.h)(0x4F393A8A)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+I (.\Core\CM3\CoreSupport\core_cmInstr.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmFunc.h)(0x4F393A8A)
+I (.\Drivers\include\lpc_types.h)(0x4F393A8A)
+I (.\Drivers\include\lpc177x_8x_clkpwr.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x4F393A8A)
+F (.\Drivers\source\lpc177x_8x_pinsel.c)(0x4F393A8A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lpc177x_8x_pinsel.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lpc177x_8x_pinsel.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\lpc177x_8x_pinsel.d")
+I (.\Drivers\include\lpc177x_8x_pinsel.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cm3.h)(0x4F393A8A)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+I (.\Core\CM3\CoreSupport\core_cmInstr.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmFunc.h)(0x4F393A8A)
+I (.\Drivers\include\lpc_types.h)(0x4F393A8A)
+F (.\Setup\startup_LPC177x_8x.s)(0x4F54EFE2)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x --list ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Lst\startup_LPC177x_8x.lst" --xref -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\startup_LPC177x_8x.o" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\startup_LPC177x_8x.d")
+F (.\GLCD\AsciiLib.c)(0x4CEFD636)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\asciilib.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\asciilib.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\asciilib.d")
+I (GLCD\AsciiLib.h)(0x4CEFD66F)
+I (D:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F9B5B0)
+F (.\GLCD\GLCD.c)(0x53139BB3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\glcd.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\glcd.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\glcd.d")
+I (.\Drivers\include\lpc177x_8x_gpio.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cm3.h)(0x4F393A8A)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+I (.\Core\CM3\CoreSupport\core_cmInstr.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmFunc.h)(0x4F393A8A)
+I (.\Drivers\include\lpc_types.h)(0x4F393A8A)
+I (.\Drivers\include\lpc177x_8x_clkpwr.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x4F393A8A)
+I (.\Drivers\include\lpc177x_8x_pinsel.h)(0x4F393A8A)
+I (GLCD\AsciiLib.h)(0x4CEFD66F)
+I (D:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F9B5B0)
+I (GLCD\GLCD.h)(0x53139BC5)
+I (.\SDRAM\SDRAM_K4S561632C_32M_16BIT.h)(0x5311D34C)
+F (.\SDRAM\SDRAM_K4M563233G_32M_32BIT.c)(0x50461697)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\sdram_k4m563233g_32m_32bit.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\sdram_k4m563233g_32m_32bit.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\sdram_k4m563233g_32m_32bit.d")
+I (.\Drivers\include\lpc177x_8x_emc.h)(0x4F393A8A)
+I (.\Drivers\include\lpc_types.h)(0x4F393A8A)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cm3.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmInstr.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmFunc.h)(0x4F393A8A)
+I (.\Drivers\include\lpc177x_8x_clkpwr.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x4F393A8A)
+I (.\Drivers\include\lpc177x_8x_pinsel.h)(0x4F393A8A)
+I (.\Drivers\include\lpc177x_8x_timer.h)(0x4F393A8A)
+I (SDRAM\SDRAM_K4M563233G_32M_32BIT.h)(0x504616B5)
+F (.\SDRAM\SDRAM_K4S561632C_32M_16BIT.c)(0x50461639)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\Application -I.\BoardSupport -I.\Config -I.\Core\CM3\CoreSupport -I.\Core\CM3\DeviceSupport\NXP\LPC177x_8x -I.\Drivers\include -I.\Setup -I.\Inc -I.\GUI -I.\GLCD -I.\SDRAM --c99 --feedback=unused.txt -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\NXP\LPC177x_8x -DDEBUG="1" -o ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\sdram_k4s561632c_32m_16bit.o" --omf_browse ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\sdram_k4s561632c_32m_16bit.crf" --depend ".\Output\LPC1788_EA_LPC1788_KEIL_CMSIS\Debug_FLASH\Obj\sdram_k4s561632c_32m_16bit.d")
+I (.\Drivers\include\lpc177x_8x_emc.h)(0x4F393A8A)
+I (.\Drivers\include\lpc_types.h)(0x4F393A8A)
+I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9B5B0)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\LPC177x_8x.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cm3.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmInstr.h)(0x4F393A8A)
+I (.\Core\CM3\CoreSupport\core_cmFunc.h)(0x4F393A8A)
+I (.\Drivers\include\lpc177x_8x_clkpwr.h)(0x4F393A8A)
+I (.\Core\CM3\DeviceSupport\NXP\LPC177x_8x\system_LPC177x_8x.h)(0x4F393A8A)
+I (.\Drivers\include\lpc177x_8x_pinsel.h)(0x4F393A8A)
+I (.\Drivers\include\lpc177x_8x_timer.h)(0x4F393A8A)
+I (SDRAM\SDRAM_K4S561632C_32M_16BIT.h)(0x5311D34C)

@@ -1,0 +1,34 @@
+*ok* sys loading sonar kýrmýzý ve mavi renkli olacak.
+*"?* dedektör anamenu ikon sýralamsý sys-settings ekranýndaki gibi olacak. 
+* ok.dedektor ana menu Ikonlar google' dan alternatif lere çevrilerek.
+* ok.dedektör ana ekranýnda ikonlara uyumlu bir düz renk olsun.
+* ok.sys-settings ekraný ikonlar deðiþecek. High contrast kaldýrýlacak. 
+* ok.sys-settings sýralamsý belki Aziz Bey tarafýndan sonra deðiþtirilebilir. 
+* OK(?). setting' lerde 10x2 kademe olsun. Barlar deðiþecek. Yukarý ve aþaðý iki kademe yukarýdan aþaðý kademe olacak.
+* ok.yüksek kontrast veya güneþ modu silinecek. Arama ekranlarýndaki bu modu gösteren ikonlar da silinecdek.
+* standart arama ekraný tasarýmý deðiþecek. Resmi var.
+* metal analizi: ayrým verisi scope yerine resim olarak gelecek. Ayrým türüne göre boyama renkleri deðiþecek. Resmi var.
+* otomatik arama: 
+* ok.left status bar ikonlarý deðiþecek. Left Status bar arka plan deðiþecek.
+* ok.toprak ayarý: el iþarati(butona basma iþareti), bobin simgesi deðiþecek. background düz olsun. 
+	Çim Toprak yüzey resmi olacak.
+* derinlik ekraý: 
+	ok.sol ve sað halkalar ayný boyutta alternatif olacak. 
+	ok.bobin ve pointer deðiþecek. 
+	ok.arka plan aðaç resmi alternatif  olarak toptak yüzeyi belirgin olan bir versiyon olacak.
+* ok.Deðerli / Deðersiz ayarý popup seçim ikonlarý deðieþcek. 
+* ok.metal analizinden geri dönüþte starndart aramaya gelmiyor. Düzeltilecek. 
+* 
+
+* tp3 my_output uart ZERO INDEX indicator
+* tp12 my_input uart ZERO INDEX indicator 
+
+
+test edilenler:
+* sysloading 
+* devseleck
+* radial menu
+* gb(?)
+* depth
+*  
+

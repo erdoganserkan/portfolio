@@ -1,0 +1,12 @@
+.\flash\adc_dma.o: ..\Adc_Dma.c
+.\flash\adc_dma.o: ..\..\..\..\Drivers\include\lpc177x_8x_adc.h
+.\flash\adc_dma.o: ..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h
+.\flash\adc_dma.o: ..\..\..\..\Core\CMSIS\Include\core_cm3.h
+.\flash\adc_dma.o: C:\Keil5.23\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\adc_dma.o: ..\..\..\..\Core\CMSIS\Include\core_cmInstr.h
+.\flash\adc_dma.o: ..\..\..\..\Core\CMSIS\Include\core_cmFunc.h
+.\flash\adc_dma.o: ..\..\..\..\Drivers\include\lpc_types.h
+.\flash\adc_dma.o: ..\..\..\..\Drivers\include\lpc177x_8x_pinsel.h
+.\flash\adc_dma.o: ..\..\..\..\Drivers\include\lpc177x_8x_gpdma.h
+.\flash\adc_dma.o: ..\..\..\..\Drivers\include\debug_frmwrk.h
+.\flash\adc_dma.o: ..\..\..\..\Drivers\include\lpc177x_8x_uart.h

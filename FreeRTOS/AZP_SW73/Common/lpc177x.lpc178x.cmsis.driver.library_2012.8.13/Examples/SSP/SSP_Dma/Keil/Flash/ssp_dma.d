@@ -1,0 +1,12 @@
+.\flash\ssp_dma.o: ..\Ssp_Dma.c
+.\flash\ssp_dma.o: ..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h
+.\flash\ssp_dma.o: ..\..\..\..\Core\CMSIS\Include\core_cm3.h
+.\flash\ssp_dma.o: D:\KeilARM5.12\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\ssp_dma.o: ..\..\..\..\Core\CMSIS\Include\core_cmInstr.h
+.\flash\ssp_dma.o: ..\..\..\..\Core\CMSIS\Include\core_cmFunc.h
+.\flash\ssp_dma.o: ..\..\..\..\Drivers\include\lpc177x_8x_ssp.h
+.\flash\ssp_dma.o: ..\..\..\..\Drivers\include\lpc_types.h
+.\flash\ssp_dma.o: ..\..\..\..\Drivers\include\lpc177x_8x_pinsel.h
+.\flash\ssp_dma.o: ..\..\..\..\Drivers\include\lpc177x_8x_gpdma.h
+.\flash\ssp_dma.o: ..\..\..\..\Drivers\include\debug_frmwrk.h
+.\flash\ssp_dma.o: ..\..\..\..\Drivers\include\lpc177x_8x_uart.h

@@ -1,0 +1,28 @@
+* WM_CF_HASTRANS flagi window yarat1l1rken sadece update edildiginde kapsadigi bolgede update edilmeyen bolgeler kalan
+	pencereler icin kullanilir. Boylece bu pencereler update edilmeye baslanmadan once mutlaka background update yapilmasi 
+	gerektigi anlasilir. Mesela StatusBar bu olamadan olusturuldu ama RadialMenu ise bu flag ile olusturuldu. Cunku radial
+	menu penceresi arka planda sadece birkac ikondan olusuyor. Her degisimde background' daki pencerenin de update
+	edilmesi gerekiyor.
+* Su anda renk tanimlari BGR seklinde inverted olarak tanimlaniyor. Yani 32bit 0x000000FF tam kirmizi rengi gosteriyor.
+* Çok yüksek oranda transparanlık içeren resimler emWin' de crash'a sebep oluyorlar. 
+	Dil çevirileri patladı. DptRuler.png ve DptCoil.png yüzünden. resimler arka planları embedded
+	olarak tekrar oluşturulunca sorun kalmadı. 
+* Dil çevirilerinde eğer "Display str in Rect" tarzında fnk. kullanılıyorsa ve çeviri çok uuzn olduğundan çerçeveye X düzeleminde sığmıyorsa
+	application crash dahi olabiliyor. Bu sebeple eğer o dilde string çok uzunsa FONTU küçültmek gerekiyor. Mesela application crash oluşturmasa
+	bile Rusça' da RadialManu' deki 32B ikon yazıları 24B'ye küçültülünce rendering problemi çözüldü. Ayrıca fransızca da derinlik ekranında 
+		taşmadan dolayı application-crash görülüyordu düzeltildi.
+* W25Q128FV flash için erase / write işleminden sonra bir süre beklemek gerekiyor. yoksa READ işlemi sürekli 0xFF okuyor. 
+	Gerçek değerleri okumuyor yazma işlemi başarılı olsa bile. 
+* GUI_MEMDEV_WriteAt() functions needs absolute coordinates of screen not relative ones in a sub-window.
+
+	
+LM49450 NOTES.
+* power supply 
+	Vdd : Analog input and gain control
+	LSVdd : Speaker output 
+	HPVdd : Headphone and charge-pump
+	VDdd : digital portions; DAC, 3D processing core 
+	IOVdd : IO control; I2C, I2S controls etc. 
+* Spread Spectrum Mode: Daha az gurultu icin switching frekansi Merker Frekans(300Khz) etrafinda degisiyor. 
+	Normal modda switchng frekansı sabit.
+* 

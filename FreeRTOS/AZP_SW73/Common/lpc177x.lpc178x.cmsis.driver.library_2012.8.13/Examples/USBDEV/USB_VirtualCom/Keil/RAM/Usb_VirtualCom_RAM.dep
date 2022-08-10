@@ -1,0 +1,199 @@
+Dependencies for Project 'Usb_VirtualCom', Target 'RAM': (DO NOT MODIFY !)
+F (..\..\..\..\Core\Device\NXP\LPC177x_8x\Source\Templates\ARM\startup_LPC177x_8x.s)(0x54C502F8)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x--pd "LPC177x_8x SETA 1" --pd "NO_CRP SETA 1"--list .\ram\startup_lpc177x_8x.lst --xref -o .\ram\startup_lpc177x_8x.o --depend .\ram\startup_lpc177x_8x.d)
+F (..\..\..\..\Core\Device\NXP\LPC177x_8x\Source\Templates\system_LPC177x_8x.c)(0x53F09788)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\system_lpc177x_8x.o --omf_browse .\ram\system_lpc177x_8x.crf --depend .\ram\system_lpc177x_8x.d)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\debug_frmwrk.c)(0x54C357F1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\debug_frmwrk.o --omf_browse .\ram\debug_frmwrk.crf --depend .\ram\debug_frmwrk.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\debug_frmwrk.h)(0x53F0508D)
+I (..\..\..\..\Drivers\include\lpc177x_8x_uart.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Drivers\include\lpc177x_8x_pinsel.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\lpc177x_8x_adc.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\lpc177x_8x_adc.o --omf_browse .\ram\lpc177x_8x_adc.crf --depend .\ram\lpc177x_8x_adc.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\lpc177x_8x_adc.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Drivers\include\lpc177x_8x_clkpwr.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\lpc177x_8x_clkpwr.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\lpc177x_8x_clkpwr.o --omf_browse .\ram\lpc177x_8x_clkpwr.crf --depend .\ram\lpc177x_8x_clkpwr.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\lpc177x_8x_clkpwr.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\lpc177x_8x_exti.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\lpc177x_8x_exti.o --omf_browse .\ram\lpc177x_8x_exti.crf --depend .\ram\lpc177x_8x_exti.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\lpc177x_8x_exti.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\lpc177x_8x_gpdma.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\lpc177x_8x_gpdma.o --omf_browse .\ram\lpc177x_8x_gpdma.crf --depend .\ram\lpc177x_8x_gpdma.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\lpc177x_8x_gpdma.h)(0x53F0A054)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Drivers\include\lpc177x_8x_clkpwr.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\lpc177x_8x_gpio.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\lpc177x_8x_gpio.o --omf_browse .\ram\lpc177x_8x_gpio.crf --depend .\ram\lpc177x_8x_gpio.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\lpc177x_8x_gpio.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Drivers\include\lpc177x_8x_clkpwr.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\lpc177x_8x_pinsel.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\lpc177x_8x_pinsel.o --omf_browse .\ram\lpc177x_8x_pinsel.crf --depend .\ram\lpc177x_8x_pinsel.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\lpc177x_8x_pinsel.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\lpc177x_8x_uart.c)(0x53F0C725)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\lpc177x_8x_uart.o --omf_browse .\ram\lpc177x_8x_uart.crf --depend .\ram\lpc177x_8x_uart.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\lpc177x_8x_uart.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Drivers\include\lpc177x_8x_clkpwr.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\lpc177x_8x_timer.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\lpc177x_8x_timer.o --omf_browse .\ram\lpc177x_8x_timer.crf --depend .\ram\lpc177x_8x_timer.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\lpc177x_8x_timer.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Drivers\include\lpc177x_8x_clkpwr.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Drivers\include\lpc177x_8x_pinsel.h)(0x50174D64)
+F (..\..\..\..\Drivers\source\lpc177x_8x_ssp.c)(0x54C92DCA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\lpc177x_8x_ssp.o --omf_browse .\ram\lpc177x_8x_ssp.crf --depend .\ram\lpc177x_8x_ssp.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Drivers\include\lpc177x_8x_ssp.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\Drivers\include\lpc177x_8x_clkpwr.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50174D64)
+F (..\cdcuser.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\cdcuser.o --omf_browse .\ram\cdcuser.crf --depend .\ram\cdcuser.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\usb.h)(0x50174D64)
+I (..\usbhw.h)(0x50174D64)
+I (..\usbcfg.h)(0x50174D64)
+I (..\usbcore.h)(0x50174D64)
+I (..\cdc.h)(0x50174D64)
+I (..\cdcuser.h)(0x50174D64)
+I (..\serial.h)(0x50174D64)
+F (..\serial.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\serial.o --omf_browse .\ram\serial.crf --depend .\ram\serial.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\serial.h)(0x50174D64)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50174D64)
+F (..\usbcore.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\usbcore.o --omf_browse .\ram\usbcore.crf --depend .\ram\usbcore.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\usb.h)(0x50174D64)
+I (..\usbcfg.h)(0x50174D64)
+I (..\usbhw.h)(0x50174D64)
+I (..\usbcore.h)(0x50174D64)
+I (..\usbdesc.h)(0x50174D64)
+I (..\usbuser.h)(0x50174D64)
+I (..\cdc.h)(0x50174D64)
+I (..\cdcuser.h)(0x50174D64)
+F (..\usbdesc.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\usbdesc.o --omf_browse .\ram\usbdesc.crf --depend .\ram\usbdesc.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\usb.h)(0x50174D64)
+I (..\cdc.h)(0x50174D64)
+I (..\usbcfg.h)(0x50174D64)
+I (..\usbdesc.h)(0x50174D64)
+F (..\usbhw.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\usbhw.o --omf_browse .\ram\usbhw.crf --depend .\ram\usbhw.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\..\..\..\BoardSupport\bsp.h)(0x537526FD)
+I (..\..\..\..\BoardSupport\phylan_lan8720.h)(0x50174D64)
+I (..\usb.h)(0x50174D64)
+I (..\usbcfg.h)(0x50174D64)
+I (..\usbreg.h)(0x50174D64)
+I (..\usbhw.h)(0x50174D64)
+I (..\usbcore.h)(0x50174D64)
+I (..\usbuser.h)(0x50174D64)
+F (..\usbuser.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\usbuser.o --omf_browse .\ram\usbuser.crf --depend .\ram\usbuser.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\usb.h)(0x50174D64)
+I (..\usbcfg.h)(0x50174D64)
+I (..\usbhw.h)(0x50174D64)
+I (..\usbcore.h)(0x50174D64)
+I (..\usbuser.h)(0x50174D64)
+I (..\cdcuser.h)(0x50174D64)
+F (..\vcomdemo.c)(0x50174D64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include -I..\..\..\..\BoardSupport-I D:\Keil_v5arm\ARM\RV31\INC-I D:\Keil_v5arm\ARM\CMSIS\Include-I D:\Keil_v5arm\ARM\Inc\NXP\LPC177x_8x-DLPC177x_8x -D__RAM_MODE__-o .\ram\vcomdemo.o --omf_browse .\ram\vcomdemo.crf --depend .\ram\vcomdemo.d)
+I (..\..\..\..\Drivers\include\lpc177x_8x_libcfg_default.h)(0x53F10E87)
+I (..\..\..\..\Drivers\include\lpc_types.h)(0x50174D64)
+I (D:\Keil_v5arm\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (..\..\..\..\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cm3.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50174D64)
+I (..\..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50174D64)
+I (..\usb.h)(0x50174D64)
+I (..\usbcfg.h)(0x50174D64)
+I (..\usbhw.h)(0x50174D64)
+I (..\usbcore.h)(0x50174D64)
+I (..\cdc.h)(0x50174D64)
+I (..\cdcuser.h)(0x50174D64)
+I (..\serial.h)(0x50174D64)
+I (..\vcomdemo.h)(0x50174D64)
+F (..\abstract.txt)(0x50174D64)()

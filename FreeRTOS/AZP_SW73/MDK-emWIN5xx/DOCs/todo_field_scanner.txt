@@ -1,0 +1,3 @@
+* tüm cihanzdan gelen ikonlar deðieþcek.
+* sonarýn rengi deðiþtirilecek.
+* gerisine sonra bakýlacak. 

@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: srk erd, s@g.com, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.23
+Toolchain Path:  C:\Keil5.23\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      UL2CM3.DLL V1.159.7.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+F:\UMD\NEW\small2\Common\lpc177x.lpc178x.cmsis.driver.library_2012.8.13\Examples\ADC\ADC_Dma\Keil\Adc_Dma.uvprojx
+Project File Date:  07/19/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil5.23\ARM\ARMCC\Bin'
+Build target 'FLASH'
+assembling startup_LPC177x_8x.s...
+compiling debug_frmwrk.c...
+..\..\..\..\Drivers\include\debug_frmwrk.h(36): error:  #5: cannot open source input file "AppCommon.h": No such file or directory
+  #include "AppCommon.h"
+..\..\..\..\Drivers\source\debug_frmwrk.c: 0 warnings, 1 error
+compiling system_LPC177x_8x.c...
+compiling lpc177x_8x_adc.c...
+compiling lpc177x_8x_clkpwr.c...
+compiling lpc177x_8x_gpdma.c...
+compiling lpc177x_8x_pinsel.c...
+compiling Adc_Dma.c...
+..\..\..\..\Drivers\include\debug_frmwrk.h(36): error:  #5: cannot open source input file "AppCommon.h": No such file or directory
+  #include "AppCommon.h"
+..\Adc_Dma.c: 0 warnings, 1 error
+compiling lpc177x_8x_uart.c...
+".\Flash\Adc_Dma.axf" - 2 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM::CMSIS:CORE:5.1.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_FLASH
+  C:\Keil5.23\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil5.23\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+Target not created.
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

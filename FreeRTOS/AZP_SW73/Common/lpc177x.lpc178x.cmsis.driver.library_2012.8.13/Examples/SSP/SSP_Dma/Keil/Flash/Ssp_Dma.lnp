@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\flash\startup_lpc177x_8x.o"
+".\flash\system_lpc177x_8x.o"
+".\flash\debug_frmwrk.o"
+".\flash\lpc177x_8x_clkpwr.o"
+".\flash\lpc177x_8x_gpdma.o"
+".\flash\lpc177x_8x_pinsel.o"
+".\flash\lpc177x_8x_uart.o"
+".\flash\lpc177x_8x_ssp.o"
+".\flash\lpc177x_8x_systick.o"
+".\flash\ssp_dma.o"
+--library_type=microlib --strict --scatter ".\Flash\Ssp_Dma.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Ssp_Dma.map" -o .\Flash\Ssp_Dma.axf

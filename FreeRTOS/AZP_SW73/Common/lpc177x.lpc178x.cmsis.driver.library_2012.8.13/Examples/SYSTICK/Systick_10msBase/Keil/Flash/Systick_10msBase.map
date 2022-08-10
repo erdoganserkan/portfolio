@@ -1,0 +1,400 @@
+Component: ARM Compiler 5.05 (build 41) Tool: armlink [4d0eb9]
+
+==============================================================================
+
+Section Cross References
+
+    startup_lpc177x_8x.o(RESET) refers to startup_lpc177x_8x.o(STACK) for __initial_sp
+    startup_lpc177x_8x.o(RESET) refers to startup_lpc177x_8x.o(.text) for Reset_Handler
+    startup_lpc177x_8x.o(RESET) refers to systick_10msbase.o(.text) for SysTick_Handler
+    startup_lpc177x_8x.o(.text) refers to system_lpc177x_8x.o(.text) for SystemInit
+    startup_lpc177x_8x.o(.text) refers to systick_10msbase.o(.text) for __low_level_init
+    startup_lpc177x_8x.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    system_lpc177x_8x.o(.text) refers to system_lpc177x_8x.o(.data) for SystemCoreClock
+    lpc177x_8x_systick.o(.text) refers to lpc177x_8x_clkpwr.o(.text) for CLKPWR_GetCLK
+    lpc177x_8x_systick.o(.text) refers to ffltui.o(.text) for __aeabi_ui2f
+    lpc177x_8x_systick.o(.text) refers to cfrcmple.o(.text) for __aeabi_cfrcmple
+    lpc177x_8x_gpio.o(.text) refers to lpc177x_8x_clkpwr.o(.text) for CLKPWR_ConfigPPWR
+    lpc177x_8x_clkpwr.o(.text) refers to system_lpc177x_8x.o(.text) for SystemCoreClockUpdate
+    lpc177x_8x_clkpwr.o(.text) refers to system_lpc177x_8x.o(.data) for SystemCoreClock
+    systick_10msbase.o(.text) refers to lpc177x_8x_systick.o(.text) for SYSTICK_ClearCounterFlag
+    systick_10msbase.o(.text) refers to lpc177x_8x_gpio.o(.text) for GPIO_OutputValue
+    systick_10msbase.o(.text) refers to systick_10msbase.o(.data) for Cur_State
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    ffltui.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    ffltui.o(.text) refers to fepilogue.o(.text) for _float_epilogue
+    cfrcmple.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_lpc177x_8x.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_lpc177x_8x.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to systick_10msbase.o(.text) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to systick_10msbase.o(.text) for main
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing startup_lpc177x_8x.o(HEAP), (4096 bytes).
+    Removing system_lpc177x_8x.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_systick.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_gpio.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_clkpwr.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_clkpwr.o(.data), (4 bytes).
+    Removing systick_10msbase.o(.emb_text), (8 bytes).
+
+7 unused section(s) (total 4140 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    RESET                                    0x00000000   Section      228  startup_lpc177x_8x.o(RESET)
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/stubs.s                 0x00000000   Number         0  iusefp.o ABSOLUTE
+    ../fplib/microlib/fpepilogue.c           0x00000000   Number         0  fepilogue.o ABSOLUTE
+    ../fplib/microlib/fpflt.c                0x00000000   Number         0  ffltui.o ABSOLUTE
+    ..\..\..\..\Core\Device\NXP\LPC177x_8x\Source\Templates\ARM\startup_LPC177x_8x.s 0x00000000   Number         0  startup_lpc177x_8x.o ABSOLUTE
+    ..\..\..\..\Core\Device\NXP\LPC177x_8x\Source\Templates\system_LPC177x_8x.c 0x00000000   Number         0  system_lpc177x_8x.o ABSOLUTE
+    ..\..\..\..\Drivers\source\lpc177x_8x_clkpwr.c 0x00000000   Number         0  lpc177x_8x_clkpwr.o ABSOLUTE
+    ..\..\..\..\Drivers\source\lpc177x_8x_gpio.c 0x00000000   Number         0  lpc177x_8x_gpio.o ABSOLUTE
+    ..\..\..\..\Drivers\source\lpc177x_8x_systick.c 0x00000000   Number         0  lpc177x_8x_systick.o ABSOLUTE
+    ..\Systick_10msBase.c                    0x00000000   Number         0  systick_10msbase.o ABSOLUTE
+    ..\\..\\..\\..\\Core\\Device\\NXP\\LPC177x_8x\\Source\\Templates\\system_LPC177x_8x.c 0x00000000   Number         0  system_lpc177x_8x.o ABSOLUTE
+    ..\\..\\..\\..\\Drivers\\source\\lpc177x_8x_clkpwr.c 0x00000000   Number         0  lpc177x_8x_clkpwr.o ABSOLUTE
+    ..\\..\\..\\..\\Drivers\\source\\lpc177x_8x_gpio.c 0x00000000   Number         0  lpc177x_8x_gpio.o ABSOLUTE
+    ..\\..\\..\\..\\Drivers\\source\\lpc177x_8x_systick.c 0x00000000   Number         0  lpc177x_8x_systick.o ABSOLUTE
+    ..\\Systick_10msBase.c                   0x00000000   Number         0  systick_10msbase.o ABSOLUTE
+    cfrcmple.s                               0x00000000   Number         0  cfrcmple.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    .ARM.Collect$$$$00000000                 0x000000e4   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x000000e4   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x000000e8   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x000000ec   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x000000ec   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x000000ec   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    .ARM.Collect$$$$0000000D                 0x000000f4   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x000000f4   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x000000f4   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    __lit__00000000                          0x000000f4   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x000000f8   Section       44  startup_lpc177x_8x.o(.text)
+    .text                                    0x00000124   Section        0  lpc177x_8x_systick.o(.text)
+    .text                                    0x00000258   Section        0  systick_10msbase.o(.text)
+    .text                                    0x000002b0   Section        0  ffltui.o(.text)
+    .text                                    0x000002bc   Section       20  cfrcmple.o(.text)
+    .text                                    0x000002d0   Section        0  iusefp.o(.text)
+    .text                                    0x000002d0   Section       36  init.o(.text)
+    i.__scatterload_null                     0x000002f4   Section        2  handlers.o(i.__scatterload_null)
+    .ARM.__at_0x02FC                         0x000002fc   Section        4  startup_lpc177x_8x.o(.ARM.__at_0x02FC)
+    .text                                    0x00000300   Section        0  system_lpc177x_8x.o(.text)
+    .text                                    0x000006b0   Section        0  lpc177x_8x_gpio.o(.text)
+    GPIO_GetPointer                          0x000006b1   Thumb Code    58  lpc177x_8x_gpio.o(.text)
+    FIO_HalfWordGetPointer                   0x000006eb   Thumb Code    58  lpc177x_8x_gpio.o(.text)
+    FIO_ByteGetPointer                       0x00000725   Thumb Code    58  lpc177x_8x_gpio.o(.text)
+    .text                                    0x00000b08   Section        0  lpc177x_8x_clkpwr.o(.text)
+    .text                                    0x00000c54   Section        0  fepilogue.o(.text)
+    i.__scatterload_copy                     0x00000cc2   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_zeroinit                 0x00000cd0   Section       14  handlers.o(i.__scatterload_zeroinit)
+    .data                                    0x10000000   Section       16  system_lpc177x_8x.o(.data)
+    .data                                    0x10000010   Section        1  systick_10msbase.o(.data)
+    STACK                                    0x10000018   Section     5120  startup_lpc177x_8x.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$P$D$K$B$S$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OTIME$ROPI$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  systick_10msbase.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  startup_lpc177x_8x.o(RESET)
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __main                                   0x000000e5   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x000000e5   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x000000e9   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x000000ed   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x000000ed   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x000000ed   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x000000ed   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x000000f5   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x000000f5   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    Reset_Handler                            0x000000f9   Thumb Code    12  startup_lpc177x_8x.o(.text)
+    NMI_Handler                              0x00000105   Thumb Code     2  startup_lpc177x_8x.o(.text)
+    HardFault_Handler                        0x00000107   Thumb Code     2  startup_lpc177x_8x.o(.text)
+    MemManage_Handler                        0x00000109   Thumb Code     2  startup_lpc177x_8x.o(.text)
+    BusFault_Handler                         0x0000010b   Thumb Code     2  startup_lpc177x_8x.o(.text)
+    UsageFault_Handler                       0x0000010d   Thumb Code     2  startup_lpc177x_8x.o(.text)
+    SVC_Handler                              0x0000010f   Thumb Code     2  startup_lpc177x_8x.o(.text)
+    DebugMon_Handler                         0x00000111   Thumb Code     2  startup_lpc177x_8x.o(.text)
+    PendSV_Handler                           0x00000113   Thumb Code     2  startup_lpc177x_8x.o(.text)
+    ADC_IRQHandler                           0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    BOD_IRQHandler                           0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    CANActivity_IRQHandler                   0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    CAN_IRQHandler                           0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    DMA_IRQHandler                           0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    EEPROM_IRQHandler                        0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    EINT0_IRQHandler                         0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    EINT1_IRQHandler                         0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    EINT2_IRQHandler                         0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    EINT3_IRQHandler                         0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    ENET_IRQHandler                          0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    GPIO_IRQHandler                          0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    I2C0_IRQHandler                          0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    I2C1_IRQHandler                          0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    I2C2_IRQHandler                          0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    I2S_IRQHandler                           0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    LCD_IRQHandler                           0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    MCI_IRQHandler                           0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    MCPWM_IRQHandler                         0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    PLL0_IRQHandler                          0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    PLL1_IRQHandler                          0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    PWM0_IRQHandler                          0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    PWM1_IRQHandler                          0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    QEI_IRQHandler                           0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    RTC_IRQHandler                           0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    SPIFI_IRQHandler                         0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    SSP0_IRQHandler                          0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    SSP1_IRQHandler                          0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    SSP2_IRQHandler                          0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    TIMER0_IRQHandler                        0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    TIMER1_IRQHandler                        0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    TIMER2_IRQHandler                        0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    TIMER3_IRQHandler                        0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    UART0_IRQHandler                         0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    UART1_IRQHandler                         0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    UART2_IRQHandler                         0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    UART3_IRQHandler                         0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    UART4_IRQHandler                         0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    USBActivity_IRQHandler                   0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    USB_IRQHandler                           0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    WDT_IRQHandler                           0x00000117   Thumb Code     0  startup_lpc177x_8x.o(.text)
+    SYSTICK_InternalInit                     0x00000125   Thumb Code    92  lpc177x_8x_systick.o(.text)
+    SYSTICK_ExternalInit                     0x00000181   Thumb Code   110  lpc177x_8x_systick.o(.text)
+    SYSTICK_Cmd                              0x000001ef   Thumb Code    40  lpc177x_8x_systick.o(.text)
+    SYSTICK_IntCmd                           0x00000217   Thumb Code    40  lpc177x_8x_systick.o(.text)
+    SYSTICK_GetCurrentValue                  0x0000023f   Thumb Code     8  lpc177x_8x_systick.o(.text)
+    SYSTICK_ClearCounterFlag                 0x00000247   Thumb Code    18  lpc177x_8x_systick.o(.text)
+    SysTick_Handler                          0x00000259   Thumb Code    40  systick_10msbase.o(.text)
+    c_entry                                  0x00000281   Thumb Code    36  systick_10msbase.o(.text)
+    main                                     0x000002a5   Thumb Code     4  systick_10msbase.o(.text)
+    __low_level_init                         0x000002a9   Thumb Code     2  systick_10msbase.o(.text)
+    __aeabi_ui2f                             0x000002b1   Thumb Code    10  ffltui.o(.text)
+    __aeabi_cfrcmple                         0x000002bd   Thumb Code    20  cfrcmple.o(.text)
+    __I$use$fp                               0x000002d1   Thumb Code     0  iusefp.o(.text)
+    __scatterload                            0x000002d1   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x000002d1   Thumb Code     0  init.o(.text)
+    __scatterload_null                       0x000002f5   Thumb Code     2  handlers.o(i.__scatterload_null)
+    SystemCoreClockUpdate                    0x00000301   Thumb Code   696  system_lpc177x_8x.o(.text)
+    SystemInit                               0x000005b9   Thumb Code   212  system_lpc177x_8x.o(.text)
+    GPIO_Init                                0x0000075f   Thumb Code    12  lpc177x_8x_gpio.o(.text)
+    GPIO_Deinit                              0x0000076b   Thumb Code    14  lpc177x_8x_gpio.o(.text)
+    GPIO_SetDir                              0x00000779   Thumb Code    40  lpc177x_8x_gpio.o(.text)
+    GPIO_SetValue                            0x000007a1   Thumb Code    20  lpc177x_8x_gpio.o(.text)
+    GPIO_ClearValue                          0x000007b5   Thumb Code    20  lpc177x_8x_gpio.o(.text)
+    GPIO_OutputValue                         0x000007c9   Thumb Code    30  lpc177x_8x_gpio.o(.text)
+    GPIO_ReadValue                           0x000007e7   Thumb Code    22  lpc177x_8x_gpio.o(.text)
+    GPIO_IntCmd                              0x000007fd   Thumb Code    60  lpc177x_8x_gpio.o(.text)
+    GPIO_GetIntStatus                        0x00000839   Thumb Code    86  lpc177x_8x_gpio.o(.text)
+    GPIO_ClearInt                            0x0000088f   Thumb Code    28  lpc177x_8x_gpio.o(.text)
+    FIO_SetDir                               0x000008ab   Thumb Code    20  lpc177x_8x_gpio.o(.text)
+    FIO_SetValue                             0x000008bf   Thumb Code    16  lpc177x_8x_gpio.o(.text)
+    FIO_ClearValue                           0x000008cf   Thumb Code    16  lpc177x_8x_gpio.o(.text)
+    FIO_ReadValue                            0x000008df   Thumb Code    12  lpc177x_8x_gpio.o(.text)
+    FIO_IntCmd                               0x000008eb   Thumb Code    20  lpc177x_8x_gpio.o(.text)
+    FIO_GetIntStatus                         0x000008ff   Thumb Code    20  lpc177x_8x_gpio.o(.text)
+    FIO_ClearInt                             0x00000913   Thumb Code    16  lpc177x_8x_gpio.o(.text)
+    FIO_SetMask                              0x00000923   Thumb Code    40  lpc177x_8x_gpio.o(.text)
+    FIO_HalfWordSetDir                       0x0000094b   Thumb Code    62  lpc177x_8x_gpio.o(.text)
+    FIO_HalfWordSetMask                      0x00000989   Thumb Code    62  lpc177x_8x_gpio.o(.text)
+    FIO_HalfWordSetValue                     0x000009c7   Thumb Code    32  lpc177x_8x_gpio.o(.text)
+    FIO_HalfWordClearValue                   0x000009e7   Thumb Code    32  lpc177x_8x_gpio.o(.text)
+    FIO_HalfWordReadValue                    0x00000a07   Thumb Code    30  lpc177x_8x_gpio.o(.text)
+    FIO_ByteSetDir                           0x00000a25   Thumb Code    50  lpc177x_8x_gpio.o(.text)
+    FIO_ByteSetMask                          0x00000a57   Thumb Code    66  lpc177x_8x_gpio.o(.text)
+    FIO_ByteSetValue                         0x00000a99   Thumb Code    44  lpc177x_8x_gpio.o(.text)
+    FIO_ByteClearValue                       0x00000ac5   Thumb Code    34  lpc177x_8x_gpio.o(.text)
+    FIO_ByteReadValue                        0x00000ae7   Thumb Code    32  lpc177x_8x_gpio.o(.text)
+    CLKPWR_SetCLKDiv                         0x00000b09   Thumb Code   152  lpc177x_8x_clkpwr.o(.text)
+    CLKPWR_GetCLK                            0x00000ba1   Thumb Code    46  lpc177x_8x_clkpwr.o(.text)
+    CLKPWR_ConfigPPWR                        0x00000bcf   Thumb Code    38  lpc177x_8x_clkpwr.o(.text)
+    CLKPWR_Sleep                             0x00000bf5   Thumb Code    12  lpc177x_8x_clkpwr.o(.text)
+    CLKPWR_DeepSleep                         0x00000c01   Thumb Code    18  lpc177x_8x_clkpwr.o(.text)
+    CLKPWR_PowerDown                         0x00000c13   Thumb Code    18  lpc177x_8x_clkpwr.o(.text)
+    CLKPWR_DeepPowerDown                     0x00000c25   Thumb Code    18  lpc177x_8x_clkpwr.o(.text)
+    _float_round                             0x00000c55   Thumb Code    18  fepilogue.o(.text)
+    _float_epilogue                          0x00000c67   Thumb Code    92  fepilogue.o(.text)
+    __scatterload_copy                       0x00000cc3   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_zeroinit                   0x00000cd1   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    Region$$Table$$Base                      0x00000ce0   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00000d00   Number         0  anon$$obj.o(Region$$Table)
+    Stack_Size                               0x00001400   Number         0  startup_lpc177x_8x.o ABSOLUTE
+    SystemCoreClock                          0x10000000   Data           4  system_lpc177x_8x.o(.data)
+    PeripheralClock                          0x10000004   Data           4  system_lpc177x_8x.o(.data)
+    EMCClock                                 0x10000008   Data           4  system_lpc177x_8x.o(.data)
+    USBClock                                 0x1000000c   Data           4  system_lpc177x_8x.o(.data)
+    Cur_State                                0x10000010   Data           1  systick_10msbase.o(.data)
+    Stack_Mem                                0x10000018   Data        5120  startup_lpc177x_8x.o(STACK)
+    Stack_Limit                              0x10001418   Data           0  startup_lpc177x_8x.o(STACK)
+    __initial_sp                             0x10001418   Data           0  startup_lpc177x_8x.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x000000e5
+
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00000d14, Max: 0x00080000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x00000000, Size: 0x00000d00, Max: 0x00080000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x000000e4   Data   RO            3    RESET               startup_lpc177x_8x.o
+    0x000000e4   0x00000000   Code   RO          141  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x000000e4   0x00000004   Code   RO          148    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x000000e8   0x00000004   Code   RO          151    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x000000ec   0x00000000   Code   RO          153    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x000000ec   0x00000000   Code   RO          155    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x000000ec   0x00000008   Code   RO          156    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x000000f4   0x00000000   Code   RO          158    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x000000f4   0x00000000   Code   RO          160    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x000000f4   0x00000004   Code   RO          149    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x000000f8   0x0000002c   Code   RO            5    .text               startup_lpc177x_8x.o
+    0x00000124   0x00000134   Code   RO           53    .text               lpc177x_8x_systick.o
+    0x00000258   0x00000058   Code   RO          123    .text               systick_10msbase.o
+    0x000002b0   0x0000000a   Code   RO          144    .text               mf_w.l(ffltui.o)
+    0x000002ba   0x00000002   PAD
+    0x000002bc   0x00000014   Code   RO          146    .text               mf_w.l(cfrcmple.o)
+    0x000002d0   0x00000000   Code   RO          162    .text               mc_w.l(iusefp.o)
+    0x000002d0   0x00000024   Code   RO          165    .text               mc_w.l(init.o)
+    0x000002f4   0x00000002   Code   RO          170    i.__scatterload_null  mc_w.l(handlers.o)
+    0x000002f6   0x00000006   PAD
+    0x000002fc   0x00000004   Code   RO            4    .ARM.__at_0x02FC    startup_lpc177x_8x.o
+    0x00000300   0x000003b0   Code   RO           14    .text               system_lpc177x_8x.o
+    0x000006b0   0x00000456   Code   RO           85    .text               lpc177x_8x_gpio.o
+    0x00000b06   0x00000002   PAD
+    0x00000b08   0x0000014c   Code   RO          104    .text               lpc177x_8x_clkpwr.o
+    0x00000c54   0x0000006e   Code   RO          163    .text               mf_w.l(fepilogue.o)
+    0x00000cc2   0x0000000e   Code   RO          169    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x00000cd0   0x0000000e   Code   RO          171    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x00000cde   0x00000002   PAD
+    0x00000ce0   0x00000020   Data   RO          167    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x10000000, Size: 0x00001418, Max: 0x00010000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x10000000   0x00000010   Data   RW           15    .data               system_lpc177x_8x.o
+    0x10000010   0x00000001   Data   RW          124    .data               systick_10msbase.o
+    0x10000011   0x00000007   PAD
+    0x10000018   0x00001400   Zero   RW            1    STACK               startup_lpc177x_8x.o
+
+
+    Execution Region RW_IRAM2 (Base: 0x20000000, Size: 0x00000000, Max: 0x00008000, ABSOLUTE)
+
+    **** No section assigned to this execution region ****
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       332         30          0          0          0       1723   lpc177x_8x_clkpwr.o
+      1110         28          0          0          0      10746   lpc177x_8x_gpio.o
+       308          0          0          0          0       3056   lpc177x_8x_systick.o
+        48         16        228          0       5120       1384   startup_lpc177x_8x.o
+       944         36          0         16          0      28391   system_lpc177x_8x.o
+        88          6          0          1          0       1244   systick_10msbase.o
+
+    ----------------------------------------------------------------------
+      2832        116        260         20       5124      46544   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         2          0          0          3          4          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+         0          0          0          0          0          0   iusefp.o
+        20          0          0          0          0         68   cfrcmple.o
+       110          0          0          0          0        168   fepilogue.o
+        10          0          0          0          0         68   ffltui.o
+
+    ----------------------------------------------------------------------
+       236         16          0          0          0        372   Library Totals
+        10          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+        86         16          0          0          0         68   mc_w.l
+       140          0          0          0          0        304   mf_w.l
+
+    ----------------------------------------------------------------------
+       236         16          0          0          0        372   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      3068        132        260         20       5124      46600   Grand Totals
+      3068        132        260         20       5124      46600   ELF Image Totals
+      3068        132        260         20          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 3328 (   3.25kB)
+    Total RW  Size (RW Data + ZI Data)              5144 (   5.02kB)
+    Total ROM Size (Code + RO Data + RW Data)       3348 (   3.27kB)
+
+==============================================================================
+

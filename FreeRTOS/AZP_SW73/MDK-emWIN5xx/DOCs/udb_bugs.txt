@@ -1,0 +1,16 @@
+1- soldaki status bar : pil %100 oludugunda sola ortala
+2- ground balance ok/fail popup sonras1nda bir daha ok ile ground-balance baslam1yor.
+	esc ile ç1k1p tekrar girince normal çal1_1yor.
+3- ok. brightness sag-sol hareket ederken degismeli.
+4- ayn1 zamanda bu ses içinde geçerli
+5- ses seviyesini kaydedince donuyor.
+6- Dilde tasan kelimeler duzeltilecek.
+7- ana ekrandaki çizgi düzeltilecek.
+8- Telefon animasyonu yapýlacak.
+9- Intro açýlacak.
+10- 3 haneli giriþler (rakamlar için) bakýlacak.
+11- Dedektörden gelecek komutlara sýnýrlama 
+12- GB "baslamak için " ve "ayar yaýlýyor kutfen bekleyiþniz" tercümeleri yok.
+13- Genel olarak bir crash söz konusu.
+14- SD-CARD okumasý ile DAC DMA ayný anda kullanýlamýyor. SD-CARD DMA kaldýrýldý, problem çözülecek. 
+15- 

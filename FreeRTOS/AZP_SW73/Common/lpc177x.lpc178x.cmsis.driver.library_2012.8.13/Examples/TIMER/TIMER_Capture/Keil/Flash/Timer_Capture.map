@@ -1,0 +1,129 @@
+Component: ARM Compiler 5.05 (build 41) Tool: armlink [4d0eb9]
+
+==============================================================================
+
+Section Cross References
+
+    startup_lpc177x_8x.o(RESET) refers to startup_lpc177x_8x.o(STACK) for __initial_sp
+    startup_lpc177x_8x.o(RESET) refers to startup_lpc177x_8x.o(.text) for Reset_Handler
+    startup_lpc177x_8x.o(RESET) refers to timer_capture.o(.text) for TIMER0_IRQHandler
+    startup_lpc177x_8x.o(.text) refers to system_lpc177x_8x.o(.text) for SystemInit
+    startup_lpc177x_8x.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    system_lpc177x_8x.o(.text) refers to system_lpc177x_8x.o(.data) for SystemCoreClock
+    debug_frmwrk.o(.text) refers to lpc177x_8x_uart.o(.text) for UART_Send
+    debug_frmwrk.o(.text) refers to debug_frmwrk.o(.conststring) for .conststring
+    debug_frmwrk.o(.text) refers to lpc177x_8x_pinsel.o(.text) for PINSEL_ConfigPin
+    debug_frmwrk.o(.text) refers to debug_frmwrk.o(.data) for flag
+    lpc177x_8x_clkpwr.o(.text) refers to system_lpc177x_8x.o(.text) for SystemCoreClockUpdate
+    lpc177x_8x_clkpwr.o(.text) refers to system_lpc177x_8x.o(.data) for SystemCoreClock
+    lpc177x_8x_gpdma.o(.text) refers to lpc177x_8x_clkpwr.o(.text) for CLKPWR_ConfigPPWR
+    lpc177x_8x_gpdma.o(.text) refers to lpc177x_8x_gpdma.o(.data) for pGPDMACh
+    lpc177x_8x_gpdma.o(.text) refers to lpc177x_8x_gpdma.o(.constdata) for GPDMA_LUTPerBurst
+    lpc177x_8x_gpio.o(.text) refers to lpc177x_8x_clkpwr.o(.text) for CLKPWR_ConfigPPWR
+    lpc177x_8x_uart.o(.text) refers to lpc177x_8x_clkpwr.o(.text) for CLKPWR_GetCLK
+    lpc177x_8x_uart.o(.text) refers to uldiv.o(.text) for __aeabi_uldivmod
+    lpc177x_8x_timer.o(.text) refers to lpc177x_8x_clkpwr.o(.text) for CLKPWR_GetCLK
+    lpc177x_8x_timer.o(.text) refers to uldiv.o(.text) for __aeabi_uldivmod
+    timer_capture.o(.text) refers to lpc177x_8x_timer.o(.text) for TIM_GetIntCaptureStatus
+    timer_capture.o(.text) refers to debug_frmwrk.o(.text) for debug_frmwrk_init
+    timer_capture.o(.text) refers to lpc177x_8x_pinsel.o(.text) for PINSEL_ConfigPin
+    timer_capture.o(.text) refers to debug_frmwrk.o(.data) for _db_msg
+    timer_capture.o(.text) refers to timer_capture.o(.data) for menu1
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    uldiv.o(.text) refers to llushr.o(.text) for __aeabi_llsr
+    uldiv.o(.text) refers to llshl.o(.text) for __aeabi_llsl
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_lpc177x_8x.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_lpc177x_8x.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to timer_capture.o(.text) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to timer_capture.o(.text) for main
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing startup_lpc177x_8x.o(HEAP), (4096 bytes).
+    Removing system_lpc177x_8x.o(.emb_text), (8 bytes).
+    Removing debug_frmwrk.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_clkpwr.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_clkpwr.o(.data), (4 bytes).
+    Removing lpc177x_8x_gpdma.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_gpdma.o(.text), (896 bytes).
+    Removing lpc177x_8x_gpdma.o(.constdata), (64 bytes).
+    Removing lpc177x_8x_gpdma.o(.data), (160 bytes).
+    Removing lpc177x_8x_gpio.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_gpio.o(.text), (1110 bytes).
+    Removing lpc177x_8x_pinsel.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_uart.o(.emb_text), (8 bytes).
+    Removing lpc177x_8x_timer.o(.emb_text), (8 bytes).
+    Removing timer_capture.o(.emb_text), (8 bytes).
+    Removing timer_capture.o(.bss), (12 bytes).
+
+16 unused section(s) (total 6414 bytes) removed from the image.
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000000
+
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00002784, Max: 0x00080000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x00000000, Size: 0x00002584, Max: 0x00080000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x000000e4   Data   RO            3    RESET               startup_lpc177x_8x.o
+    0x000000e4   0x00000000   Code   RO          240  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x000000e4   0x00000004   Code   RO          245    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x000000e8   0x00000004   Code   RO          248    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x000000ec   0x00000000   Code   RO          250    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x000000ec   0x00000000   Code   RO          252    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x000000ec   0x00000008   Code   RO          253    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x000000f4   0x00000000   Code   RO          255    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x000000f4   0x00000000   Code   RO          257    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x000000f4   0x00000004   Code   RO          246    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x000000f8   0x0000002c   Code   RO            5    .text               startup_lpc177x_8x.o
+    0x00000124   0x0000014c   Code   RO           88    .text               lpc177x_8x_clkpwr.o
+    0x00000270   0x00000062   Code   RO          243    .text               mc_w.l(uldiv.o)
+    0x000002d2   0x0000001e   Code   RO          259    .text               mc_w.l(llshl.o)
+    0x000002f0   0x00000000   Data   RO          265    Region$$Table       anon$$obj.o
+    0x000002f0   0x0000000c   PAD
+    0x000002fc   0x00000004   Code   RO            4    .ARM.__at_0x02FC    startup_lpc177x_8x.o
+    0x00000300   0x000003b0   Code   RO           14    .text               system_lpc177x_8x.o
+    0x000006b0   0x0000075c   Code   RO           53    .text               debug_frmwrk.o
+    0x00000e0c   0x00000450   Code   RO          156    .text               lpc177x_8x_pinsel.o
+    0x0000125c   0x00000d84   Code   RO          172    .text               lpc177x_8x_uart.o
+    0x00001fe0   0x000003a4   Code   RO          188    .text               lpc177x_8x_timer.o
+    0x00002384   0x00000160   Code   RO          207    .text               timer_capture.o
+    0x000024e4   0x00000020   Code   RO          261    .text               mc_w.l(llushr.o)
+    0x00002504   0x00000024   Code   RO          263    .text               mc_w.l(init.o)
+    0x00002528   0x00000059   Data   RO           54    .conststring        debug_frmwrk.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x10000000, Size: 0x00001600, Max: 0x00010000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x10000000   0x00000010   Data   RW           15    .data               system_lpc177x_8x.o
+    0x10000010   0x0000003d   Data   RW           55    .data               debug_frmwrk.o
+    0x1000004d   0x00000003   PAD
+    0x10000050   0x000001ae   Data   RW          209    .data               timer_capture.o
+    0x100001fe   0x00000002   PAD
+    0x10000200   0x00001400   Zero   RW            1    STACK               startup_lpc177x_8x.o
+
+
+    Execution Region RW_IRAM2 (Base: 0x20000000, Size: 0x00000000, Max: 0x00008000, ABSOLUTE)
+
+    **** No section assigned to this execution region ****
+

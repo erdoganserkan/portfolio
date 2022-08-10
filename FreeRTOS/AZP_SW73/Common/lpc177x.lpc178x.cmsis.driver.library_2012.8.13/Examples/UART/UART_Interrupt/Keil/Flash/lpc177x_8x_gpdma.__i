@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\..\..\Drivers\include -I..\..\..\..\Core\CMSIS\Include -I..\..\..\..\Core\Device\NXP\LPC177x_8x\Include 
+-I D:\Keil\ARM\RV31\INC 
+-I D:\Keil\ARM\CMSIS\Include 
+-I D:\Keil\ARM\Inc\NXP\LPC177x_8x 
+-o ".\Flash\lpc177x_8x_gpdma.o" --omf_browse ".\Flash\lpc177x_8x_gpdma.crf" --depend ".\Flash\lpc177x_8x_gpdma.d" "..\..\..\..\Drivers\source\lpc177x_8x_gpdma.c"

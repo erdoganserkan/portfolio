@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\flash\startup_lpc177x_8x.o"
+".\flash\system_lpc177x_8x.o"
+".\flash\debug_frmwrk.o"
+".\flash\lpc177x_8x_clkpwr.o"
+".\flash\lpc177x_8x_gpdma.o"
+".\flash\lpc177x_8x_uart.o"
+".\flash\lpc177x_8x_pinsel.o"
+".\flash\dma_flash2ram.o"
+--library_type=microlib --strict --scatter ".\Flash\Dma_Flash2Ram.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Dma_Flash2Ram.map" -o .\Flash\Dma_Flash2Ram.axf
