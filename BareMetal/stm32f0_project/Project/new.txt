@@ -1,0 +1,4 @@
+Merhab Faruk Bey,
+
+Bizim Modeo için ihtiyacýmýz olan yazýlýmcýnýn temel özellikleri;
+1- Embedded linux yazýlým geliþtirme (C/C+) yazýlým geliþtirme tecrübesi (En az 4 yýl)
