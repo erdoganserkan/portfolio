@@ -10,4 +10,5 @@
 * circular_file_driver: Linux kernel circular file driver implementation 
 * mmap_comm_Cpp: mmap() function for Inter Process Comuunication 
 * tcp-ipc : epoll based async data communcation supported tcp server & client api functions 
-
+* BareMetal 
+** str32f0_project : bare-metal(main-loop and isr, no scheduler); adc, gpio, uart, spi etc. peripherals usage on arm-cortex-m0 mcu using stm32-hal library 
