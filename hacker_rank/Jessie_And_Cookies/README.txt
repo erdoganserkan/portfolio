@@ -1,3 +1,5 @@
+Jesse loves cookies and wants the sweetness of some cookies to be greater than value
+
 . To do this, two cookies with the least sweetness are repeatedly mixed. This creates a special combined cookie with:
 
 sweetness
