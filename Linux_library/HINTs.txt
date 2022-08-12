@@ -1,0 +1,37 @@
+* when comparison with literals or return-values of functions is required, write liter or function in first place. 
+
+better one:
+
+int x=0; 
+if(1 == x) {}
+
+When you do that if you accidentally write '=' operator instead of '==', you will get compiler error not a ignorable 
+warning. 
+
+* when defining a structure, write small members to bigger ones sequentially. 
+
+* when you are defining a communication protocol between 2 software, be sure about that you set the alignment of structure
+ is "1", otherwise structure total size can differ both of software. 
+ 
+You can do this by writing 
+#pragma pack(1)
+before the definition of structure. 
+
+After shared definitions finished dont forget to set default alignment back with 
+#pragma pack()
+
+Because default setting is more efficient, compiler aligns members upto the minimum size that it can process 
+more efficiently. 
+
+For Example; if you have a 32bit mcu, most probably your mcu will not have directly 16bit and 8bit memory areas and
+compiler with add more asembly instructions to process these data types. 
+
+If you are using gcc compiler also each oof structure can be packed by 1 with "__attribute__((packed)" addition 
+to its defition. 
+
+typedef struct test_s {
+//...
+} __attribute__((packed) test_t;
+
+
+* 
